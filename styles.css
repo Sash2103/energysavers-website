@@ -1,0 +1,5 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,sans-serif;color:#10231a;background:#f4faf6}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
+.hero h1{font-size:clamp(2.2rem,6vw,4rem);margin:0 0 .5rem}
+.hero p{font-size:1.2rem;color:#3d5a4a;margin:0}

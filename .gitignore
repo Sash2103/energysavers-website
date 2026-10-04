@@ -1,0 +1,33 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.ppk
+.ssh/
+secrets/
+credentials*.json
+service-account*.json
+.npmrc
+.netrc
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+.cache/
+.vercel/
+.netlify/
+.wrangler/
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
