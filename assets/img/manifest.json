@@ -1,0 +1,495 @@
+{
+ "case-dubai-medical": {
+  "src": "2023/02/dubai-medical-University-hospital-min.png",
+  "kind": "photo",
+  "w": 453,
+  "h": 330,
+  "alpha": false,
+  "widths": [
+   453
+  ]
+ },
+ "case-emicool": {
+  "src": "2023/02/emicool-min-1.png",
+  "kind": "photo",
+  "w": 360,
+  "h": 264,
+  "alpha": false,
+  "widths": [
+   360
+  ]
+ },
+ "case-bid-factory": {
+  "src": "2023/02/bif-factory-min.png",
+  "kind": "photo",
+  "w": 453,
+  "h": 329,
+  "alpha": false,
+  "widths": [
+   453
+  ]
+ },
+ "case-dp-world": {
+  "src": "2023/02/dp-world-min.png",
+  "kind": "photo",
+  "w": 359,
+  "h": 263,
+  "alpha": false,
+  "widths": [
+   359
+  ]
+ },
+ "case-burj-al-arab": {
+  "src": "2023/02/burj-ai-min.png",
+  "kind": "photo",
+  "w": 360,
+  "h": 263,
+  "alpha": false,
+  "widths": [
+   360
+  ]
+ },
+ "case-wild-wadi": {
+  "src": "2023/02/wild-wadi-min-1.png",
+  "kind": "photo",
+  "w": 359,
+  "h": 263,
+  "alpha": false,
+  "widths": [
+   359
+  ]
+ },
+ "case-mina-asalam": {
+  "src": "2023/02/mina-asalam-min.png",
+  "kind": "photo",
+  "w": 359,
+  "h": 263,
+  "alpha": false,
+  "widths": [
+   359
+  ]
+ },
+ "field-panel-analyser": {
+  "src": "2023/03/1.-Energy-Audit-min.png",
+  "kind": "photo",
+  "w": 1203,
+  "h": 902,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1203
+  ]
+ },
+ "field-analyser-screen": {
+  "src": "2023/03/2.-PQ-Audit-Measurement-1-min.png",
+  "kind": "photo",
+  "w": 830,
+  "h": 622,
+  "alpha": false,
+  "widths": [
+   480,
+   830
+  ]
+ },
+ "field-pq-install-1": {
+  "src": "2023/02/2.-Power-Quality-Solutions-1-min.png",
+  "kind": "photo",
+  "w": 632,
+  "h": 463,
+  "alpha": false,
+  "widths": [
+   480,
+   632
+  ]
+ },
+ "field-pq-install-2": {
+  "src": "2023/02/2.-Power-Quality-Solutions-2-min.png",
+  "kind": "photo",
+  "w": 691,
+  "h": 574,
+  "alpha": false,
+  "widths": [
+   480,
+   691
+  ]
+ },
+ "field-plant-room": {
+  "src": "2023/02/3.-HVAC-Optimization-min.png",
+  "kind": "photo",
+  "w": 1306,
+  "h": 854,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1306
+  ]
+ },
+ "report-waveforms": {
+  "src": "2023/02/1.-Power-Quality-Audit-2-min.png",
+  "kind": "doc",
+  "w": 662,
+  "h": 400,
+  "alpha": false,
+  "widths": [
+   662
+  ]
+ },
+ "report-thd": {
+  "src": "2023/04/Harmonic-Studies-1.png",
+  "kind": "doc",
+  "w": 624,
+  "h": 340,
+  "alpha": false,
+  "widths": [
+   624
+  ]
+ },
+ "report-spectrum": {
+  "src": "2023/04/Harmonic-Simulation-Studies-1.png",
+  "kind": "doc",
+  "w": 624,
+  "h": 374,
+  "alpha": false,
+  "widths": [
+   624
+  ]
+ },
+ "sector-hospitality": {
+  "src": "2023/01/burj-al-arab-with-colorful-lights-night-min.jpg",
+  "kind": "photo",
+  "w": 650,
+  "h": 433,
+  "alpha": false,
+  "widths": [
+   480,
+   650
+  ]
+ },
+ "sector-industrial": {
+  "src": "2023/01/food-production-industry-min.jpg",
+  "kind": "photo",
+  "w": 2000,
+  "h": 1333,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1440
+  ]
+ },
+ "sector-datacentre": {
+  "src": "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg",
+  "kind": "photo",
+  "w": 2000,
+  "h": 944,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1440
+  ]
+ },
+ "sector-commercial": {
+  "src": "2023/01/woman-operating-pharmaceutical-production-min.jpg",
+  "kind": "photo",
+  "w": 2000,
+  "h": 1333,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1440
+  ]
+ },
+ "sector-cooling": {
+  "src": "2023/01/industrial-blue-cooling-tower-min.jpg",
+  "kind": "photo",
+  "w": 2000,
+  "h": 1307,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1440
+  ]
+ },
+ "cert-iso-9001": {
+  "src": "2023/11/pdfrendition1.png",
+  "kind": "doc",
+  "w": 724,
+  "h": 1024,
+  "alpha": false,
+  "widths": [
+   360,
+   724
+  ]
+ },
+ "cert-deaas": {
+  "src": "2023/04/Accredition-certificate.jpg",
+  "kind": "doc",
+  "w": 724,
+  "h": 1024,
+  "alpha": false,
+  "widths": [
+   360,
+   724
+  ]
+ },
+ "line-automation": {
+  "src": "2023/02/4.-Automation-Solutions-min.png",
+  "kind": "cutout",
+  "w": 2315,
+  "h": 1724,
+  "alpha": true,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "p-ahf": {
+  "src": "2023/01/AHF-min.png",
+  "kind": "cutout",
+  "w": 700,
+  "h": 518,
+  "alpha": true,
+  "widths": [
+   400,
+   700
+  ]
+ },
+ "p-ahf-pro": {
+  "src": "2023/02/AHF-Pro.png",
+  "kind": "cutout",
+  "w": 328,
+  "h": 210,
+  "alpha": true,
+  "widths": [
+   328
+  ]
+ },
+ "p-svg": {
+  "src": "2023/01/Untitled-design-92-min.png",
+  "kind": "cutout",
+  "w": 200,
+  "h": 200,
+  "alpha": true,
+  "widths": [
+   200
+  ]
+ },
+ "p-ups": {
+  "src": "2023/01/Untitled-design-93-min.png",
+  "kind": "cutout",
+  "w": 200,
+  "h": 200,
+  "alpha": true,
+  "widths": [
+   200
+  ]
+ },
+ "p-oskar": {
+  "src": "2023/03/Voltage-Stabilizer.png",
+  "kind": "cutout",
+  "w": 267,
+  "h": 682,
+  "alpha": true,
+  "widths": [
+   267
+  ]
+ },
+ "p-pq-mobile": {
+  "src": "2023/03/PQ-Mobile-Analyser.png",
+  "kind": "cutout",
+  "w": 1124,
+  "h": 859,
+  "alpha": true,
+  "widths": [
+   480,
+   1124
+  ]
+ },
+ "p-pq-box-50": {
+  "src": "2023/03/PQ-Box-50-min-1.jpg",
+  "kind": "photo",
+  "w": 408,
+  "h": 303,
+  "alpha": false,
+  "widths": [
+   408
+  ]
+ },
+ "p-pq-box-150": {
+  "src": "2023/03/PQ-Box-150-min-1.png",
+  "kind": "cutout",
+  "w": 395,
+  "h": 293,
+  "alpha": false,
+  "widths": [
+   395
+  ]
+ },
+ "p-pq-box-200": {
+  "src": "2023/03/PQ-Box-200-min-1.png",
+  "kind": "cutout",
+  "w": 392,
+  "h": 291,
+  "alpha": false,
+  "widths": [
+   392
+  ]
+ },
+ "p-pq-box-300": {
+  "src": "2023/03/PQ-Box-300-min-1.png",
+  "kind": "cutout",
+  "w": 386,
+  "h": 286,
+  "alpha": false,
+  "widths": [
+   386
+  ]
+ },
+ "p-heat-pump": {
+  "src": "2023/01/heat-pumps-1-min.png",
+  "kind": "cutout",
+  "w": 839,
+  "h": 523,
+  "alpha": true,
+  "widths": [
+   420,
+   839
+  ]
+ },
+ "p-adsorption": {
+  "src": "2023/03/Absorption-Chillers-min.png",
+  "kind": "cutout",
+  "w": 277,
+  "h": 460,
+  "alpha": true,
+  "widths": [
+   277
+  ]
+ },
+ "p-air-purifier": {
+  "src": "2023/03/Air-Purifiers-min.png",
+  "kind": "cutout",
+  "w": 369,
+  "h": 409,
+  "alpha": true,
+  "widths": [
+   369
+  ]
+ },
+ "p-bms": {
+  "src": "2023/03/1.-BMS-Servers-controllers.png",
+  "kind": "photo",
+  "w": 250,
+  "h": 200,
+  "alpha": false,
+  "widths": [
+   250
+  ]
+ },
+ "p-sensors": {
+  "src": "2023/03/3.-Sensor-1-min.png",
+  "kind": "cutout",
+  "w": 517,
+  "h": 345,
+  "alpha": false,
+  "widths": [
+   517
+  ]
+ },
+ "p-power-supply": {
+  "src": "2023/03/4.-Power-Supply-min.png",
+  "kind": "cutout",
+  "w": 450,
+  "h": 297,
+  "alpha": false,
+  "widths": [
+   450
+  ]
+ },
+ "p-smart-meters": {
+  "src": "2023/03/2.-Smart-Meters-min.png",
+  "kind": "cutout",
+  "w": 513,
+  "h": 374,
+  "alpha": false,
+  "widths": [
+   513
+  ]
+ },
+ "p-ev-360-480": {
+  "src": "2023/04/sec-480kw.png",
+  "kind": "cutout",
+  "w": 662,
+  "h": 472,
+  "alpha": true,
+  "widths": [
+   400,
+   662
+  ]
+ },
+ "p-ev-200-240": {
+  "src": "2023/04/200-240kW-Integrated-Charger.png",
+  "kind": "cutout",
+  "w": 373,
+  "h": 347,
+  "alpha": true,
+  "widths": [
+   373
+  ]
+ },
+ "p-ev-60-160": {
+  "src": "2023/04/60-160-kW-Integrated-Charger.png",
+  "kind": "cutout",
+  "w": 373,
+  "h": 347,
+  "alpha": true,
+  "widths": [
+   373
+  ]
+ },
+ "p-ev-40-80": {
+  "src": "2023/04/40-80kW-Integrated-Charger.png",
+  "kind": "cutout",
+  "w": 373,
+  "h": 347,
+  "alpha": true,
+  "widths": [
+   373
+  ]
+ },
+ "p-ev-interstellar": {
+  "src": "2023/04/Interstellar-AC-Charger.png",
+  "kind": "cutout",
+  "w": 373,
+  "h": 347,
+  "alpha": true,
+  "widths": [
+   373
+  ]
+ },
+ "p-ev-mira": {
+  "src": "2023/04/Mira-AC-Charger.png",
+  "kind": "cutout",
+  "w": 373,
+  "h": 347,
+  "alpha": true,
+  "widths": [
+   373
+  ]
+ },
+ "logo-source": {
+  "src": "2025/05/cropped-cropped-ENERGY-SAVERS-scaled-1.png",
+  "kind": "cutout",
+  "w": 1638,
+  "h": 250,
+  "alpha": true,
+  "widths": [
+   1638
+  ]
+ }
+}
