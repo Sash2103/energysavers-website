@@ -1,0 +1,356 @@
+{
+ "slug": "industrial-plants",
+ "title": "",
+ "description": "We are the top best provider of Capacitor bank, and Energy efficiency supplier in Dubai. We Supply software-based HVAC optimization, power quality, automation services, harmonic study, uninterrupted power supply (UPS) systems, and power quality mobile solutions in Dubai, UAE.",
+ "sections": [
+  {
+   "id": "sector-banner",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Industrial Plants"
+    },
+    {
+     "t": "p",
+     "text": "One of the biggest energy consumers is manufacturing equipment. Many engineering managers of manufacturing facilities are becoming increasingly concerned with efforts to increase energy efficiency. This can be accomplished by analysing energy end uses, such as lighting, processing machinery, and heating, ventilation, and air conditioning (HVAC) systems, and by putting policies in place to lower the overall amount of energy used for one or more of the end-uses. We assess how much energy is used by their facilities and then put those energy-saving strategies into practice. It has been shown that putting these evaluation suggestions into practice will boost efficiency and cut energy use and related expenses."
+    }
+   ]
+  },
+  {
+   "id": "tabing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Challenges"
+    },
+    {
+     "t": "h3",
+     "text": "Power Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Extremely fast fluctuating load profile iTDD exceeding limits set as per IEEE 519 standard Low PF (both leading and lagging)",
+      "High load unbalance",
+      "Increased losses due to high harmonics",
+      "Failure of welding transformers",
+      "Tripping of relays, protective circuits etc.",
+      "Failure of capacitor banks",
+      "Over harmonics creates transient leading to burnout of capacitor banks",
+      "Reduced lifespan of welding machines",
+      "Significant overvoltage"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Motor & Drive applications"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Low efficiency of motors"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Thermal Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Insufficient cooling",
+      "Heat transfer due to inadequate insulation of roof",
+      "Heat transfer due to lower quality of window panes",
+      "Overall heating in the facility"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "HVAC Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Fresh Air Supply- Insufficient – Energetically inefficient without Heat Recovery units",
+      "Insufficient cooling",
+      "Excessive humidity",
+      "Odor & mould",
+      "Most factories do not have air-conditioning leading to difficult working conditions for its workers."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Lighting- Conventional vs. LEDs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "High operating cost due to higher consumption of electricity by Halogens and conventional flood lights/hi-bays",
+      "Higher replacement costs due to shorter lifespan",
+      "High thermal impact on cooling"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Indoor Air Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "High Humidity",
+      "High temperatures",
+      "Odor-Food/smoke/mould",
+      "Bacteria and fungus develop in high temperatures and humidity",
+      "Presence of highly toxic chemicals in the environment during the welding process",
+      "Dust",
+      "Smoke"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Root Cause Analysis"
+    },
+    {
+     "t": "h3",
+     "text": "Power Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Double phase welding loads are identified as major non-linear Loads",
+      "Improper reactive compensation",
+      "3rd,5th,7th,9th &15th Harmonics leading to overheating of capacitor banks",
+      "Inappropriate capacitor bank technology which are contactor switching and not suitable for such fast changing loads.",
+      "High voltages lead to lower lifespan of end loads like welding machines"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Motor & Drive applications"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Higher ambient temperatures lead to significant de-rating of motors and drives",
+      "Lack of sufficient air flows lead to low dissipation of heat leading to de-rating of motors"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Thermal Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Insufficient thermal insulation of windows & doors",
+      "Over burden on HVAC",
+      "Corrugated steel roof leading to massive heat transfer"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "HVAC Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Incorrect choice of the chiller plant- this may be due to incorrect sizing or incorrect technology",
+      "Poor Maintenance of chiller plants",
+      "High Humidity (Desiccant dehumidification best solutions as no heat is produced)",
+      "Incorrect configuration",
+      "Imbalance in air pressure",
+      "High ambient temperature",
+      "No air conditioning available"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Lighting- Conventional vs. LEDs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Old technology of conventional lightings",
+      "Inadequate light output",
+      "Inadequate light output"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Indoor Air Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Lack of dehumidification",
+      "Lack of cooling/ insulation",
+      "Lack of indoor air treatment",
+      "Excess use high temperatures for welding",
+      "Lack of indoor air filtration",
+      "Welding process"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Solutions"
+    },
+    {
+     "t": "h3",
+     "text": "Power Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Active Harmonic Filter at major DBs for the purpose of harmonic mitigation, reactive compensation and load balancing",
+      "Hybrid Filter with Neutral Compensator best suited when power factor is low",
+      "Voltage optimizer",
+      "Dynamic Power Factor Correction with detuned filter reactor"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Motor & Drive applications"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reduction of heat with use of pre-cooling mechanisms to bring down temperatures where motor performance can be optimised",
+      "Use of high CFM fans to create air low and improve performance"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Thermal Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Special coating which arrests heat transfer up to 70%",
+      "Air curtains and open space cooling",
+      "Arresting leakage of hot air from doors and delivery sections",
+      "Yearly audit and maintenance of HVAC and proper configuration of chiller plant.",
+      "Cool roof coatings"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "HVAC Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Refurbish existing Heat Recovery units by chemical cleaning of Heat Wheels, Enthalpy Wheel or Desiccant Wheel",
+      "Additional upgrade of HRU with Horse Shoe Heat Pipe or Desiccant Dehumidification",
+      "Consider advance air distribution technologies such as Bosch Clemotion or Composite air ducts.",
+      "Chiller replacement for highest energy savings and lowest cost of ownership – Heat Pump -Water cooled chiller -Invertor based chiller",
+      "Shading of chiller plant and Wet wall",
+      "Open space cooling solutions are the cheap alternative to air-conditioning systems like FAHU"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Lighting- Conventional vs. LEDs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Replacement by LED with following specs: -160 lumens/watt -less than 10% depreciation in light output over the expected life of 5 years – TL-21 certified – LM 79 and LM-80 compliant"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Indoor Air Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Heat Recovery Unit",
+      "Horse Shoe Heat pipe",
+      "Desiccant dehumidification",
+      "Indoor air purification",
+      "HEPA and Carbon filters",
+      "Oxygen concentrators to improve air quality",
+      "Smoke extractors during welding process"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Benefits"
+    },
+    {
+     "t": "h3",
+     "text": "Power Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Current harmonic distortion <8% at welding PCC Relatively balanced load profile Reduced (almost negligible) failure rate",
+      "Relatively smooth reactive compensation",
+      "Reduced losses due to simultaneous reduction in harmonic, reactive and negative sequence losses",
+      "Safe operations without flashover and transient events which may lead to fire",
+      "Savings in energy costs"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Motor & Drive applications"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Higher performance of the motor will lead to higher output",
+      "Less heating of motor will lead to significant savings in energy costs."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Thermal Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "HVAC is no more over burdened",
+      "Wellbeing",
+      "Lower energy cost"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "HVAC Efficiency"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Lower cost of utilities (DEWA bills)",
+      "Adequate cooling",
+      "Improved life of chiller plant",
+      "Less downtime or break downs thereby savings in maintenance costs",
+      "Overall well being"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Lighting- Conventional vs. LEDs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Better light output well-being Reduction in heat load on HVAC 70-80% reduction in electricity bills Significant reduction in maintenance costs due to longer asset life"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Indoor Air Quality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Wellbeing",
+      "Better air quality",
+      "Less maintenance problems"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,346 @@
+{
+ "slug": "ser-series-40kw-power-module",
+ "title": "SER Series 40kW Power Module",
+ "description": "",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The rated output power of SER100040K3B charging module is 40kW with high power density and high reliability. It adopts Interleaved Parallel LLC technology and 3rd generation SiC Mosfet which has the advantages of 97.03% high peak efficiency and 50-1000Vdc ultra wide output range."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1663735809.pdf"
+    },
+    {
+     "t": "link",
+     "href": "contact"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-series-40kw.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "stability",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "High efficiency and high stability"
+    },
+    {
+     "t": "p",
+     "text": "Overall reduction in energy loss and improvement in stability"
+    },
+    {
+     "t": "h3",
+     "text": "3rd Generation SiC Mosfet(Silicon Carbide)"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Higher breakdown voltage",
+      "Better high-temperature capability",
+      "Higher current density",
+      "Lower switching losses (transitioning from blocking to conducting and vice versa)"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Interleaved Parallel LLC Topology"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Compact power conversion circuit design-Interleaved Parallel LLC",
+      "Simplified drive control auxiliary circuit-control power electronics amount reduced"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Galvanic Isolation"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Compact high frequency transformer in LLC topology to enhance the output performance and isolation."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "New Power Electronics"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The power conversion semiconductor and topology both have features of high efficiency, by reducing power consumption during turn-on/off(Mosfet switching), conduction, magnetic device loss."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Anti-inverted Irrigation Protection"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/stablity-image.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Advanced power electronics, Simpler topology, Reduce power loss, Enhance power conversion efficiency and product stability"
+    }
+   ]
+  },
+  {
+   "id": "voltage-range",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Ultra wide output voltage range\ncompatible with every EV battery capacity requirements"
+    },
+    {
+     "t": "h3",
+     "text": "50-1000V ultra wide output range, meeting car types in the marketand adapt to high voltage EVs in future."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Compatible with the existing 200V-800V platform and provides full power charging for future development above 900V which is able to avoid investment on high voltage EV charger upgrade construction.",
+      "Support CCS1, CCS2, CHAdeMO, GB/T and energy storage system.",
+      "Meet the future trend of high-voltage charging of electric vehicles, compatible with various charging applications and car types."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/voltage-range.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "wide-constant",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Wide constant output range and\nhigh current output, super-fast charging experience"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/wide-constant.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "300-1000V constant output range"
+    },
+    {
+     "t": "p",
+     "text": "Achieve the maximum constant power range, improving the power utilization rate of the DC charger and operation efficiency to help CPOs increase revenue."
+    },
+    {
+     "t": "h3",
+     "text": "High current output of 133AHigh current output of 133A"
+    },
+    {
+     "t": "p",
+     "text": "Ultra high current output to reduce charging time and bring customers reliable and fast charging experience."
+    }
+   ]
+  },
+  {
+   "id": "hot-plugging",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Support hot plugging among the charging system, convenient for maintenance or upgrade"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Allow to access in the equipment and replace easily and the convenience of uninterrupted the charging system.",
+      "Be convenient to replace or install power modules without having a shut down and the charging system can output continuously.",
+      "Ensure the safety of users and prevent the charger from electrical components damage or mechanical harm."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/hot-plugging.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "reliable-charging",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Intelligent control for safe and\nreliable charging"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/reliable-charging.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "protection-function",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Protection function"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/input.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Input overvoltage and undervoltage protectionInput overvoltage and undervoltage protection"
+    },
+    {
+     "t": "p",
+     "text": "When the three-phase AC input voltage range isless than 269±3V or greater than 540±3V,the module will stop working."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/protection.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Input phase loss protection"
+    },
+    {
+     "t": "p",
+     "text": "Three-phase AC input if a phase is missing, the module will stop working."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/output.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Output overvoltage protection"
+    },
+    {
+     "t": "p",
+     "text": "The output overvoltage protection point is 1025±5V, After the module software triggers the overvoltage protection, the shutdown automatically restarts."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/short-circuit.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Output short-circuit protection"
+    },
+    {
+     "t": "p",
+     "text": "If the module is in short-circuit state for 3 consecutivetimes within 100±10ms, the module will be locked and stop, and it needs to be powered off to resume normal operation. Other states are short-circuited, the module can stop to protect, and then the module will work normal."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/over-temperature.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Internal over-temperature protection of the module"
+    },
+    {
+     "t": "p",
+     "text": "When the internal device temperature of the module is higher than 55°C, linear derating begins based on the current limit value, and when the device temperature reaches 65°C, the derating is reduced to 50% and when the temperature is higher than 75°C, the module shuts down."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/fault.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Fan fault protection"
+    },
+    {
+     "t": "p",
+     "text": "When the fan fails for about 3s, the module LED display board displays the fan fault code, and the module stops. After the delay is about 5s, the module tries to resume normal operation. If the fault persists, the module stops again, such as the second loop."
+    }
+   ]
+  },
+  {
+   "id": "smaller-size",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Smaller size to support higher power\nand higher efficiency output"
+    },
+    {
+     "t": "p",
+     "text": "Take a 480kW charging system as an example:"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/efficiency-output.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "SER 40kW power module has smaller size and quantities of the same charging system compared to 30kW charging module.Moreover"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "High efficiency of 40kW module",
+      "Less heat to be dissipated",
+      "Easier to design the cooling system"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "focus-on-safety",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Product views"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-40kw-product.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-40kw-product-mobile.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ser-specification",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Technical specifications"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-40kw-specifications.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-40-speci-right.gif",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "pq-box-200-the-mobile-tool-for-the-expert",
+ "title": "PQ-Box 200: The Mobile Tool for the Expert",
+ "description": "",
+ "sections": [
+  {
+   "id": "pq-box",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About PQ-Box 200"
+    },
+    {
+     "t": "p",
+     "text": "The PQ-Box 200 mobile power quality network analyzer, power meter and transient recorder has been fitted with a wide range of triggering capabilities in order to rapidly locate the causes of network faults. The Class A device has been developed for measurements on low, medium and high-voltage networks and is ideally designed for measurements in harsh environments or where space is very limited. In addition, the device allows the power quality of public and industrial networks to be assessed. This means the device offers everything power quality experts need."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-200-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "pq-box-services",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Services"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Record rapid switching transients at a rate of 4MHz",
+      "WLAN Interface for cableless communication with the software & App",
+      "Free Software WinPQ Mobile",
+      "Ripple control single analysis"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Technical Data sheet"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TD_PQBox200-Technical-Data.pdf"
+    },
+    {
+     "t": "h4",
+     "text": "Technical Specification"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TS_PQ-Box-200-Technical-Specification.pdf"
+    }
+   ]
+  }
+ ]
+}

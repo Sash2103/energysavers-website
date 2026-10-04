@@ -1,0 +1,59 @@
+{
+ "slug": "mina-asalam-jumeirah-group-dubai-2021",
+ "title": "Mina A’Salam, Jumeirah Group, Dubai (2021)",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/mina-asalam-min.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Supply, Installation & Commissioning of Water"
+    },
+    {
+     "t": "p",
+     "text": "Source Heat Pump Plant"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Hot water generation through 8 x 105kW Electric Calorifier.",
+      "60 m3 daily hot water consumption.",
+      "High Energy Consumption for domestic water generation.",
+      "Cold Water Generation thru heat exchanger from chilled water system."
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Key solutions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Removal of 1 calorifier, replaced by 2 water source heat pumps.",
+      "Integration of calorifiers and heat pumps with BMS for optimized use rate.",
+      "Domestic hot water generation alongside with cold water generation integrated in the chilled water circuit."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/mina-asalam-workplan-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

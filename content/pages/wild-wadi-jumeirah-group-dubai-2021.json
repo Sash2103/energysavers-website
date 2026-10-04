@@ -1,0 +1,54 @@
+{
+ "slug": "wild-wadi-jumeirah-group-dubai-2021",
+ "title": "Wild Wadi, Jumeirah Group, Dubai (2021)",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/wild-wadi-min-1.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Migration & Upgrade of Siemens Desigo to Simatic WinCC"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Outdated existing PLC’s (25~30 years old).",
+      "Almost 50% of sensors out of service, many not configured.",
+      "System performances are limited by the existing Building Automation System (BAS), instead of a more appropriate industrial-based automation system."
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Key solutions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Replacement and upgrade of all CPU’s.",
+      "Repairing/replacement of sensors and actuators.",
+      "Migration of old system to industrial-based BMS (Simatic WinCC)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/wild-wadi-workplan-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

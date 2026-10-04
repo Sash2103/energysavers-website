@@ -1,0 +1,67 @@
+{
+ "slug": "sectors",
+ "title": "",
+ "description": "Explore tailored energy-saving solutions for sectors like healthcare, hospitality, telecom, and more boost efficiency and cut energy costs.",
+ "sections": [
+  {
+   "id": "our_sector",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/01/burj-al-arab-with-colorful-lights-night-min.jpg",
+     "alt": "",
+     "href": "hospitality"
+    },
+    {
+     "t": "h3",
+     "text": "Hospitality",
+     "href": "hospitality"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/food-production-industry-min.jpg",
+     "alt": "",
+     "href": "industrial-plants"
+    },
+    {
+     "t": "h3",
+     "text": "Industrial Plants",
+     "href": "industrial-plants"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg",
+     "alt": "",
+     "href": "data-centres-telecom"
+    },
+    {
+     "t": "h3",
+     "text": "Data Centers/ Telecom",
+     "href": "data-centres-telecom"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/woman-operating-pharmaceutical-production-min.jpg",
+     "alt": "",
+     "href": "commercial-facilities"
+    },
+    {
+     "t": "h3",
+     "text": "Commercial Facilities",
+     "href": "commercial-facilities"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/industrial-blue-cooling-tower-min.jpg",
+     "alt": "",
+     "href": "cooling-plants"
+    },
+    {
+     "t": "h3",
+     "text": "Cooling Plants",
+     "href": "cooling-plants"
+    }
+   ]
+  }
+ ]
+}

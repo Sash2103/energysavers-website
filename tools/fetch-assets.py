@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download the curated images from energysavers.me and write web-ready copies.
+"""Download the curated images (from energysavers.me unless a full URL is given) and write web-ready copies.
 
 Usage:  python3 tools/fetch-assets.py
 Writes: assets/img/<name>-<width>.webp and assets/img/manifest.json
@@ -13,19 +13,28 @@ CACHE = os.path.join(ROOT, "tools", ".cache")
 OUT = os.path.join(ROOT, "assets", "img")
 BASE = "https://www.energysavers.me/wp-content/uploads/"
 
-# name, source path, kind, output widths
+
+def pexels(photo_id):
+    """A free Pexels photo (Pexels licence: commercial use allowed, no credit required)."""
+    return f"https://images.pexels.com/photos/{photo_id}/pexels-photo-{photo_id}.jpeg"
+
+
+# name, source path, kind, output widths[, options]
+#   options: {"crop": (left, top, right, bottom)} as fractions of the source, applied before resizing
 #   photo   -> webp + jpg, cover crops handled in CSS
 #   cutout  -> webp + png, keeps transparency, shown on paper with multiply
 #   doc     -> webp + jpg (certificates)
 MANIFEST = [
-    # case-study site photos (largest copies on the site are ~360-450px wide)
+    # case-study site photos. The old site only has ~360px copies, so these are sharper photos of the
+    # same places: the larger copy in their own media library, or free Pexels photos.
+    # Dubai Medical and BID Factory have no better source yet (they only show in the case sheet).
     ("case-dubai-medical", "2023/02/dubai-medical-University-hospital-min.png", "photo", [453]),
-    ("case-emicool",       "2023/02/emicool-min-1.png",                         "photo", [360]),
+    ("case-emicool",       pexels(17232659),                                    "photo", [480, 960, 1440], {"crop": (0, .13, 1, .63)}),
     ("case-bid-factory",   "2023/02/bif-factory-min.png",                       "photo", [453]),
-    ("case-dp-world",      "2023/02/dp-world-min.png",                          "photo", [359]),
-    ("case-burj-al-arab",  "2023/02/burj-ai-min.png",                           "photo", [360]),
-    ("case-wild-wadi",     "2023/02/wild-wadi-min-1.png",                       "photo", [359]),
-    ("case-mina-asalam",   "2023/02/mina-asalam-min.png",                       "photo", [359]),
+    ("case-dp-world",      pexels(39621561),                                    "photo", [480, 960, 1440]),
+    ("case-burj-al-arab",  "2023/01/51664-burj-al-arab-hotel-min.jpg",          "photo", [480, 960, 1440]),
+    ("case-wild-wadi",     pexels(36168069),                                    "photo", [480, 960, 1440]),
+    ("case-mina-asalam",   pexels(35171522),                                    "photo", [480, 960, 1440]),
     # their own field photos and report excerpts
     ("field-panel-analyser",  "2023/03/1.-Energy-Audit-min.png",              "photo", [480, 960, 1203]),
     ("field-analyser-screen", "2023/03/2.-PQ-Audit-Measurement-1-min.png",    "photo", [480, 830]),
@@ -35,12 +44,18 @@ MANIFEST = [
     ("report-waveforms",      "2023/02/1.-Power-Quality-Audit-2-min.png",     "doc",   [662]),
     ("report-thd",            "2023/04/Harmonic-Studies-1.png",               "doc",   [624]),
     ("report-spectrum",       "2023/04/Harmonic-Simulation-Studies-1.png",    "doc",   [624]),
-    # sector photos
-    ("sector-hospitality", "2023/01/burj-al-arab-with-colorful-lights-night-min.jpg",       "photo", [480, 650]),
-    ("sector-industrial",  "2023/01/food-production-industry-min.jpg",                     "photo", [480, 960, 1440]),
-    ("sector-datacentre",  "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg", "photo", [480, 960, 1440]),
-    ("sector-commercial",  "2023/01/woman-operating-pharmaceutical-production-min.jpg",    "photo", [480, 960, 1440]),
-    ("sector-cooling",     "2023/01/industrial-blue-cooling-tower-min.jpg",                "photo", [480, 960, 1440]),
+    ("solution-automation",   "2026/04/Siemens-WinCC-in-UAE.jpg",             "photo", [480, 960]),
+    ("pq-rental-kit",         "2023/01/PQ-300-feature-min.png",               "cutout", [480, 900]),
+    # About: Business Bay, where the Dubai office is
+    ("about-business-bay",    pexels(13398520),                               "photo", [480, 960, 1440, 1920]),
+    # sector photos (2000px for the tall desktop frame, which crops wide photos)
+    # hospitality: the old site's copy is only 650px wide, so this is a free Pexels photo
+    # ("Architectural Building Lighted on Night Time" by Abbas Mohammed, pexels.com/photo/3680902)
+    ("sector-hospitality", pexels(3680902),                                                "photo", [480, 960, 1440, 2000]),
+    ("sector-industrial",  "2023/01/food-production-industry-min.jpg",                     "photo", [480, 960, 1440, 2000]),
+    ("sector-datacentre",  "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg", "photo", [480, 960, 1440, 2000]),
+    ("sector-commercial",  "2023/01/woman-operating-pharmaceutical-production-min.jpg",    "photo", [480, 960, 1440, 2000]),
+    ("sector-cooling",     "2023/01/industrial-blue-cooling-tower-min.jpg",                "photo", [480, 960, 1440, 2000]),
     # certificates
     ("cert-iso-9001",  "2023/11/pdfrendition1.png",           "doc", [360, 724]),
     ("cert-deaas",     "2023/04/Accredition-certificate.jpg", "doc", [360, 724]),
@@ -77,9 +92,10 @@ MANIFEST = [
 
 def fetch(path):
     os.makedirs(CACHE, exist_ok=True)
-    local = os.path.join(CACHE, path.replace("/", "_"))
+    url = path if "://" in path else BASE + path
+    local = os.path.join(CACHE, path.rsplit("/", 1)[-1] if "://" in path else path.replace("/", "_"))
     if not os.path.exists(local):
-        r = subprocess.run(["curl", "-sfL", "-A", "Mozilla/5.0", "-o", local, BASE + path])
+        r = subprocess.run(["curl", "-sfL", "-A", "Mozilla/5.0", "-o", local, url])
         if r.returncode != 0:
             raise SystemExit(f"download failed: {path}")
     return local
@@ -95,12 +111,16 @@ def has_alpha(im):
 def main():
     os.makedirs(OUT, exist_ok=True)
     manifest = {}
-    for name, path, kind, widths in MANIFEST:
+    for name, path, kind, widths, *rest in MANIFEST:
+        opts = rest[0] if rest else {}
         src = Image.open(fetch(path))
         if src.mode == "P":
             src = src.convert("RGBA")
         alpha = kind == "cutout" and has_alpha(src)
         im = src.convert("RGBA" if alpha else "RGB")
+        if "crop" in opts:
+            l, t, r, b = opts["crop"]
+            im = im.crop((round(l * im.width), round(t * im.height), round(r * im.width), round(b * im.height)))
         w0, h0 = im.size
         files = []
         for w in sorted(set(min(w, w0) for w in widths)):
@@ -110,7 +130,7 @@ def main():
             # WebP only: every current browser supports it (Safari 14+, 2020)
             r.save(base + ".webp", "WEBP", quality=80 if kind != "doc" else 86, method=6)
             files.append(w)
-        manifest[name] = {"src": path, "kind": kind, "w": w0, "h": h0, "alpha": alpha, "widths": files}
+        manifest[name] = {"src": path, "kind": kind, "w": w0, "h": h0, "alpha": alpha, "widths": files, **opts}
         print(f"{name:24s} {w0}x{h0} alpha={alpha} -> {files}")
     with open(os.path.join(OUT, "manifest.json"), "w") as f:
         json.dump(manifest, f, indent=1)

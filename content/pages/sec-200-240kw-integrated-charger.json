@@ -1,0 +1,261 @@
+{
+ "slug": "sec-200-240kw-integrated-charger",
+ "title": "SEC 200-240kW Integrated Charger",
+ "description": "Discover the SEC 200–240kW Integrated Charger by Energy Savers: ultra-fast EV charging with 96% efficiency, dual connectors, and smart features",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SEC 240kW charger is an integrated solution, power flexible distributed to two connectors simultaneously controlled by intelligent algorithm that realizes high-performance EV charging. It also supports high resolution large touch screen and cable management system, allowing drivers to charge easier and safer."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1663738594.pdf"
+    },
+    {
+     "t": "link",
+     "href": "contact"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-200kw.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "stability",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Ultra wide output\nvoltage & high efficiency"
+    },
+    {
+     "t": "p",
+     "text": "Output voltage 200-1000V, Constant output voltage 300-1000V. Support high power charging and can output at 240kW continuously. Compatible with all EVs in the market and meet future demands."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/constant-power.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ultra-wide-output.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Equipped with Sinexcel self-developed power module, SEC 240kW can output at a peak efficiency of 96%, which can reduce the power consumption and save the cost thus realize the max profit.",
+     "href": "ser-series"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/equipped.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "charging-power",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Ultra fast speed charging with reliability and scalability"
+    },
+    {
+     "t": "p",
+     "text": "With 200-240kW powerful charging\n0% to 80% SOC within 20 minutes\n15 minutes for adding up to 300km",
+     "lead": "With 200-240kW powerful charging"
+    },
+    {
+     "t": "p",
+     "text": "SEC 240kW is a high powered integrated charger of Sinexcel, equipped with 10-12 independent power modules to enable flexible configuration and optimize charging experience."
+    },
+    {
+     "t": "p",
+     "text": "Pefectly satisfying the demands if public quick charging, can be used widely in the market to adopt for different charging applications. We also provide the option of 300A high current connector and support higher charging power."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-200kw-ultra.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "pq-solutions",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Key features"
+    },
+    {
+     "t": "p",
+     "text": "+ - IP55, IK10 rating enclosure"
+    },
+    {
+     "t": "p",
+     "text": "Support indoor/outdoor use, optimal functionality in a wide range of environmental conditions."
+    },
+    {
+     "t": "p",
+     "text": "+ - 200kW or 240kW charging"
+    },
+    {
+     "t": "p",
+     "text": "Flexible configuration by adding or reducing power modules, it's up to your business demands"
+    },
+    {
+     "t": "p",
+     "text": "+ - 15-inch touch screen and user interface"
+    },
+    {
+     "t": "p",
+     "text": "Display charging status on the screen for customers monitoring at the real time. Adopted user-friendly interface, which can control the charger easily and be allowed to select the language."
+    },
+    {
+     "t": "p",
+     "text": "+ - Smart charging"
+    },
+    {
+     "t": "p",
+     "text": "Some smart charging functions, like remote charging and flexible power distribution for power-limited area are supported."
+    },
+    {
+     "t": "p",
+     "text": "+ - Higher power per unit volume"
+    },
+    {
+     "t": "p",
+     "text": "High power density make it be able to provide more power in one specific installation place."
+    }
+   ]
+  },
+  {
+   "id": "protection-function",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Multiple charging applications to benefit both operators and end-users"
+    },
+    {
+     "t": "h3",
+     "text": "CPO"
+    },
+    {
+     "t": "p",
+     "text": "High charging power meets the demand of the charging station, which can maximize the profitability of the operator. Due to the high charging power and the friendly cable management system, the EVs can quickly charge and leave, making it more attractive and friendly for the EV owners."
+    },
+    {
+     "t": "h3",
+     "text": "Fleet"
+    },
+    {
+     "t": "p",
+     "text": "Realize quick charging for vans, trucks or other special EVs in the same time interval because of the high power output, especially the 300A current output. In this way, the EV can quickly get full charged and then go back for work which is able to maximize working efficiency."
+    },
+    {
+     "t": "h3",
+     "text": "Destination charging"
+    },
+    {
+     "t": "p",
+     "text": "Support simultaneous charging and flexible power distribution with two connectors. It can meet charging needs in destination charging scenarios such as shopping mall, company and residential property, etc., making rapid charging without range anxiety."
+    }
+   ]
+  },
+  {
+   "id": "technology",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Easy for installation and maintenance"
+    },
+    {
+     "t": "p",
+     "text": "Smallest footprint makes it suitable to a wide range of installation locations, even if it is located in a small place."
+    },
+    {
+     "t": "p",
+     "text": "Modular design enables easier maintenance and low maintenance skill requirement. The maintenance stuff only needs to connect the input cable on the bottum side, which is easy to operate."
+    },
+    {
+     "t": "p",
+     "text": "Supporting hot plugging: install or replace power modules without having a shut down and ensure the safety of users. The maintenance operator can diectly plugs out the bad module and replace a new one, without shutting down the power, saving the repairing time and the relative costs."
+    },
+    {
+     "t": "p",
+     "text": "OTA function for intelligent diagnosis and upgrading to optimize charging performance. This software work can realize the control remotely and make the charger operate in the best status."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-200-installation.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "voltage-range",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Support cable management system"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Integrated cable management solution",
+      "Save effort for easily use and access to the charging port of EV.",
+      "Keep the cable suspended off the ground and avoid trip hazard",
+      "Storage the cable out of the way and protect it from damage",
+      "Enable the cable to be organized when it not in use."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-200-support-right.gif",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "hot-plugging",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Connector options"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-240kw-connector-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 240kW CCS2"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-240kw-connector-2.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 240kW CCS2+CHAdeMO"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-240kw-connector-3.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 240kW CCS2+CCS2"
+    }
+   ]
+  }
+ ]
+}

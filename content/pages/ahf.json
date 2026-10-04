@@ -1,0 +1,156 @@
+{
+ "slug": "ahf",
+ "title": "Active Harmonic Filter",
+ "description": "Energy Savers Dubai-based sinexcel Active Harmonic Filter solution active harmonic filter system supplier. We Supply software-based harmonic filtering system, power harmonic filters, sinexcel active harmonic filter, sinexcel harmonic filter, sinexcel monitoring system in Dubai, UAE.",
+ "sections": [
+  {
+   "id": "harmonic-control",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "IEEE 519"
+    },
+    {
+     "t": "h3",
+     "text": "Harmonic Control in Electric Power Systems"
+    },
+    {
+     "t": "p",
+     "text": "An active harmonic filter (AHF) is a type of harmonic filter that uses active components, such as transistors and capacitors, to reduce harmonic current distortion on an electrical system. It is an electronic device that is designed to reduce the amount of harmonic current that is present in a power system. An AHF uses active components to detect and then neutralize harmonic current distortion. It can be used in industrial and commercial installations to eliminate harmonic current distortion and improve the efficiency of the system."
+    },
+    {
+     "t": "pdf",
+     "href": "2022/12/IEEE-519-Harmonic-standard.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/AHF-min.png",
+     "alt": "Active Harmonic Filter"
+    }
+   ]
+  },
+  {
+   "id": "harmonic-control-2",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/AHF-Pro.png",
+     "alt": "Active Harmonic Filter Pro"
+    },
+    {
+     "t": "h3",
+     "text": "Active Harmonic\nFilter Pro"
+    },
+    {
+     "t": "p",
+     "text": "Active Harmonic Filter Pro is a software-based harmonic filtering system that eliminates harmonic distortion caused by non-linear loads in an electrical system. It uses advanced algorithms to identify and suppress harmonic current and voltage distortions, providing clean power for improved system performance. The system is designed to improve system power quality, reduce power losses, reduce energy costs, and improve equipment reliability."
+    },
+    {
+     "t": "pdf",
+     "href": "2022/12/IEEE-519-Harmonic-standard.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ahf-feature",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Feature of AHF/AHF Pro:"
+    },
+    {
+     "t": "h5",
+     "text": "Intelligent Fast Fourier Transform"
+    },
+    {
+     "t": "p",
+     "text": "One of the biggest characteristics of Active PQ solution is to use information technology to manage energy. With the characteristics of high accuracy and high speed of computing power, empower users PQ will obtain continuous, stable and infinitely close to the highest energy efficiency of power energy."
+    },
+    {
+     "t": "p",
+     "text": "Intelligent FFT is an iterative FFT algorithm based on Sinexcel updated computing power and ten years of experience in field harmonic waveform database."
+    },
+    {
+     "t": "img",
+     "src": "2022/12/sinwave-distorted-1.png",
+     "alt": "Before image"
+    },
+    {
+     "t": "img",
+     "src": "2022/12/sinwave-purewave.png",
+     "alt": "After image"
+    }
+   ]
+  },
+  {
+   "id": "ps-assist",
+   "blocks": [
+    {
+     "t": "h6",
+     "text": "PLUG SUITE"
+    },
+    {
+     "t": "p",
+     "text": "Assist customers to build their own plug cabinet Sinexcel can offer AHF unit with plug suite, monitoring system, alarming indications lights, then the customer can build their own plug cabinet on site. Plug cabinet, no wiring, easy for integration and unit replacement, a more convenient and cost-effective solution for our customers"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/energy-plug-suite-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ud-style",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "ULTIMATE DESIGN STYLE"
+    },
+    {
+     "t": "p",
+     "text": "Upper- and lower-layer design, IGBT heatsink and inductor, which account for most heat of AHF, are concentrated in the lower layer, forcing air cooling, fast heat dissipation, and do not affect the upper PCBA."
+    },
+    {
+     "t": "p",
+     "text": "Upper PCBA auxiliary air duct design, expansion of heat dissipation channel, wide angle heat dissipation"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/ahf-design-style-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "hcepy-style",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Harmonic Control in Electric Power Systems"
+    },
+    {
+     "t": "p",
+     "text": "Harmonic Control in Electric Power Systems is a process of controlling the harmonic content of electrical systems. It includes the use of active and passive filters, harmonic cancelling transformers, tuned filters, and other techniques to reduce the harmonic content of an electrical system."
+    },
+    {
+     "t": "img",
+     "src": "2023/02/Harmonic-Control-in-Electric-Power-Systems.png",
+     "alt": "Active Harmonic Electric Power System"
+    },
+    {
+     "t": "p",
+     "text": "This is done to improve system efficiency, reduce power losses, reduce electromagnetic interference, and improve system reliability."
+    },
+    {
+     "t": "p",
+     "text": "The goal of harmonic control is to minimize the harmonic content of an electrical system to levels that do not cause detrimental effects. This is typically done by using active and passive filters, harmonic cancelling transformers, tuned filters, and other techniques to reduce the harmonic content of an electrical system."
+    },
+    {
+     "t": "p",
+     "text": "Harmonic control helps reduce the total harmonic distortion (THD) of a system, which is a measure of the level of harmonic content in the system. In order to achieve the desired THD level, the harmonic content of the system must be reduced to acceptable levels. Harmonic control can also be used to reduce electrical noise and improve system reliability. By reducing the harmonic content of the system, the system is less prone to faults and other electrical disturbances. This can also help improve the system efficiency and reduce power losses. Harmonic control is an important part of power quality management and is essential for ensuring that the electrical system is safe and efficient."
+    }
+   ]
+  }
+ ]
+}

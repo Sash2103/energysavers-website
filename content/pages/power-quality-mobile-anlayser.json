@@ -1,0 +1,131 @@
+{
+ "slug": "power-quality-mobile-anlayser",
+ "title": "Power Quality Mobile Analyser",
+ "description": "Accurately detect power issues with our Power Quality Mobile Analyser in Dubai. Improve energy efficiency and system reliability with expert tools.",
+ "sections": [
+  {
+   "id": "voltage-optimizers",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Power Quality Mobile"
+    },
+    {
+     "t": "p",
+     "text": "Power Quality Mobile Analyzer is a handheld device used to analyze the power quality of an electrical system. It measures and records voltage, current, frequency, power factor, harmonics, and other power quality parameters. It can be used to identify and solve power quality problems caused by harmonics, spikes, surges, and other disturbances. Power Quality Analyzers are used in industries such as oil and gas, manufacturing, utilities, and telecommunications. Power Quality Mobile Analyzer is designed to be used in remote locations, often outside of a laboratory or office setting. It is small, lightweight, and portable, and can be used to quickly and accurately evaluate power quality in various environments. The analyzer can be easily transported to the site of a power quality problem or for preventive maintenance. Its features include the ability to view power quality data in different formats, including graphs and tables. It also has the ability to store and retrieve data for future analysis and reporting."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/Technical-Datasheet.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Mobile-Analyser.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "mobile-solution",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Power quality Analyzers with Fault Recorder Function"
+    },
+    {
+     "t": "h4",
+     "text": "Mobile Solutions"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/extremely.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Extremely Robust and Reliable"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/wlan.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "WLAN interface for cableless communication with the software & app"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/frequencies.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Permanent recording of frequencies up to 170 kHz"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/analysis.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Free analysis software WinPQ mobile"
+    }
+   ]
+  },
+  {
+   "id": "hvac-list-sec",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Products"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-50-min-1.jpg",
+     "alt": "",
+     "href": "pq-box-50"
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 50: The Mobile and Universal Power Quality Analyzer",
+     "href": "pq-box-50"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-150-min-1.png",
+     "alt": "",
+     "href": "pq-box-150-the-mobile-power-quality-allrounder"
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 150: The Mobile Power Quality Allrounder",
+     "href": "pq-box-150-the-mobile-power-quality-allrounder"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-200-min-1.png",
+     "alt": "",
+     "href": "pq-box-200-the-mobile-tool-for-the-expert"
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 200: The Mobile Tool for the Expert",
+     "href": "pq-box-200-the-mobile-tool-for-the-expert"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-300-min-1.png",
+     "alt": "",
+     "href": "pq-box-300-the-mobile-high-frequency-power-quality-tool"
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 300: The Mobile High Frequency Power Quality Tool",
+     "href": "pq-box-300-the-mobile-high-frequency-power-quality-tool"
+    }
+   ]
+  }
+ ]
+}

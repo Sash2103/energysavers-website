@@ -1,0 +1,29 @@
+{
+ "slug": "indoor-air-quality-improvement",
+ "title": "Indoor Air Quality Improvement",
+ "description": "Breathe easier with our proven indoor air quality solutions. Enhance your home's air purity and create a healthier living environment. Discover effective filters, purifiers, and management systems to transform your air quality today.",
+ "sections": [
+  {
+   "id": "solution-temp",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Clean and Vacuum Regularly: Regularly cleaning and vacuuming can help reduce the amount of dust, pollen, and other allergens that can accumulate in the air.",
+      "Change Air Filters: Frequently replacing air filters can help reduce the amount of dust and other airborne particles that can negatively impact indoor air quality.",
+      "Improve Ventilation: Adequate ventilation can help remove stale air and reduce the accumulation of airborne particles.",
+      "Use Natural Cleaning Products: Switching to natural cleaning products can help reduce the number of chemical vapours and fumes that can accumulate in the air.",
+      "Avoid Smoking Indoors: Smoking indoors can significantly reduce air quality and pollute the air with harmful toxins.",
+      "Use Houseplants: Certain houseplants can help filter out pollutants and improve indoor air quality.",
+      "Use Air Purifiers: Air purifiers can help remove airborne particles and improve indoor air quality."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/02/5.-Indoor-Air-Quality-Improvement-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

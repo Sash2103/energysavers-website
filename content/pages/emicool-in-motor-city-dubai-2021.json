@@ -1,0 +1,50 @@
+{
+ "slug": "emicool-in-motor-city-dubai-2021",
+ "title": "Emicool in Motor City, Dubai (2021)",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/04/Emicool-in-Motor-City.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Power Quality Analysis of chillers and pump units"
+    },
+    {
+     "t": "p",
+     "text": "Efficiency under SCADA Network"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "VFD’s, Chillers T/P, Cooling tower pumps and fans, are controlled manually (not PLC-controlled)",
+      "Overall system COP ≤ 3.1",
+      "30% of temperature sensors defective (inconsistent readings)",
+      "BTU meters reading only the main supply line",
+      "Inconsistent BMS connections to the chillers",
+      "Existing control system (Siemens S7 Industrial PLC) partially out of service",
+      "Critical Power Quality parameters (low PF, high Harmonics, Failing capacitors)"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Recommended Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/emicool-workplan-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

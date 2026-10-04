@@ -10,13 +10,21 @@
   ]
  },
  "case-emicool": {
-  "src": "2023/02/emicool-min-1.png",
+  "src": "https://images.pexels.com/photos/17232659/pexels-photo-17232659.jpeg",
   "kind": "photo",
-  "w": 360,
-  "h": 264,
+  "w": 4160,
+  "h": 3120,
   "alpha": false,
   "widths": [
-   360
+   480,
+   960,
+   1440
+  ],
+  "crop": [
+   0,
+   0.13,
+   1,
+   0.63
   ]
  },
  "case-bid-factory": {
@@ -30,43 +38,51 @@
   ]
  },
  "case-dp-world": {
-  "src": "2023/02/dp-world-min.png",
+  "src": "https://images.pexels.com/photos/39621561/pexels-photo-39621561.jpeg",
   "kind": "photo",
-  "w": 359,
-  "h": 263,
+  "w": 8256,
+  "h": 5504,
   "alpha": false,
   "widths": [
-   359
+   480,
+   960,
+   1440
   ]
  },
  "case-burj-al-arab": {
-  "src": "2023/02/burj-ai-min.png",
+  "src": "2023/01/51664-burj-al-arab-hotel-min.jpg",
   "kind": "photo",
-  "w": 360,
-  "h": 263,
+  "w": 2000,
+  "h": 1333,
   "alpha": false,
   "widths": [
-   360
+   480,
+   960,
+   1440
   ]
  },
  "case-wild-wadi": {
-  "src": "2023/02/wild-wadi-min-1.png",
+  "src": "https://images.pexels.com/photos/36168069/pexels-photo-36168069.jpeg",
   "kind": "photo",
-  "w": 359,
-  "h": 263,
+  "w": 3024,
+  "h": 2005,
   "alpha": false,
   "widths": [
-   359
+   480,
+   960,
+   1440
   ]
  },
  "case-mina-asalam": {
-  "src": "2023/02/mina-asalam-min.png",
+  "src": "https://images.pexels.com/photos/35171522/pexels-photo-35171522.jpeg",
   "kind": "photo",
-  "w": 359,
-  "h": 263,
+  "w": 4995,
+  "h": 3404,
   "alpha": false,
   "widths": [
-   359
+   480,
+   960,
+   1440
   ]
  },
  "field-panel-analyser": {
@@ -156,15 +172,52 @@
    624
   ]
  },
- "sector-hospitality": {
-  "src": "2023/01/burj-al-arab-with-colorful-lights-night-min.jpg",
+ "solution-automation": {
+  "src": "2026/04/Siemens-WinCC-in-UAE.jpg",
   "kind": "photo",
-  "w": 650,
-  "h": 433,
+  "w": 1500,
+  "h": 1000,
   "alpha": false,
   "widths": [
    480,
-   650
+   960
+  ]
+ },
+ "pq-rental-kit": {
+  "src": "2023/01/PQ-300-feature-min.png",
+  "kind": "cutout",
+  "w": 900,
+  "h": 656,
+  "alpha": true,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "about-business-bay": {
+  "src": "https://images.pexels.com/photos/13398520/pexels-photo-13398520.jpeg",
+  "kind": "photo",
+  "w": 5291,
+  "h": 3307,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1440,
+   1920
+  ]
+ },
+ "sector-hospitality": {
+  "src": "https://images.pexels.com/photos/3680902/pexels-photo-3680902.jpeg",
+  "kind": "photo",
+  "w": 3379,
+  "h": 3110,
+  "alpha": false,
+  "widths": [
+   480,
+   960,
+   1440,
+   2000
   ]
  },
  "sector-industrial": {
@@ -176,7 +229,8 @@
   "widths": [
    480,
    960,
-   1440
+   1440,
+   2000
   ]
  },
  "sector-datacentre": {
@@ -188,7 +242,8 @@
   "widths": [
    480,
    960,
-   1440
+   1440,
+   2000
   ]
  },
  "sector-commercial": {
@@ -200,7 +255,8 @@
   "widths": [
    480,
    960,
-   1440
+   1440,
+   2000
   ]
  },
  "sector-cooling": {
@@ -212,7 +268,8 @@
   "widths": [
    480,
    960,
-   1440
+   1440,
+   2000
   ]
  },
  "cert-iso-9001": {

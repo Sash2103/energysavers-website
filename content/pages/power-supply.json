@@ -1,0 +1,46 @@
+{
+ "slug": "power-supply",
+ "title": "Power Supply",
+ "description": "Looking for Power Scada Supplier in Dubai? We are leading provider of Scada Automation, and We offer software-based scada automation, Best power supplier, HVAC optimization, power quality, automation services, harmonic study, uninterrupted power supply (UPS) systems, and power quality mobile solutions in Dubai.",
+ "sections": [
+  {
+   "id": "automation-detail",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Power Supply"
+    },
+    {
+     "t": "p",
+     "text": "Power supply in SCADA automation is a system that provides power to the SCADA system, including all of its components, such as computers, remote terminal units, and programmable logic controllers. It is important for any SCADA system to have a reliable and high-quality power supply in order to ensure accurate, consistent, and safe system operation. The power supply should be able to provide clean, consistent power to all components, and should have surge protection and adequate backup power in case of power outages."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/4.-Power-Supply-min.png",
+     "alt": "building management systems"
+    },
+    {
+     "t": "p",
+     "text": "Additionally, the power supply should have features to protect against electrical disturbances, such as overvoltage protection and ground fault protection. Power supply in SCADA automation should also be designed to provide maximum efficiency and reliability. This includes features such as voltage regulation and load balancing, as well as high efficiency. The power supply should also be designed for easy installation and maintenance, and should be able to provide remote monitoring and control."
+    }
+   ]
+  },
+  {
+   "id": "automation-list",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Benefits of Power Supply:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Increased Reliability and Efficiency,",
+      "Improved safety",
+      "Cost Savings"
+     ]
+    }
+   ]
+  }
+ ]
+}

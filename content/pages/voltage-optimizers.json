@@ -1,0 +1,78 @@
+{
+ "slug": "voltage-optimizers",
+ "title": "Voltage Optimization",
+ "description": "Enhance energy efficiency with our Voltage Optimizers in UAE. Cut electricity costs and protect equipment with smart voltage regulation.",
+ "sections": [
+  {
+   "id": "voltage-optimizers",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Voltage Optimization-OSKAR"
+    },
+    {
+     "t": "p",
+     "text": "Voltage Optimization-OSKAR (Operational Systematic K-band Analogue Reduction) is a cutting-edge technology developed by Schneider Electric which optimizes the electricity supply voltage to reduce energy consumption and improve energy efficiency within a building or facility. Voltage optimization is achieved by reducing the voltage at the building’s electrical entry point, allowing the facility to consume less energy while maintaining the same level of service."
+    },
+    {
+     "t": "p",
+     "text": "This technology can also help to reduce peak demand, as well as reduce the risk of voltage over-voltage or under-voltage conditions, which can cause damage to electrical equipment. Voltage Optimization-OSKAR is an advanced, automated system which allows users to monitor, control, and adjust voltage levels as needed, with minimal manual intervention. With this technology, users can also set alarms to alert them if the voltage falls outside of predetermined levels. The system also offers detailed reporting on energy consumption and demand, allowing users to better understand their energy consumption and identify areas where further energy savings can be achieved."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/OSKAR_Voltage-Stabilizer.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/Voltage-Stabilizer.png",
+     "alt": "Voltage Optimization System Dubai"
+    }
+   ]
+  },
+  {
+   "id": "voltage-optimizers-first",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "OSKAR FEATURE"
+    },
+    {
+     "t": "h2",
+     "text": "New standards in power quality"
+    },
+    {
+     "t": "p",
+     "text": "Voltage dips in the electrical power supply are one of the main reasons for expensive unscheduled production outages. The voltage range of +-10 % of the nominal voltage defined in EN 50160 has to be guaranteed by the utility only in 95 % of the 10-minute average values. Incidents which are shorter than 10 minutes cannot be avoided and may not be criticized."
+    },
+    {
+     "t": "img",
+     "src": "2022/12/sinwave-distorted-1.png",
+     "alt": "Before image"
+    },
+    {
+     "t": "img",
+     "src": "2022/12/sinwave-purewave.png",
+     "alt": "After image"
+    }
+   ]
+  },
+  {
+   "id": "voltage-optimizers-second",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/03/Voltage-Optimizer-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "WITH POWERFUL ADAPTIVE REGULATION"
+    },
+    {
+     "t": "p",
+     "text": "OSKAR Setting new standards in power quality Voltage dips in the electrical power supply are one of the main reasons for expensive unscheduled production outages. The voltage range of +-10 % of the nominal voltage defined in EN 50160 has to be guaranteed by the utility only in 95 % of the 10minute average values. Incidents which are shorter than 10 minutes cannot be avoided and may not be criticized."
+    }
+   ]
+  }
+ ]
+}

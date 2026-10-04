@@ -1,0 +1,115 @@
+{
+ "slug": "automation",
+ "title": "Automation",
+ "description": "Streamline your UAE business operations with leading automation solutions. Boost productivity, cut costs, and drive growth with cutting-edge technologies. Find the tools you need to optimize workflows and unlock new heights of efficiency.",
+ "sections": [
+  {
+   "id": "automation-banner",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "SCADA"
+    },
+    {
+     "t": "p",
+     "text": "Automation SCADA (Supervisory Control and Data Acquisition) is a type of software used to acquire data from remote locations and monitor and control industrial systems and processes. It is typically used in industrial settings, such as manufacturing plants and power grids, to monitor and control equipment, detect faults, and manage operations."
+    },
+    {
+     "t": "p",
+     "text": "SCADA systems also have the ability to collect and analyse data from multiple sources, such as sensors, and can be used to generate reports, control alarms, and provide real-time analysis. SCADA systems are often integrated with other control systems, such as Programmable Logic Controllers (PLCs) and Distributed Control Systems (DCS). This allows for the automation of complex processes and the integration of different systems for better process control and management. SCADA systems are also used in many other industries, such as water, wastewater, and oil and gas. They can be used to monitor and control a variety of processes, from transportation to distribution and from production to energy management."
+    }
+   ]
+  },
+  {
+   "id": "automation-product",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Products"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/1.-BMS-Servers-controllers.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "BMS Servers & Controllers"
+    },
+    {
+     "t": "link",
+     "href": "bms-servers-controllers"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/3.-Sensor-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Sensors"
+    },
+    {
+     "t": "link",
+     "href": "sensors"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/4.-Power-Supply.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Power Supply"
+    },
+    {
+     "t": "link",
+     "href": "power-supply"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/2.-Smart-Meters-.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Smart Meters"
+    },
+    {
+     "t": "link",
+     "href": "smart-meters"
+    }
+   ]
+  },
+  {
+   "id": "automation-solution",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Solutions for Automation"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "text": "BMS- Integration of extensive devices to the system Is to use an IoT platform. An IoT platform can provide a unified platform for all connected devices, allowing for secure, reliable data exchange and communication. The IoT platform should support a wide range of devices, protocols, and applications, enabling developers to easily integrate and manage their connected devices. Additionally, the platform should offer a range of data analytics and visualization tools to help users gain insights from their data. By using an IoT platform, businesses can ensure that connected devices are integrated and managed in a secure, reliable, and cost-effective way.",
+       "lead": "BMS- Integration of extensive devices to the system"
+      },
+      {
+       "text": "SCADA Software Customization Is to work with a professional engineering team that has experience in customizing SCADA systems. This team should be able to tailor the SCADA system to meet the specific needs of the customer, while ensuring that the system is as secure, reliable, and efficient as possible. A professional team should also be able to provide training and support to ensure that the customer is able to use the system effectively.",
+       "lead": "SCADA Software Customization"
+      },
+      {
+       "text": "BMS Servers & Controllers Supply Is to use a reliable and secure cloud-based platform. This will provide access to the control systems needed for the BMS from anywhere, and offer a secure environment for data storage, analysis, and sharing. It can also provide an easy and effective way to manage updates and performance monitoring, as well as providing scalability for future growth.",
+       "lead": "BMS Servers & Controllers Supply"
+      },
+      {
+       "text": "Sub Metering and VFD’s Is to install an Automated Meter Reading (AMR) system. An AMR system combines the latest in metering technology with a user-friendly software platform to provide real-time data and analytics on energy consumption, allowing for smarter energy management decisions. Additionally, an AMR system can be used to control Variable Frequency Drives (VFDs) and other motor-driven equipment, helping to reduce energy costs and improve efficiency.",
+       "lead": "Sub Metering and VFD’s"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

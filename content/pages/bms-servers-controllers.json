@@ -1,0 +1,50 @@
+{
+ "slug": "bms-servers-controllers",
+ "title": "BMS Servers & Controllers",
+ "description": "Energy Savers Dubai-based BMS - Building Management System Services Provider. We offer Building Management System, Also we provide BMS control system for improved energy efficiency, manage heating, ventilation, air conditioning, lighting, security, and access control systems in commercial and residential buildings in Dubai, UAE.",
+ "sections": [
+  {
+   "id": "automation-detail",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About BMS Servers & Controllers"
+    },
+    {
+     "t": "p",
+     "text": "BMS Servers & Controllers are server and controller systems used to monitor and control building management systems (BMS). BMS systems are used to manage heating, ventilation, air conditioning, lighting, security, and access control systems in commercial and residential buildings. BMS Servers & Controllers are used to collect data from sensors and controllers in the building, process it, and then send commands to the relevant systems to adjust settings and maintain optimal conditions for the occupants.",
+     "href": "bms-migration-in-burj-al-arab"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/BMS-Servers-and-controllers.png",
+     "alt": "building management systems"
+    },
+    {
+     "t": "p",
+     "text": "The server and controller systems are designed to be highly efficient and secure, and they are often integrated with other building management technologies such as energy management systems, fire detection systems, and security systems. BMS Servers & Controllers can also be used to monitor and control remote locations, such as elevators and parking lots. This can help improve safety, reduce energy costs, and ensure a comfortable environment for building occupants. Additionally, BMS Servers & Controllers are often integrated with cloud-based systems, allowing users to monitor and control their building from any location. Overall, BMS Servers & Controllers are essential for managing and controlling building management systems in commercial and residential buildings."
+    }
+   ]
+  },
+  {
+   "id": "automation-list",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "BMS (Building Management System) Servers & Controllers provide a wide range of benefits, including:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Improved energy efficiency:",
+      "Automated maintenance",
+      "Cost savings:",
+      "Increased safety:",
+      "Enhanced comfort:",
+      "Improved security:"
+     ]
+    }
+   ]
+  }
+ ]
+}

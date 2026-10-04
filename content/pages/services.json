@@ -1,0 +1,97 @@
+{
+ "slug": "services",
+ "title": "",
+ "description": "Expert energy audits, HVAC optimization, and automation services in Dubai to boost efficiency and reduce energy consumption.",
+ "sections": [
+  {
+   "id": "our-services",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/03/Energy-Audit.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "Energy Audit"
+    },
+    {
+     "t": "p",
+     "text": "An energy audit is an inspection and analysis of energy use and flows for energy conservation in a building, process or system to reduce the amount of energy input into the system without negatively affecting the output."
+    },
+    {
+     "t": "link",
+     "href": "energy-audit"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/pq-measurement.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "PQ Audit and Measurement"
+    },
+    {
+     "t": "p",
+     "text": "PQ Audit and Measurement is a process of measuring and evaluating the performance of an electrical system. It is used to identify potential problems, make recommendations for improvement, and monitor performance over time."
+    },
+    {
+     "t": "link",
+     "href": "pq-audit-and-measurement"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/Harmonic-Studies-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "Harmonic Studies"
+    },
+    {
+     "t": "p",
+     "text": "Harmonic studies in power quality involve the analysis of the harmonic content of a power system. This involves the measurement of the voltage, current, and other power system parameters to determine the harmonic content, and to identify and quantify any harmonic distortion."
+    },
+    {
+     "t": "link",
+     "href": "harmonic-studies"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/Harmonic-Simulation-Studies-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "Harmonic Simulation Studies"
+    },
+    {
+     "t": "p",
+     "text": "Harmonic simulation studies in power quality involve the use of computer simulation to analyze the impact of harmonics on power systems."
+    },
+    {
+     "t": "link",
+     "href": "harmonic-simulation-studies"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/5.-PQ-Equipment-Rental-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "PQ Equipment Rental"
+    },
+    {
+     "t": "p",
+     "text": "PQ Equipment Rental is a business that provides rental services for a variety of heavy equipment and machinery, such as backhoes, forklifts, excavators, bulldozers, and more."
+    },
+    {
+     "t": "link",
+     "href": "pq-equipment-rental"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "slug": "power-quality-audits",
+ "title": "Power Quality Audits",
+ "description": "energy savings with our comprehensive power quality audits. Our experts will analyze your facility and identify opportunities to improve efficiency, optimize performance, and reduce costs. Experience the difference expert-driven insights can make.",
+ "sections": [
+  {
+   "id": "solution-temp",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Power quality audit is a process of measuring and evaluating the quality of electric power supplied to a facility. The audit involves testing the voltage, frequency, and power factor of the power delivered to the facility, testing for harmonics, and checking the quality of the power."
+    },
+    {
+     "t": "h2",
+     "text": "There are several solutions available for a Power Quality Audit. These solutions can include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Installing power factor correction equipment",
+      "Installing harmonic filters",
+      "Installing voltage regulators",
+      "Implementing active power filters",
+      "Installing surge protection equipment",
+      "Implementing distributed generation systems",
+      "Using uninterruptible power supplies (UPS)",
+      "Implementing power monitoring systems",
+      "Installing smart meters",
+      "Implementing demand response programs."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/02/1.-Power-Quality-Audit-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/1.-Power-Quality-Audit-2-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

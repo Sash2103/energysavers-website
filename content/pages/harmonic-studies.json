@@ -1,0 +1,27 @@
+{
+ "slug": "harmonic-studies",
+ "title": "Harmonic Studies",
+ "description": "Energy Saver is a world leading provider of Harmonic Study, Power Quality, Filter and Harmonic Filter Suppliers in Dubai. We Supply software-based harmonic filtering system, power harmonic filters, sinexcel active harmonic filter, sinexcel harmonic filter, sinexcel monitoring system in Dubai, UAE.",
+ "sections": [
+  {
+   "id": "services",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Harmonic studies in power qualityt involve the analysis of the harmonic content of a power system. This involves the measurement of the voltage, current, and other power system parameters to determine the harmonic content, and to identify and quantify any harmonic distortion. The purpose of this analysis is to identify any potential issues that may arise from harmonic distortion, and to develop strategies to mitigate any potential damage or interference. In addition, harmonic studies can be used to assess the power quality of a system and help to identify any potential sources of harmonic distortion. By identifying these sources, corrective measures can be taken to reduce the levels of harmonic distortion.",
+     "href": "power-quality"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Harmonic-Studies-1.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Harmonic-Studies-2.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

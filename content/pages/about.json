@@ -1,0 +1,268 @@
+{
+ "slug": "about",
+ "title": "ABOUT US",
+ "description": "Energy Savers is Dubai based Power Quality & Energy Efficiency Solution provider. We offers energy audit, Harmonics compliance, Sustainability solutions, Sustainability & HVAC, Energy Monitoring and Power Quality Monitoring solutions in Dubai, UAE",
+ "sections": [
+  {
+   "id": "about-us",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/About-us-page-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Energy Savers was established in 2013 as an FZE and has been operating as an on-shore company since 2020. We are pioneers in Energy Efficiency with more than 150 installations in Power Quality, Automation and HVAC."
+    },
+    {
+     "t": "p",
+     "text": "Energy Savers is a full-service energy efficiency and sustainability consulting firm. We provide services including building energy auditing, energy model development and analysis, energy efficiency project design, funding assistance, and sustainability planning. We specialize in helping clients reduce energy costs and improve indoor comfort."
+    },
+    {
+     "t": "p",
+     "text": "Our mission is to help clients save energy and money while improving environmental performance and indoor comfort. We strive to maximize the financial and environmental benefits of energy efficiency measures and sustainability practices."
+    },
+    {
+     "t": "p",
+     "text": "Energy Savers is certified by the MEP Engineering and Contracting (ISO 9001:2015) and accredited by Dubai Energy Auditors Accreditation Scheme from Government of Dubai. We have experience with a variety of energy efficiency and sustainability projects including energy audits, energy modelling, energy efficiency projects, and sustainability planning."
+    },
+    {
+     "t": "h2",
+     "text": "We provide advanced Power Quality and Energy Efficiency Solutions in the following areas:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "text": "Power Factor and Harmonics compliance solutions",
+       "lead": "Power Factor"
+      },
+      "Energy Audits and Harmonic Studies",
+      {
+       "text": "Sustainability solutions in HVAC- Solar Thermal Chillers/Heat Pump",
+       "lead": "Sustainability"
+      },
+      {
+       "text": "Automation – SCADA/BMS solutions",
+       "lead": "Automation"
+      },
+      "Smart Grid /Smart Metering solutions",
+      {
+       "text": "Energy Monitoring and Power Quality Monitoring solutions (EMS, PQMS)",
+       "lead": "Energy Monitoring"
+      },
+      {
+       "text": "Investment-Grade Power Quality Audits",
+       "lead": "Investment-Grade"
+      }
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "SUSTAINABILITY IN ENERGY"
+    },
+    {
+     "t": "p",
+     "text": "Energy Savers focuses on implementing Power Quality/HVAC/SCADA solutions to Industrial and Commercial clients thereby leading to power efficiency, regulatory compliance and sustainability in Energy."
+    },
+    {
+     "t": "p",
+     "text": "Energy Savers is a provider of innovative energy efficiency and renewable energy solutions for the Industrial & Commercial clients thereby delivering long-term value through robust systems, strategies and technologies. Its services extend from design concept and development of a new facilities energy requirements to the upgrading and retrofitting of existing infrastructure. Our experience and expertise in Energy management allows our clients to realize a significant reduction of their facilities operating expenses, as well as increasing the equipment life-times, reduce maintenance demands, improve occupancy comfort levels and protect the environment."
+    },
+    {
+     "t": "h4",
+     "text": "KEY HIGHLIGHTS OF THE COMPANY"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/key-highlights1-min-1.png",
+     "alt": ""
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Hundreds of PQ installations in the region achieving savings & regulatory compliance",
+      "Multiple HVAC and SCADA installations in the UAE",
+      "Team of highly qualified and experienced engineers",
+      "Introduction of new technology to the market",
+      "First Solar Thermal Chiller installation in the UAE",
+      "Represents top brands from across the globe in the region"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "OUR CERTIFICATIONS"
+    },
+    {
+     "t": "img",
+     "src": "2023/11/pdfrendition1.png",
+     "alt": "IAF Certification - Energy Savers Technical Services LLC"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Accredition-certificate.jpg",
+     "alt": "Dubai Electronic Security Center (DESC) Certificate - Energy Savers Technical Services LLC"
+    }
+   ]
+  },
+  {
+   "id": "our-client",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Our Suppliers"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/SINEXEL-min.png",
+     "alt": "Sinexcel - Energy Savers Products Supllier in Dubai"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/SIEMENS-min.png",
+     "alt": "SIEMENS - Energy Savers Products Supllier in Dubai"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/AERMEC-min.png",
+     "alt": "AERMEC - Energy Savers Products Supllier in Dubai"
+    },
+    {
+     "t": "img",
+     "src": "2026/07/helmholz_logo.jpg.jpeg",
+     "alt": "ifm Efector - Energy Savers Products Supllier in Dubai"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/CONDENSATOR-min.png",
+     "alt": "Condensator Dominit - Energy Savers Products Supllier"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/AEBERLE-min.png",
+     "alt": "A. Eberle - Energy Savers Products Supllier in Dubai"
+    }
+   ]
+  },
+  {
+   "id": "our-suppier",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Our Clients"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/unileven-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/rak-ceramics-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/park-hyatt-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/nakheel-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/mall-of-the-emirates-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/magic-planet-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/jumeirah-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/iffco-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/grand-mills-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/grand-hyatt-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/four-seasons-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/erco-worldwide-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/emaar-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/ekc-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/dubai-municipality-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/dubai-custom-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/dp-words-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/db-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/dewa-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/al-zahra-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/al-ghurair-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/agthia-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

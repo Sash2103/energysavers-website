@@ -1,0 +1,59 @@
+{
+ "slug": "pq-box-300-the-mobile-high-frequency-power-quality-tool",
+ "title": "PQ-Box 300: The Mobile High Frequency Power Quality Tool",
+ "description": "",
+ "sections": [
+  {
+   "id": "pq-box",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About PQ-Box 300"
+    },
+    {
+     "t": "p",
+     "text": "This mobile power quality network analyzer, power meter and transient recorder allows permanent DC frequency analysis to 170 kHz. The Class A device has been developed for measurements on low, medium and high-voltage networks and is ideally designed for measurements in harsh environments or where space is very limited. In addition, the device allows the power quality of public and industrial networks to be assessed. The device is thus an essential aid for analysis in high-frequency ranges."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-300-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "pq-box-services",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Services"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Permanent recording of frequencies up to 170 kHz",
+      "WLAN Interface for cableless communication with the software & App",
+      "Free Software WinPQ Mobile",
+      "Ripple control single analysis"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Technical Data sheet"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TD_PQBox300-Technical-Data-Sheet.pdf"
+    },
+    {
+     "t": "h4",
+     "text": "Technical Specification"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TS_PQ-Box-300-Technical-Specification.pdf"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "pq-box-150-the-mobile-power-quality-allrounder",
+ "title": "PQ-Box 150: The Mobile Power Quality Allrounder",
+ "description": "",
+ "sections": [
+  {
+   "id": "pq-box",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About PQ-Box 150"
+    },
+    {
+     "t": "p",
+     "text": "The PQ-Box 150 mobile network analyzer, power meter and transient recorder was designed to quickly locate the source of network disturbances. The class A device was developed for measurements in low, medium and high voltage networks and is ideally designed for mobile measurement operation in harsh environments and in very confined spaces. Thus, the device impresses as a mobile all-rounder of our product group and its wide field of application, which also provides standard reports according to the specifications of EN 50160, IEC 61000-2-2/-2-4 for public and industrial networks."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-150-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "pq-box-services",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Services"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Recording current and voltage harmonics to 9kHz",
+      "WLAN Interface for cableless communication with the software & App",
+      "Free Software WinPQ Mobile",
+      "Analyze faults in the ripple control telegram with ripple control analysis"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Technical Data sheet"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TD_PQBox150-Technical-Data-Sheet.pdf"
+    },
+    {
+     "t": "h4",
+     "text": "Technical Specification"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TS_PQ-Box-150-Technical-Specification.pdf"
+    }
+   ]
+  }
+ ]
+}

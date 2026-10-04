@@ -1,0 +1,33 @@
+{
+ "slug": "pq-audit-and-measurement",
+ "title": "PQ Audit and Measurement",
+ "description": "Energy savers technical services LLC is a UAE based engineering company focusing on power quality, PQ Audit, HVAC, automation -building management system, and ev chargers solution in energy. We provide our excellent products and solutions to all sector including commercial building, hospitals, infrastructure etc.",
+ "sections": [
+  {
+   "id": "services",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "PQ Audit and Measurement is a process of measuring and evaluating the performance of an electrical system. It is used to identify potential problems, make recommendations for improvement, and monitor performance over time. It also helps to ensure safety, reliability, and efficiency of the system. It can be used for both residential and commercial applications. PQ Audit and Measurement includes evaluating and analyzing the electrical system in terms of its power quality, power output, and power consumption. It also examines the system’s safety, reliability, and efficiency. The data collected during the audit and measurement process is used to identify areas of improvement and develop strategies to improve the system’s performance. PQ Audit and Measurement is used by electricians and engineers to ensure the safety and reliability of the electrical system. It is also used by maintenance personnel to identify potential problems and ensure the system is running efficiently.",
+     "href": "power-quality",
+     "lead": "PQ Audit"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/2.-PQ-Audit-Measurement-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/03/2.-PQ-Audit-Measurement-2-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/03/2.-PQ-Audit-Measurement-3-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

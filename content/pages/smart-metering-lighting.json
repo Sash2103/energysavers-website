@@ -1,0 +1,45 @@
+{
+ "slug": "smart-metering-lighting",
+ "title": "Smart Metering & Lighting",
+ "description": "Smart metering & lighting solutions in UAE for real-time monitoring, automation, and energy efficiency in homes, buildings, and urban areas.",
+ "sections": [
+  {
+   "id": "solution-temp",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Smart Metering and Lighting are technologies that are used to increase energy efficiency and reduce energy costs in homes and businesses. Smart Meters are digital devices that measure and record electricity, gas, or water usage in real-time. Smart Lighting systems use sensors and automation to control lighting levels and reduce overall energy consumption. Smart Meters and Lighting systems can be connected to the internet or to a local network allowing for greater control, monitoring, and data analysis."
+    },
+    {
+     "t": "img",
+     "src": "2023/02/6.-Smart-Metering-lighting-min.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Benefits for Smart Metering Solutions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Automated metering infrastructure (AMI): This technology allows for two-way communication between meters and utilities, providing real-time monitoring and control of energy usage.",
+      "Advanced metering infrastructure (AMI): This technology enables utilities to automatically collect usage data from meters, allowing for more accurate billing, improved load forecasting and energy conservation.",
+      "Home-area network (HAN): This technology allows for communication between devices inside the home, such as thermostats and appliances, to reduce energy consumption and costs."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Benefits for Smart Lighting Solutions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "LED lighting: LED lighting is more efficient than traditional lighting, providing higher quality lighting with lower energy consumption and reduced maintenance costs.",
+      "Smart lighting systems: These systems enable the user to control lighting remotely, allowing for personalized settings and automated scheduling to reduce energy consumption.",
+      "Motion sensors: Motion sensors detect movement in a space and automatically turn lights on or off as needed, saving energy and money."
+     ]
+    }
+   ]
+  }
+ ]
+}

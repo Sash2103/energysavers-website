@@ -1,0 +1,43 @@
+{
+ "slug": "burj-al-arab-jumeirah-group-dubai-2021",
+ "title": "Burj Al Arab, Jumeirah Group, Dubai (2021)",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/burj-ai-min.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Migration & Upgrade of Existing Pool Control to Simatic WinCC"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Existing control system (Honeywell, Wago) is defective and allowing manual control only.",
+      "No automatic function for filter backwash and filter pumps (duty and standby).",
+      "50% of all sensors are defective and/or providing inconsistent readings.",
+      "Actual controller provided by HMI panels with limited functionality and no SCADA integration."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/burj-ai-workplan-min-1.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

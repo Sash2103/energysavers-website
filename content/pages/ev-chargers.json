@@ -1,0 +1,332 @@
+{
+ "slug": "ev-chargers",
+ "title": "",
+ "description": "Install next-generation electric vehicle charging solutions and future-proof your property. Our cutting-edge EV Charger in Dubai deliver reliable, smart, and eco-friendly power for homes, workplaces, and public spaces. Upgrade to a sustainable transportation future with innovative EV charging.",
+ "sections": [
+  {
+   "id": "ev-banner",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-1.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-1.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "EV Charging Solutions"
+    },
+    {
+     "t": "p",
+     "text": "Everything about profitability and charging experience."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-2.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-2.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "Sinexcel Interstellar\n7kW/ 22kW EV Charger"
+    },
+    {
+     "t": "p",
+     "text": "Stronger Design, Better Charging Experience"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1635754693.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-3.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-3.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "SER 40kW Power Module"
+    },
+    {
+     "t": "p",
+     "text": "Output voltage range: 50-1000V\nPeak efficiency: 97.03%"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-4.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-4.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "360-480kW Distributed Charger"
+    },
+    {
+     "t": "p",
+     "text": "10 minutes charging, 400 kilometers driving\nFlexible matrix Power switching\nOne power bank supports 3 user terminals\nFutureproof design to minimize upgrade investment"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-5.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-5.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "EV Charging Solutions"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-6.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-6.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "80kW Integrated Charger"
+    },
+    {
+     "t": "p",
+     "text": "40kW/60kW/80kW\nPower allocation: 80kW DC charging+22kW AC Charging\nSupport to charge simultaneously charge with 3 charging connectors"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-7.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ev-banner-m-7.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "240kW\nIntegrated Charger"
+    },
+    {
+     "t": "p",
+     "text": "200kW/240kW high-performance charging\n0% to 80% SOC within 20 minutes"
+    }
+   ]
+  },
+  {
+   "id": "ev-product",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Our Products"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Interstellar-AC-Charger.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "Interstellar AC Charger"
+    },
+    {
+     "t": "p",
+     "text": "7kW/22kW\nStronger Design，Better charging Experience"
+    },
+    {
+     "t": "link",
+     "href": "interstellar-ac-charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Mira-AC-Charger.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "Mira AC Charger"
+    },
+    {
+     "t": "p",
+     "text": "7kW AC charger for residential use Support cable/socket version"
+    },
+    {
+     "t": "link",
+     "href": "mira-ac-charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/60-160-kW-Integrated-Charger.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "60 -160 kW Integrated Charger"
+    },
+    {
+     "t": "p",
+     "text": "60kW / 80kW / 120kW / 160kW Output Voltage: 200V-1000V"
+    },
+    {
+     "t": "link",
+     "href": "sec-series"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/40-80kW-Integrated-Charger.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "40-80kW Integrated Charger"
+    },
+    {
+     "t": "p",
+     "text": "40kW/60kW/80kW\nPower allocation: 80kW DC charging+22kW AC Charging Support to charge simultaneously charge with 3 charging connectors"
+    },
+    {
+     "t": "link",
+     "href": "sec-40-80kw-integrated-charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/200-240kW-Integrated-Charger.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "200-240kW Integrated Charger"
+    },
+    {
+     "t": "link",
+     "href": "sec-200-240kw-integrated-charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/360-480kW-Distributed-Charger.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "360-480kW Distributed Charger"
+    },
+    {
+     "t": "p",
+     "text": "10 minutes charging, 400 kilometers driving Flexible matrix Power switching\nOne power bank supports 3 user terminals\nFutureproof design to minimize upgrade investment"
+    },
+    {
+     "t": "link",
+     "href": "360480kw-distributed-charger"
+    }
+   ]
+  },
+  {
+   "id": "module-product",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Power Module Product"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/SER-20kW-Power-Module.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "SER 20kW Power Module"
+    },
+    {
+     "t": "p",
+     "text": "Output Voltage Range: 200-1000V Size: W(238mm)* D(411mm)"
+    },
+    {
+     "t": "link",
+     "href": "sec-series"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/SER-40kW-Power-Module.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "SER 40kW Power Module"
+    },
+    {
+     "t": "p",
+     "text": "Output voltage range: 50-1000V Peak efficiency: 97.03%"
+    },
+    {
+     "t": "link",
+     "href": "ser-series-40kw-power-module"
+    }
+   ]
+  },
+  {
+   "id": "ev-download",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Downloads"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1663738594.pdf",
+     "text": "SEC 240kW Series DC Charger Brochure"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1658746214.pdf",
+     "text": "Interstellar AC Charger Brochure"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1663735809.pdf",
+     "text": "SER 40kW Power Module Brochure"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1663737482.pdf",
+     "text": "SEC 40-80kW DC Charger Brochure"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1635754693.pdf",
+     "text": "Interstellar AC Charger Spec"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1617949140.pdf",
+     "text": "SER 20kW Power Module Brochure"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1679024361.pdf",
+     "text": "SEC 60-160kW DC Charger Series"
+    }
+   ]
+  }
+ ]
+}

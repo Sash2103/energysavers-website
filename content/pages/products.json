@@ -1,0 +1,84 @@
+{
+ "slug": "products",
+ "title": "",
+ "description": "Energy Savers offers Energy Saver Energy Efficiency Products in Dubai, We provide Power quality, HVAC, Automation SCADA, EV CHARGERS Solution in Dubai, UAE.",
+ "sections": [
+  {
+   "id": "our-product",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Energy Saver Product"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Power-Quality.png",
+     "alt": "Power Quality Analyzer"
+    },
+    {
+     "t": "h5",
+     "text": "Power Quality"
+    },
+    {
+     "t": "p",
+     "text": "Power quality is a term used to describe the measurement..."
+    },
+    {
+     "t": "link",
+     "href": "power-quality"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-hvac.png",
+     "alt": "HVAC System Dubai"
+    },
+    {
+     "t": "h5",
+     "text": "HVAC"
+    },
+    {
+     "t": "p",
+     "text": "HVAC stands for Heating, Ventilation, and Air..."
+    },
+    {
+     "t": "link",
+     "href": "hvac"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-automation.png",
+     "alt": "SCADA System in Power System"
+    },
+    {
+     "t": "h5",
+     "text": "Automation"
+    },
+    {
+     "t": "p",
+     "text": "Automation SCADA (Supervisory Control and Data Acquisition)..."
+    },
+    {
+     "t": "link",
+     "href": "automation"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-ev-chargers.png",
+     "alt": "EV Charging Solution"
+    },
+    {
+     "t": "h5",
+     "text": "EV Chargers"
+    },
+    {
+     "t": "p",
+     "text": "Innovative constant power technology, we follow..."
+    },
+    {
+     "t": "link",
+     "href": "ev-chargers"
+    }
+   ]
+  }
+ ]
+}

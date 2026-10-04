@@ -1,0 +1,57 @@
+{
+ "slug": "dubai-medical-university-hospital-dubai",
+ "title": "Dubai Medical University Hospital, Dubai (2022)",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/dubai-medical-University-hospital-min.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Harmonics Mitigation Solutions"
+    },
+    {
+     "t": "p",
+     "text": "Active Harmonic Filters (AHF) Installation"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Non-Compliance to Utility Regulations",
+      "High harmonic distortion within the electrical system"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Advantages of AHF"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reduce the harmonics within the system.",
+      "Low losses within the connected loads.",
+      "Improves the over-all efficiency of the electrical system"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/dubai-medical-workplan-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

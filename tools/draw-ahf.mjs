@@ -193,7 +193,9 @@ function marker(num, part, [ax, ay]) {
 }
 
 const order = ['base', 'lower', 'igbt', 'upper', 'front', 'side', 'cover'];
-const group = k => `<g class="ahf-part" data-part="${k}" style="--dx:${PARTS[k].dx};--dy:${PARTS[k].dy}">${parts[k].join('')}</g>`;
+// data-focus ties a part to the callout step that lights it up (see .ahf[data-step] in styles.css)
+const FOCUS = { upper: 1, igbt: 2, lower: 3 };
+const group = k => `<g class="ahf-part" data-part="${k}"${FOCUS[k] ? ` data-focus="${FOCUS[k]}"` : ''} style="--dx:${PARTS[k].dx};--dy:${PARTS[k].dy}">${parts[k].join('')}</g>`;
 const svg =
   `<svg class="ahf-drawing" viewBox="${vbX} ${vbY} ${vbW} ${vbH}" role="img" aria-labelledby="ahf-drawing-title">` +
   `<title id="ahf-drawing-title">Exploded line drawing of an active harmonic filter module: cover, upper PCBA with air duct, IGBT PCBA, and the lower layer with inductors, heatsink and fans</title>` +

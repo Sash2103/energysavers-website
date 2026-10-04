@@ -1,0 +1,46 @@
+{
+ "slug": "power-quality-solutions",
+ "title": "Power Quality Solutions",
+ "description": "Unlock optimal power performance with our industry-leading power quality solutions. Enhance efficiency, reduce costs, and ensure reliable electrical systems for your business.",
+ "sections": [
+  {
+   "id": "solution-temp",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Power Quality solutions refer to the strategies, technologies and equipment used to ensure that the quality of electrical power supplied to the grid is within acceptable limits. This includes monitoring, analysing, and controlling the voltage, frequency, and power factor of the power supply.",
+     "href": "power-quality",
+     "lead": "Power Quality"
+    },
+    {
+     "t": "p",
+     "text": "Some of the quality solutions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use of energy efficient technologies such as LED lighting, energy-efficient HVAC systems, and power-saving devices.",
+      "Use of power factor correction equipment to correct the power factor and reduce energy costs.",
+      "Use of power conditioning equipment such as uninterruptible power supplies (UPS) and voltage regulators to protect equipment from voltage fluctuations",
+      "Use of surge protection devices to limit the amount of current that passes through a system.",
+      "Use of harmonic filters to reduce harmonic distortions in electrical systems.",
+      "Implementation of active power management systems to optimize power use and reduce peak demand.",
+      "Installation of harmonic mitigation systems to reduce the impact of harmonic distortions on the power system.",
+      "Use of distributed generation systems such as solar, wind, and biomass to generate electricity locally.",
+      "Use of electric vehicles and other energy storage systems to reduce peak demand."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/02/2.-Power-Quality-Solutions-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/02/2.-Power-Quality-Solutions-2-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

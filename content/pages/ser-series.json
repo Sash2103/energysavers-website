@@ -1,0 +1,252 @@
+{
+ "slug": "ser-series",
+ "title": "SER Series",
+ "description": "",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SER 20kW EV Charger module has ultra-wide output voltage range, 200V-1000V, As a key component of DC Charger, it has high efficiency and high-reliability advantage. the constant power output in the range of 300V -1000 V DC, improves the power utilization ratio of DC charger."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/20kW-Power-Module-Brochure.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/SER-Series.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "technology",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Advanced technology"
+    },
+    {
+     "t": "p",
+     "text": "The Module is isolated design, supporting hot plug, with output reverse irrigation isolation, to ensure personal safety and the safety of the EV Charger system."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/advance-ser.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/energy-icon.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "High Efficiency and Energy Conservation"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/safety-icon.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Safety&High Reliability"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/smart-icon.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Smart management"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/safety-icon-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Low noise,Supporting Mote mode"
+    },
+    {
+     "t": "h3",
+     "text": "High Efficiency and Energy Conservation"
+    },
+    {
+     "t": "p",
+     "text": "Peak efficiency ≥96%, reduce energy consumption loss, meet the requirements of energy saving and emission reduction, reduce operating costs."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/energy-conservation.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Safety&High Reliability"
+    },
+    {
+     "t": "p",
+     "text": "Module is isolated design, supporting hot plug,with output reverse irrigation isolation, to ensure personal safety and the safety of the EV Charger system."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/high-reliability.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Smart management"
+    },
+    {
+     "t": "p",
+     "text": "Support remote fault detection and recovery.\nDust-proof blocking, Fans fault alarm.\nModule protocol supports automatic OTA update, supports continuous upgrade software, improves module performance."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/smart-management.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Low noise,Supporting Mote mode"
+    },
+    {
+     "t": "p",
+     "text": "The module can realize intelligent control of fan speed and smooth adjustment according to the detected heating state of the device. Maximum support module works in optimal noise state.\nThe noise can be reduced and maintained. ≤55dB."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/supporting-mute-mode.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "technical-benefit",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Technical advantages"
+    },
+    {
+     "t": "h2",
+     "text": "Ultra wide output voltage range to meet market demand"
+    },
+    {
+     "t": "p",
+     "text": "200V-1000V, Compatible with the vast majority of voltage platforms and vehicle charging, Reduces operating expenses, increases carrier earnings, and meets the next 5-10 years of technology."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ultra-wide-output.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "intelligent",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Technical advantages"
+    },
+    {
+     "t": "h2",
+     "text": "Constant power output speed up charging process"
+    },
+    {
+     "t": "p",
+     "text": "300V-1000V constant power dual output segment, improves the power utilization ratio of DC charger, raises the operation efficiency, and maximizes carrier revenue."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/constant-power.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "focus-on-safety",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Product Views"
+    },
+    {
+     "t": "p",
+     "text": "improve the power utilization ratio of DC charger,\nimprove the operation efficiency, and achieve maximizing carrier revenue."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/product-views.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/safety-mobile.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ser-specification",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Specifications"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/specifications-detail.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/specifications-right.gif",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ser-application",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "APPLICATIONS"
+    },
+    {
+     "t": "p",
+     "text": "20kW Power module can be applied to DC Charger or AC/DC Power Cabinet."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/20kW-Power-Module-Brochure.pdf"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/20kW-Power-Module-Brochure.pdf"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/SEC-DC-Charger-Series-Brochure.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-application.jpg",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-series-mobile.jpg",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

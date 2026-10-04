@@ -1,0 +1,115 @@
+{
+ "slug": "static-var-generator",
+ "title": "Static Var Generator",
+ "description": "Boost your power grid stability with our high-performing static var generators. Our advanced technology provides seamless reactive power compensation, improving efficiency and reliability.",
+ "sections": [
+  {
+   "id": "svg",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Static Var Generator"
+    },
+    {
+     "t": "p",
+     "text": "Static Var Generator (SVG) is an electrical device used in power systems for controlling reactive power and system voltage. It is used for rapidly injecting or absorbing reactive power in order to maintain system voltage within desired limits. This device is often used in a variety of industrial and commercial applications, such as power factor correction, harmonic filtering, and voltage regulation. This enables the system to maintain a steady voltage level and avoid power system overloads. SVG is a cost-effective and energy-efficient solution for improving power system reliability and performance. It can be used in both new and existing power systems. In addition to its primary purpose, SVG can also be used to reduce system losses, improve power factor, and reduce total harmonic distortion."
+    },
+    {
+     "t": "p",
+     "text": "When we talk about Smart grid, when we talk about Technology upgradation, the core pursuit is strong energy, accurate control, stable system. SVG works as a dynamic reactive power source, adopts high-speed computation components like DSP/IGBT, combining with super precise control program, following the grid current variation in real time, improving PF value to 0.99 within 15ms"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/02/IEEE-519-Harmonic-standard-1.pdf"
+    }
+   ]
+  },
+  {
+   "id": "svg-numvers",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "100%"
+    },
+    {
+     "t": "h3",
+     "text": "Inverter based technology"
+    },
+    {
+     "t": "h2",
+     "text": "100%"
+    },
+    {
+     "t": "h3",
+     "text": "Digital & semiconductor control"
+    },
+    {
+     "t": "h2",
+     "text": "100%"
+    },
+    {
+     "t": "h3",
+     "text": "Intelligent compensation"
+    }
+   ]
+  },
+  {
+   "id": "svg-pfc-first",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Inverter based PFC"
+    },
+    {
+     "t": "h2",
+     "text": "New technology updated the old PFC requirement"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/New-technology-updated-the-old-PFC-requirement-min.png",
+     "alt": "Accurate control Stable system SVG"
+    }
+   ]
+  },
+  {
+   "id": "svg-pfc-second",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Step-less PFC"
+    },
+    {
+     "t": "h2",
+     "text": "New technology updated the old PFC requirement"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/4-01-min.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "svg-pfc-third",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/PLUG-SUITE-min-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h4",
+     "text": "Inverter based PFC"
+    },
+    {
+     "t": "h2",
+     "text": "PLUG SUITE"
+    },
+    {
+     "t": "p",
+     "text": "Assist customers to build their own plug cabinet Sinexcel can offer SVG unit with plug suite, monitoring system, alarming indications lights, then the customer can build their own plug cabinet on site. Plug cabinet, no wiring, easy for integration and unit replacement, a more convenient and cost-effective solution for our customers"
+    }
+   ]
+  }
+ ]
+}

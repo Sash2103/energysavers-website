@@ -1,0 +1,332 @@
+{
+ "slug": "360480kw-distributed-charger",
+ "title": "360~480kW Distributed Charger",
+ "description": "Explore Energy Savers' 360~480kW Distributed Charger for efficient, high-speed EV charging solutions designed to meet your energy needs.",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Flexible charging brings customers profitability and better user experience"
+    },
+    {
+     "t": "p",
+     "text": "Each of people who participate in EV charging business is a pioneer of carbon neutral, thank for your commitment and actions to the planet, In order to achieve this great enterprise, Sinexcel is fully committed to provide better charging experience, cheaper energy cost and let more people participate in green traveling actively. The flexible distributed charger is designed and manufactured from these user demands."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/sec-480kw-distributed-charger-technical-specifications.pdf"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-480kw.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "technology",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Product Definition"
+    },
+    {
+     "t": "p",
+     "text": "What is the Structure of Sinexcel 360-480kW Distributed Charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/power-360.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Power Bank"
+    },
+    {
+     "t": "p",
+     "text": "AC to DC power conversion, 24*20kW power modules, capacity from 360 to 480kW, Compatible design for upgrading 40kW power modules"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/terminal-360.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "User Terminal"
+    },
+    {
+     "t": "p",
+     "text": "Liquid cooling pump and terminal, HMI, payment terminal, CCU, MCU,"
+    }
+   ]
+  },
+  {
+   "id": "protection-function",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "From a charging station view, benefits of Distributed Charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/flexible-icon.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Flexible charging for different application scenarios: Flexible deploy user terminal, flexible deploy power, adapt to individual application of urban hub, declinational charging hub, highway hub, adapt to vehicle, bus, truck."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/attractive-icon.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Small and attractive: The user terminal has small footprint which can maximize parking area, it also has attractive appearance to provide better esthetics for the charging station."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/low-noise-icon.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Low noise: Power bank is the noise resource and can be placed away from users.\nThe noise of liquid cooled user terminal is <55dB, air cooled user terminal is close to 0 dB"
+    }
+   ]
+  },
+  {
+   "id": "voltage-range",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "High speed charging"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/charging-360.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "10 minutes charging"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/driving-360.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "400 kilometers driving"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ultra fast charging for Liquid cooling charging，500A current 800V voltage，400kW power 10mins charging 500A*800V*10/60H*0.96=64kWH",
+      "Fast charging for standard charging mode, 450V vehicle，200A current, 400V, 80kW power, a power bank pumps 6 user terminals at full power"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/voltage-speed.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Car"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Battery capacity ：80kWh",
+      "Charging power ：480kW",
+      "Charging speed：10min"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Bus"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Battery capacity ：200kWh",
+      "Charging power ：480kW",
+      "Charging speed：25min"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Heavy Truck"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Battery capacity ：400kWh",
+      "Charging power ：480kW",
+      "Charging speed：50min"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stability",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Flexible matrix power switching"
+    },
+    {
+     "t": "p",
+     "text": "With flexible matrix power switching technology, vehicle can charge with 100% accurate power requirement and the capacity of power bank can be 100% used. This is the highest operating efficiency."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "text": "What is the flexible matrix power switching 24*20kW power modules in the power bank are split into 12 sets, each set has 2 power modules with 40kW charging power. These 12 sets charging power can be dynamically allocated to user terminals and distribute power according to different charging needs.",
+       "lead": "What is the flexible matrix power switching"
+      },
+      {
+       "text": "The benefit of matrix power switching In the different SOC periods, requirements of charging power are different. 40kW charging power as a unit to fulfill various charging needs and provide 100% accurate charging power at “maximum power”. Multiple user terminals share one 480kW power bank which makes high efficiency operation of EV charger and EV charger station.",
+       "lead": "The benefit of matrix power switching"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/matrix-power.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "hot-plugging",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "A step 40kW, totally 12 pcs 40kW steps Dynamic combinated deploy to each charging connector"
+    },
+    {
+     "t": "p",
+     "text": "Dynamic load management between multiple connectors\nAny connector can call any kW power to charge EV from 40kW-480kW\nA step 40kW, totally 12pcs 40kW steps dynamic combinated deploy to each charging connector"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/step-1.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/step-2.png",
+     "alt": ""
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Save the capacity of transformer",
+      "Improve the power utilization rate",
+      "Simultaneously meeting charging demands of different SOC and different arrival time"
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "text": "Charging Time\nEV1 charging status and charger supply status\nEV2 charging status and charger supply status\nEV3 charging status and charger supply status\nCharger’s remaining power\nEfficiency estimated",
+       "lead": "Charging Time"
+      },
+      {
+       "text": "0-5min\nEV need 270kW Charger supply 280kW\nNot Arrive\nArrive\n80kw\n95.6%",
+       "lead": "0-5min"
+      },
+      {
+       "text": "5-10min\nEV need 200kW Charger supply 200kW\nEV need 200kW Charger supply 160kW\nNot Arrive\n0kw\n95.7%",
+       "lead": "5-10min"
+      },
+      {
+       "text": "10-15min\nEV need 150kW Charger supply 160kW\nEV need 100kW Charger supply 160kW\nNot Arrive\n80kw\n95.6%",
+       "lead": "10-15min"
+      },
+      {
+       "text": "15-20min\nEV need 100kW Charger supply 120kW\nEV need 100kW Charger supply 120kW\nEV need 100kW Charger supply 120kW\n0kw\n95.7%",
+       "lead": "15-20min"
+      },
+      {
+       "text": "20-30min\nEV need 70kW Charger supply 80kW\nEV need 40kW Charger supply 40kW\nEV need 40kW Charger supply 40kW\n200kw\n96%",
+       "lead": "20-30min"
+      },
+      {
+       "text": "30-50min\nEV need 40kW Charger supply 40kW\nEV need 40kW Charger supply 40kW\nEV need 40kW Charger supply 40kW\n240kw\n95%",
+       "lead": "30-50min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reliable-charging",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Higher power conversion efficiency to improveprofitability of EVC station"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "text": "Power conversion Independent research and development of the power module, equiped with the third generation SiC MOSFET semiconductor with higher efficiency and three-level Vienna topology. The high perfomance of the device and the topology enable the peak efficieny of power module to reach 96.5%.",
+       "lead": "Power conversion"
+      },
+      {
+       "text": "System active efficiency optimization The distributed charger integrates the distribution system for control of 24pcs power modules in the power bank to ensure 50% load rate of power conversion module and 96% efficiency of the charging system. Compared with 95% efficiency, taking 6 vehicles charge with 80kW as an example, each 480kW EV charger can reduce energy loss of 5.26kWh per hour and is able to save 11519kWh electric energy every year for charging 6 hours a day.",
+       "lead": "System active efficiency optimization"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/higher-power.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "charging-power",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Cable Management"
+    },
+    {
+     "t": "p",
+     "text": "Make the cable lighter to save effort for easily use.\nKeep the cable clean and organized, reduce friction with\nground or trip hazrd to increase service life and protect users."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/management1.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "hanging effect"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/management2.jpg",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Pull out effect"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "slug": "hvac",
+ "title": "HVAC System",
+ "description": "Energy Savers in Dubai recognizes the critical importance of HVAC Solution products such as heating and cooling solution. We provide Active Harmonic Filters, Static Var Generators, Uninterrupted Power Supply (UPS) Systems, and Power Quality Mobile solutions.",
+ "sections": [
+  {
+   "id": "hvac-banner",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About HVAC"
+    },
+    {
+     "t": "p",
+     "text": "HVAC stands for Heating, Ventilation, and Air Conditioning. It is a system used to regulate the temperature, humidity, and air quality in a building or space. It is used to maintain comfortable conditions for occupants and to improve indoor air quality. HVAC systems typically consist of four components: heating, ventilation, air conditioning, and controls. Heating and air conditioning systems are used to control the indoor air temperature, while ventilation systems are used to provide fresh outside air, to remove smell and dust, and to maintain desired humidity levels."
+    },
+    {
+     "t": "img",
+     "src": "2023/01/hvac-right-min.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Controlling devices, such as thermostats, regulate the operation of these systems. HVAC systems are often integrated with other building systems such as lighting, security, and fire protection. They can also be used in a variety of applications, such as residential, commercial, and industrial buildings. The primary goal of an HVAC system is to provide comfort and energy efficiency. Properly designed, installed, and maintained HVAC systems can help reduce energy costs, improve indoor air quality, and increase occupant comfort."
+    },
+    {
+     "t": "h3",
+     "text": "Energy Savers HVAC Solutions"
+    },
+    {
+     "t": "p",
+     "text": "Energy Savers is a company that specializes in helping homes and businesses reduce their energy costs through the installation of high efficiency HVAC systems. We offer a wide range of services, including system design, installation, and maintenance. We also provide energy audits and energy efficiency assessments to help customers identify areas for improvement. Our solutions are tailored to meet the specific needs of each customer and we strive to ensure that our customers' homes and businesses are as energy efficient as possible. Energy Savers also offers a variety of financing options, making it easier for customers to afford the necessary upgrades."
+    }
+   ]
+  },
+  {
+   "id": "hvac-list-sec",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/heat-pumps-min-1.png",
+     "alt": "Heat Pump Systems",
+     "href": "heat-pumps"
+    },
+    {
+     "t": "h3",
+     "text": "Heat Pumps",
+     "href": "heat-pumps"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/absorption-chillers-min.png",
+     "alt": "Absorption Chiller Supplier",
+     "href": "adsorption-chiller"
+    },
+    {
+     "t": "h3",
+     "text": "Adsorption Chiller",
+     "href": "adsorption-chiller"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/air-purifier-min.png",
+     "alt": "Air Purifiers & Smoke Filters",
+     "href": "air-purifiers-smoke-filters"
+    },
+    {
+     "t": "h3",
+     "text": "Air Purifiers & Smoke Filters",
+     "href": "air-purifiers-smoke-filters"
+    }
+   ]
+  },
+  {
+   "id": "benefits",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "BENEFITS"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/guarantee-savings-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "GUARANTEED SAVINGS"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/monitoring-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "MONITORING"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/improve-efficienty-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "IMPROVE EFFICIENCY"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/increase-asset-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "INCREASE ASSET LIFESPAN"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/nonstop-operation-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "NON STOP OPERATIONS"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/reduce-bill-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "REDUCED UTILITY BILL"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/safety-green-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "SAFETY"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/reduce-footprint-green.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "REDUCED FOOT PRINT"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,9 @@
 {
-  "extends": ["html-validate:recommended"],
+  "extends": [
+    "html-validate:recommended"
+  ],
   "rules": {
-    "doctype-style": "off"
+    "doctype-style": "off",
+    "long-title": "off"
   }
 }

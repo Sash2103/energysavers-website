@@ -1,0 +1,131 @@
+{
+ "slug": "case-studies",
+ "title": "",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studies",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/02/dubai-medical-University-hospital-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Dubai Medical University Hospital, Dubai (2022)"
+    },
+    {
+     "t": "p",
+     "text": "Harmonics Mitigation Solutions Active Harmonic Filters (AHF) Installation"
+    },
+    {
+     "t": "link",
+     "href": "dubai-medical-university-hospital-dubai"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/emicool-min-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Emicool in Motor City, Dubai (2021)"
+    },
+    {
+     "t": "p",
+     "text": "Power Quality Analysis of chillers and pump units Efficiency under SCADA Network"
+    },
+    {
+     "t": "link",
+     "href": "emicool-in-motor-city-dubai-2021"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/bif-factory-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "BID Factory, Al Quoz, Dubai (2021)"
+    },
+    {
+     "t": "p",
+     "text": "Harmonics & Reactive Power Solutions Installation of SVG/AHF Hybrid Rack-Mounted Panel"
+    },
+    {
+     "t": "link",
+     "href": "bid-factory-al-quoz-dubai-2021"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/dp-world-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "DP World, Dubai (2021)"
+    },
+    {
+     "t": "p",
+     "text": "Harmonics & Power Factor Solutions Installation of SVG/AHF Hybrid Rack-Mounted Panel"
+    },
+    {
+     "t": "link",
+     "href": "dp-world-dubai-2021"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/burj-ai-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Burj Al Arab, Jumeirah Group, Dubai (2021)"
+    },
+    {
+     "t": "p",
+     "text": "Migration & Upgrade of Existing Pool Control to Simatic WinCC"
+    },
+    {
+     "t": "link",
+     "href": "burj-al-arab-jumeirah-group-dubai-2021"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/wild-wadi-min-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Wild Wadi, Jumeirah Group, Dubai (2021)"
+    },
+    {
+     "t": "p",
+     "text": "Migration & Upgrade of Siemens Desigo to Simatic WinCC"
+    },
+    {
+     "t": "link",
+     "href": "wild-wadi-jumeirah-group-dubai-2021"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/mina-asalam-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Mina A’Salam, Jumeirah Group, Dubai (2021)"
+    },
+    {
+     "t": "p",
+     "text": "Supply, Installation & Commissioning of Water Source Heat Pump Plant"
+    },
+    {
+     "t": "link",
+     "href": "mina-asalam-jumeirah-group-dubai-2021"
+    }
+   ]
+  }
+ ]
+}

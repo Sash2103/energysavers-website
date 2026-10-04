@@ -1,0 +1,45 @@
+{
+ "slug": "dp-world-dubai-2021",
+ "title": "DP World, Dubai (2021)",
+ "description": "",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/04/DP-World.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Harmonics & Power Factor Solutions"
+    },
+    {
+     "t": "p",
+     "text": "Installation of SVG/AHF Hybrid Rack-Mounted Panel"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Non-Compliance to Utility Regulations",
+      "Critical Power Quality parameters (low PF & high harmonics)"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/bid-workplan-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

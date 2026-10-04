@@ -1,0 +1,59 @@
+{
+ "slug": "pq-box-50",
+ "title": "PQ-Box 50: The Mobile and Universal Power Quality Analyzer",
+ "description": "",
+ "sections": [
+  {
+   "id": "pq-box",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About PQ-Box 50"
+    },
+    {
+     "t": "p",
+     "text": "The perfect tool for energy management audits to ISO 50001. Our universal Class A power quality network analyzer, PQ-Box 50, has been developed for wide-ranging use and comes with an integrated power unit and robust housing, all in a small space. This network analyzer is for universal deployment and is ideal for mobile measurements in harsh environments or where space is highly limited."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/PQ-Box-50-min.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "pq-box-services",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Services"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "An Extremely Robust and Reliable",
+      "WLAN Interface for cableless communication with the software & App",
+      "Free Software WinPQ Mobile",
+      "Analyze faults in the ripple control telegram with ripple control analysis"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Technical Data sheet"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TD_PQBox50-Technical-Sheet.pdf"
+    },
+    {
+     "t": "h4",
+     "text": "Technical Specification"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/TS_PQBox50-Technical-Specification.pdf"
+    }
+   ]
+  }
+ ]
+}

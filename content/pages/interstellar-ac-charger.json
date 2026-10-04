@@ -1,0 +1,312 @@
+{
+ "slug": "interstellar-ac-charger",
+ "title": "Interstellar AC Charger",
+ "description": "Elevate your electric vehicle experience with our reliable and efficient EV chargers in Dubai. Discover a seamless charging solution that keeps your journey powered and worry-free.",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Interstellar Home Charger"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/Interstellar-AC-Charger-Brochure.pdf"
+    },
+    {
+     "t": "link",
+     "href": "contact"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/interstellar-ac-charger-main.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "pq-solutions",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Innovative appearance"
+    },
+    {
+     "t": "p",
+     "text": "+ - Innovative Design"
+    },
+    {
+     "t": "p",
+     "text": "Subverting the traditional design, inspired by our vast universe, the circular casing resembles the stars in the universe, with ring-shaped breathing lights, which is seem like space shuttle between the stars, providing users with new aesthetic experience."
+    },
+    {
+     "t": "p",
+     "text": "+ - IMD Technology"
+    },
+    {
+     "t": "p",
+     "text": "The casing adopts IMD technology, highly automated production, and whole body cast. The production steps and manufacturing process greatly reduce the use of raw materials and improve the production efficiency. With IMD technology, the shell of the Interstellar is scratch-resistant, corrosion-resistant, and has a longer service life."
+    },
+    {
+     "t": "p",
+     "text": "+ - Full-scene Charging Modes"
+    },
+    {
+     "t": "p",
+     "text": "The soft annular breathing light equipped three colors: blue, red, and green to represent three charging status. Through human-machine interaction and intelligent light control, the brightness and color of the breathing light can be adjusted to show its high-level appearance, and intuitively show the charging status of the device."
+    },
+    {
+     "t": "p",
+     "text": "+ - User-friendly Interface Design"
+    },
+    {
+     "t": "p",
+     "text": "Focuses on human machine conversation, Interstellar Using appropriate and concise language to make a shorter selection time, ensuring that the interface has elements that are easy to access, understand, and use to facilitate user operations. A breathing light as an indicator to visually show the operation status of the AC charger."
+    },
+    {
+     "t": "p",
+     "text": "+ - EV Cable Management System"
+    },
+    {
+     "t": "p",
+     "text": "Keep your charging station cables clean and organized to further enhance your property."
+    }
+   ]
+  },
+  {
+   "id": "protection-function",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Low-cost Charging"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/business.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "TO Business"
+    },
+    {
+     "t": "p",
+     "text": "Charge an electric vehicle up to 3 times faster than a conventional 3-pin plug"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/customer.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "TO Customer"
+    },
+    {
+     "t": "p",
+     "text": "8 times faster than a standard socket"
+    }
+   ]
+  },
+  {
+   "id": "dlm",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "What is DLM?"
+    },
+    {
+     "t": "p",
+     "text": "DLM is a system to supervise and manage electricity distribution. Its inputs include: electricity price, current time, building power consumption (measured by existing or additional meters), charger power consumption, etc. It defines the real-time power distribution strategy for all chargers connected and realizes optimized charging process."
+    },
+    {
+     "t": "img",
+     "src": "2023/01/dlm-left-min.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/01/dml-right-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "charging-power",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Charging Power"
+    },
+    {
+     "t": "p",
+     "text": "7kW/ 11kW / 22kW three power rating configurations Available in a type 2 connector"
+    },
+    {
+     "t": "h4",
+     "text": "7kW"
+    },
+    {
+     "t": "h5",
+     "text": "22kW"
+    },
+    {
+     "t": "h3",
+     "text": "IP65 Rated"
+    },
+    {
+     "t": "p",
+     "text": "Interstellar applies industry-leading IP65 dustproof and waterproof technology which can against dust and low pressure water jets from any direction. In severe weather such as rain, snow and sandstorms, it can still perform and operate efficiently and avoid suffering issues on the event to save maintenance costs."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dust",
+      "Rain",
+      "Heat",
+      "Cold"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/04/dust.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/rain.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/heat.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/cold.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/01/charging-power-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "protection-function1",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "safety protection"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/temperature.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Over-temperature protection"
+    },
+    {
+     "t": "p",
+     "text": "Intelligent temperature control to prevent high temperature from burning the AC charger."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/safety-short-circuit.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Short circuit protection"
+    },
+    {
+     "t": "p",
+     "text": "The power will be automatically cut off when the vehicle is short circuited to ensure its safety."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/emergency-stopstrong.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Emergency stop"
+    },
+    {
+     "t": "p",
+     "text": "In an emergency, you can cut off the power by pressing the emergency stop button simply."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/under-voltage.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Over/Under voltage protection"
+    },
+    {
+     "t": "p",
+     "text": "Protects the charging pile when the voltage given by the grid is unstable."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/overcurrent.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Overcurrent protection"
+    },
+    {
+     "t": "p",
+     "text": "Protect cables and other components by automatic cut-out from risks of overload and short circuits which cause fire."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/backflow.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Backflow prevention"
+    },
+    {
+     "t": "p",
+     "text": "Automatic power-off protection when the car voltage is higher than the charging pile."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/temperature.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Lighting protection"
+    },
+    {
+     "t": "p",
+     "text": "Deriving current to avoid equipment damage when lighting hits."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/earth-fault.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Earth fault protection"
+    },
+    {
+     "t": "p",
+     "text": "Giving the tripping command to avoid electrical system get short-circuited and ensure safety of users when in the event of an EVSE grounded fault."
+    }
+   ]
+  }
+ ]
+}

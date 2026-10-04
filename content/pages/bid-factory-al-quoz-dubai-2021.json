@@ -1,0 +1,58 @@
+{
+ "slug": "bid-factory-al-quoz-dubai-2021",
+ "title": "BID Factory, Al Quoz, Dubai (2021)",
+ "description": "Energy Savers is leading Capacitor bank Supplier in Dubai. We offer advantages over traditional heating and cooling systems for Food Industry, Hospitality Industry with energy efficiency, power qaulity and lower operating costs in UAE.",
+ "sections": [
+  {
+   "id": "case-studie",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/04/BID-Factory.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Harmonics & Reactive Power Solutions"
+    },
+    {
+     "t": "p",
+     "text": "Installation of SVG/AHF Hybrid Rack-Mounted Panel"
+    },
+    {
+     "t": "h4",
+     "text": "Key findings:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Critical Power Quality parameters (low PF & high harmonics)",
+      "Existing Contactor Switched Capacitor Bank"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": "Limitation of Existing Capacitor Banks"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Insufficient response time to variable speed VFD motors load, with consequent loss of efficiency and shorter lifespan",
+      "Reduced Power Factor",
+      "Higher current load on incomers and downstream site grid, reducing available connect load capacity",
+      "High phase loads un-balance"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Improvement Workplan"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/bid-workplan-min.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "slug": "power-quality",
+ "title": "Power Quality",
+ "description": "Energy Savers is professional Power Quality Analysis & Monitoring Solutions in Dubai. Our Power quality analyzer tool used for the quick and precise measurement or analysis of parameters such as power consumption and quality.",
+ "sections": [
+  {
+   "id": "energy-power",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Power Quality Analyzer"
+    },
+    {
+     "t": "p",
+     "text": "Power quality is a term used to describe the measurement of the quality and reliability of power provided by an electrical system. It describes the consistency and reliability of voltage, current and frequency. Good power quality ensures electrical systems are able to operate at their full potential, with minimal disruption or downtime. Poor power quality can cause problems such as fluctuations in voltage, surges, sags, harmonic distortion, and other irregularities. To ensure good power quality, it is necessary to install appropriate power quality control and monitoring systems.",
+     "href": "the-best-power-quality-solutions-for-your-industry"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Power-Quality.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "These systems are used to measure, monitor, and analyse the quality of the power supply and make necessary corrections to ensure that it meets the required standards. It is important to note that power quality is not only important for the performance of the equipment, but also for the safety of personnel working in the area."
+    }
+   ]
+  },
+  {
+   "id": "pq-products",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Power Quality Products"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/AHF-1-min.png",
+     "alt": "Active Harmonic Filter System",
+     "href": "ahf"
+    },
+    {
+     "t": "h5",
+     "text": "Active Harmonic Filters",
+     "href": "ahf"
+    },
+    {
+     "t": "p",
+     "text": "AHF/ AHF Pro",
+     "href": "ahf"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/Untitled-design-92-min.png",
+     "alt": "SVG Power Factor Correction",
+     "href": "static-var-generator"
+    },
+    {
+     "t": "h5",
+     "text": "Static Var Generators",
+     "href": "static-var-generator"
+    },
+    {
+     "t": "p",
+     "text": "SVG/ SVG Pro/ ASVG",
+     "href": "static-var-generator"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/Untitled-design-93-min.png",
+     "alt": "UPS Uninterruptible Power Supply",
+     "href": "uninterrupted-power-supply"
+    },
+    {
+     "t": "h5",
+     "text": "Uninterrupted Power Supply",
+     "href": "uninterrupted-power-supply"
+    },
+    {
+     "t": "p",
+     "text": "UPS",
+     "href": "uninterrupted-power-supply"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/Untitled-design-94-min.png",
+     "alt": "Voltage Optimizer Dubai",
+     "href": "voltage-optimizers"
+    },
+    {
+     "t": "h5",
+     "text": "Voltage Optimizer - OSKAR",
+     "href": "voltage-optimizers"
+    },
+    {
+     "t": "img",
+     "src": "2023/02/pq-mobile.png",
+     "alt": "Power Quality Analysers",
+     "href": "power-quality-mobile-anlayser"
+    },
+    {
+     "t": "h5",
+     "text": "Power Quality Mobile Analysers",
+     "href": "power-quality-mobile-anlayser"
+    }
+   ]
+  }
+ ]
+}

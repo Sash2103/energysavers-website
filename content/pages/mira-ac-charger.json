@@ -1,0 +1,402 @@
+{
+ "slug": "mira-ac-charger",
+ "title": "Mira AC Charger",
+ "description": "Discover the Mira 7kW AC Charger by Energy Savers: compact, weatherproof, and compatible with all EVs—ideal for home and workplace charging.",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Mira 7kW AC charger"
+    },
+    {
+     "t": "p",
+     "text": "Mira is an intelligent AC charger for residential charging use which features a smaller size design with a maximum output of 7kW which is more suitable for residential use. Mira adopts user-friendly design, that is convenient to use and easy to install and maintain. It also aims to save on energy consumption and energy costs, just enjoy the simple use of the Mira AC charger."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/Mira-AC-Charger-Spec.pdf"
+    },
+    {
+     "t": "link",
+     "href": "contact"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/mira-ac.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "focus-on-safety",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Streamlined design and high standard enclosure"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/streamlined-design.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "voltage-range",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Weatherproof and impact protection design for higher degree of safety"
+    },
+    {
+     "t": "p",
+     "text": "Easily adopted wide range of environmental conditions"
+    },
+    {
+     "t": "h3",
+     "text": "IP65"
+    },
+    {
+     "t": "p",
+     "text": "Industry leading IP rating, allowing to operate in the extreme humidity, extreme salt, extreme cold, extreme heat and other harsh condition."
+    },
+    {
+     "t": "h3",
+     "text": "IK09"
+    },
+    {
+     "t": "p",
+     "text": "Protect internal components and maintain safety at large mechanical impacts."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/weatherproof-image.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "technology",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Mode 3 EV Charger, 7kW charging"
+    },
+    {
+     "t": "h2",
+     "text": "Ideal for private charging and workplace charging"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "7kW level 2 AC charger, with 32A output(single phase)",
+      "Compatible with all electric vehicles and plug-in hybrid vehicles",
+      "Most charging happens at home or work, and the Mira is well suited in these charging scenarios, such as community parking lots, home garages, commercial building parking lots, workplaceparking lots, etc."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pq-solutions",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Smart charging functions for optimized charging"
+    }
+   ]
+  },
+  {
+   "id": "protection-function",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Monitor and control\nvia APP, convenient to use"
+    },
+    {
+     "t": "p",
+     "text": "Sinexcel AC is an APP for charging your electric vehicle with easy operation and multiple functions. It supports multiple convenient functions, such as starting and stopping charging, selecting different charging modes, tracking charging activities, etc."
+    },
+    {
+     "t": "p",
+     "text": "Get it on Google Play Download on the App Store"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/manage-charging.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Manage charging schedule"
+    },
+    {
+     "t": "p",
+     "text": "Schedule the charging to charge your EV at off-peak hours and save electricity costs."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/authorization.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Authorization function"
+    },
+    {
+     "t": "p",
+     "text": "You can give the authorization to your family, friends, neighbors and other people whom you want to share your EV charger"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/monitor-charging.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Monitor charging status"
+    },
+    {
+     "t": "p",
+     "text": "Monitor the charging activity in real-time and view the charging sessions and charging reports"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/parameters.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Parameters setting"
+    },
+    {
+     "t": "p",
+     "text": "Set the network parameters and charging parameters to suit every charging scenario and application"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/charging-modes.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Charging modes selection"
+    },
+    {
+     "t": "p",
+     "text": "According to different charging requirements, plug&charge mode, remote start/stop mode or other charging modes can be used"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/bluetooth.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "OTA"
+    },
+    {
+     "t": "p",
+     "text": "Upgrade the EV charger program via communication with Bluetooth of the APP"
+    }
+   ]
+  },
+  {
+   "id": "focus-on-safety",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "The economical solution for your AC charger business"
+    },
+    {
+     "t": "h3",
+     "text": "The economical solution for your AC charger business"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Earth leakage protection",
+      "Warranty",
+      "Appearance",
+      "Charging methods",
+      "Update/commissioning"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Mira AC charger"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Built-in RCD",
+      "3 years(extendable)",
+      "Streamlined design with customized colours",
+      "APP, RFID, Plug&Charge",
+      "Remote software updates and remote fault diagnosis"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Other chargers"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "External RCD",
+      "Average warranty of 2 years",
+      "Lack of innovative design",
+      "Without APP function",
+      "On site commissioning"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "protection-function1",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Safety protection"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/safety-short-circuit.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Short circuit protection"
+    },
+    {
+     "t": "p",
+     "text": "The power will be automatically cut off when the vehicle is short circuited to ensure its safety."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/emergency-stopstrong.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Emergency stop"
+    },
+    {
+     "t": "p",
+     "text": "In an emergency, you can cut off the power by pressing the emergency stop button simply."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/under-voltage.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Over/Under voltage protection"
+    },
+    {
+     "t": "p",
+     "text": "Voltage fluctuations in the power supply will cause voltage problems. Trip mechanism protects the charging pile when the voltage given by the grid is unstable."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/overcurrent.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Overcurrent protection"
+    },
+    {
+     "t": "p",
+     "text": "Protect cables and other components by automatic cut-out from risks of overload and short circuits which cause a fire."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/backflow.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Backflow prevention"
+    },
+    {
+     "t": "p",
+     "text": "Automatic power-off protection when the car voltage is higher than the charging pile."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/lighting.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Lighting protection"
+    },
+    {
+     "t": "p",
+     "text": "Deriving current to avoid equipment damage when lighting hits."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/earth-fault.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Earth fault protection"
+    },
+    {
+     "t": "p",
+     "text": "Giving the tripping command to avoid electrical system get short-circuited and ensure safety of users when in the event of an EVSE grounded fault."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/overcurrent.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Over/Under frequency protection"
+    },
+    {
+     "t": "p",
+     "text": "Monitor the frequency continuously, and protect the charger when the frequency of grid is unusual"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/overcurrent.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "Flame retardant protection"
+    },
+    {
+     "t": "p",
+     "text": "The EV charger is made of flame retard dant materials and can protect the charger from fire"
+    }
+   ]
+  },
+  {
+   "id": "ser-specification",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Technical specifications"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/mira-ac-specifications.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/mira-ac-speci-right.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

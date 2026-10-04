@@ -1,6 +1,7 @@
 /* Energy Savers — page behaviour. Plain JS, no dependencies.
-   Sections: helpers · header & menus · hero waveform · AHF exploded view · workplans ·
-   product sheet · case sheet · certificates · sectors · contact form · quick actions · logo */
+   Sections: helpers · header & menus · hero waveform · exploded blueprints · workplans ·
+   product sheet · case sheet · certificates · rails · sectors · tabs · contact form · quick actions · logo
+   The same file runs on every page; each block returns early when its elements are not on the page. */
 (function () {
   'use strict';
 
@@ -22,7 +23,7 @@
   function setMega(open, focusFirst) {
     megaBtn.setAttribute('aria-expanded', String(open));
     mega.hidden = !open;
-    if (open && focusFirst) { var first = $('button', mega); if (first) first.focus(); }
+    if (open && focusFirst) { var first = $('a, button', mega); if (first) first.focus(); }
   }
   megaBtn.addEventListener('click', function (e) {
     var open = megaBtn.getAttribute('aria-expanded') !== 'true';
@@ -153,12 +154,11 @@
     setTimeout(function () { if (target === 1 && sw.getAttribute('aria-pressed') === 'false') setTarget(true); }, 1500);
   })();
 
-  /* ------------------------------------------------------------ AHF exploded view */
-  (function () {
-    var section = $('#ahf');
-    var drawing = $('.ahf-drawing');
-    var track = $('.ahf__track');
-    if (!section || !drawing) return;
+  /* ------------------------------------------------------------ exploded blueprints (AHF, heat pump) */
+  $$('.ahf').forEach(function (section) {
+    var drawing = $('.ahf-drawing', section);
+    var track = $('.ahf__track', section);
+    if (!drawing || !track) return;
 
     var ticking = false;
     var mode = '';
@@ -218,14 +218,28 @@
     configure();
     desktop.addEventListener('change', configure);
     window.addEventListener('resize', onScroll, { passive: true });
-  })();
+  });
 
   /* ------------------------------------------------------------ workplans: run the current once */
+  // Each step lights when the current reaches it: --at is the step's position along the bus (0–1).
+  function runWorkplan(w) {
+    var steps = $('.workplan__steps', w);
+    var across = getComputedStyle(steps).gridAutoFlow.indexOf('column') !== -1;
+    var length = Math.max(1, across ? steps.clientWidth - 14 : steps.clientHeight - 40);
+    $$('.wp', w).forEach(function (li) {
+      var at = (across ? li.offsetLeft : li.offsetTop) / length;
+      li.style.setProperty('--at', clamp(at, 0, 1).toFixed(3));
+    });
+    w.classList.add('is-live');
+  }
   var workplanIO = ('IntersectionObserver' in window && motion) ? new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
-      if (en.isIntersecting) { en.target.classList.add('is-live'); workplanIO.unobserve(en.target); }
+      if (!en.isIntersecting) return;
+      workplanIO.unobserve(en.target);
+      // a short pause once it is in view, so the eye is there before the current starts
+      setTimeout(function () { runWorkplan(en.target); }, 350);
     });
-  }, { threshold: 0.5 }) : null;
+  }, { threshold: 0.6 }) : null;
   function watchWorkplans(ctx) {
     $$('[data-workplan]', ctx).forEach(function (w) {
       if (workplanIO) workplanIO.observe(w); else w.classList.add('is-live');
@@ -261,6 +275,7 @@
   /* ------------------------------------------------------------ product sheet */
   (function () {
     var dlg = $('#product-sheet');
+    if (!dlg) return;
     var chips = $('#product-chips');
     var lineLabel = $('#product-sheet-line');
     var articles = $$('.product', dlg);
@@ -338,6 +353,7 @@
   /* ------------------------------------------------------------ case sheet */
   (function () {
     var dlg = $('#case-sheet');
+    if (!dlg) return;
     var body = $('#case-sheet-body');
     document.addEventListener('click', function (e) {
       var t = e.target.closest('[data-case]');
@@ -360,6 +376,7 @@
   /* ------------------------------------------------------------ certificates */
   (function () {
     var dlg = $('#cert-lightbox');
+    if (!dlg) return;
     $$('[data-cert]').forEach(function (b) {
       b.addEventListener('click', function () {
         $$('[data-cert-view]', dlg).forEach(function (f) { f.hidden = f.dataset.certView !== b.dataset.cert; });
@@ -367,6 +384,58 @@
       });
     });
   })();
+
+  /* ------------------------------------------------------------ rails (services): buttons, counter, drag */
+  $$('.rail').forEach(function (rail) {
+    var cards = Array.prototype.slice.call(rail.children);
+    var controls = $('[data-rail-controls="' + rail.id + '"]');
+    var dots = $$('[data-rail-dots="' + rail.id + '"] span');
+    var prev = controls && $('[data-rail-prev]', controls);
+    var next = controls && $('[data-rail-next]', controls);
+    var counter = controls && $('[data-rail-index]', controls);
+    var behavior = motion ? 'smooth' : 'auto';
+    var ticking = false;
+
+    function step() { return cards.length > 1 ? cards[1].offsetLeft - cards[0].offsetLeft : rail.clientWidth; }
+    function atEnd() { return rail.scrollLeft >= rail.scrollWidth - rail.clientWidth - 2; }
+    function index() { return atEnd() ? cards.length - 1 : clamp(Math.round(rail.scrollLeft / step()), 0, cards.length - 1); }
+    function sync() {
+      ticking = false;
+      var i = index();
+      if (counter) counter.textContent = (i + 1 < 10 ? '0' : '') + (i + 1);
+      dots.forEach(function (d, k) { d.classList.toggle('is-active', k === i); });
+      if (prev) prev.disabled = rail.scrollLeft <= 2;
+      if (next) next.disabled = atEnd();
+    }
+    rail.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(sync); } }, { passive: true });
+    window.addEventListener('resize', sync, { passive: true });
+    if (prev) prev.addEventListener('click', function () { rail.scrollBy({ left: -step(), behavior: behavior }); });
+    if (next) next.addEventListener('click', function () { rail.scrollBy({ left: step(), behavior: behavior }); });
+
+    // drag with a mouse (touch and trackpads already scroll natively)
+    var down = false, dragged = false, startX = 0, startLeft = 0;
+    rail.addEventListener('pointerdown', function (e) {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      down = true; dragged = false; startX = e.clientX; startLeft = rail.scrollLeft;
+    });
+    window.addEventListener('pointermove', function (e) {
+      if (!down) return;
+      var dx = e.clientX - startX;
+      if (!dragged && Math.abs(dx) > 6) { dragged = true; rail.classList.add('is-dragging'); }
+      if (dragged) rail.scrollLeft = startLeft - dx;
+    });
+    window.addEventListener('pointerup', function () {
+      if (!down) return;
+      down = false;
+      if (!dragged) return;
+      rail.classList.remove('is-dragging');
+      rail.scrollTo({ left: index() * step(), behavior: behavior });
+      setTimeout(function () { dragged = false; }, 0);
+    });
+    rail.addEventListener('click', function (e) { if (dragged) { e.preventDefault(); e.stopPropagation(); } }, true);
+    rail.addEventListener('dragstart', function (e) { e.preventDefault(); });
+    sync();
+  });
 
   /* ------------------------------------------------------------ sectors: sticky photo follows the list */
   (function () {
@@ -388,10 +457,59 @@
     activate(items[0].dataset.sector);
   })();
 
+  /* ------------------------------------------------------------ tabs (sector pages): the phases become tabs */
+  // Without the script every phase shows, one after another, under its own heading.
+  $$('[data-tabs]').forEach(function (box, n) {
+    var panels = $$('.phase', box);
+    if (panels.length < 2) return;
+    var list = document.createElement('div');
+    list.className = 'tabs__list';
+    list.setAttribute('role', 'tablist');
+    var tabs = panels.map(function (panel, i) {
+      var title = $('.phase__title', panel);
+      var tab = document.createElement('button');
+      tab.type = 'button';
+      tab.className = 'tabs__tab';
+      tab.id = 'tab-' + n + '-' + i;
+      tab.textContent = title.textContent;
+      tab.setAttribute('role', 'tab');
+      tab.setAttribute('aria-controls', panel.id);
+      panel.setAttribute('role', 'tabpanel');
+      panel.setAttribute('aria-labelledby', tab.id);
+      panel.tabIndex = 0;
+      list.appendChild(tab);
+      return tab;
+    });
+    function select(i, focus) {
+      tabs.forEach(function (t, j) {
+        t.setAttribute('aria-selected', String(i === j));
+        t.tabIndex = i === j ? 0 : -1;
+        panels[j].hidden = i !== j;
+      });
+      if (focus) tabs[i].focus();
+    }
+    list.addEventListener('click', function (e) {
+      var t = e.target.closest('[role="tab"]');
+      if (t) select(tabs.indexOf(t));
+    });
+    list.addEventListener('keydown', function (e) {
+      var i = tabs.indexOf(document.activeElement);
+      if (i < 0) return;
+      var next = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : null;
+      if (next === null) return;
+      e.preventDefault();
+      select((next + tabs.length) % tabs.length, true);
+    });
+    box.insertBefore(list, panels[0]);
+    box.classList.add('is-tabbed');
+    select(0);
+  });
+
   /* ------------------------------------------------------------ contact form */
   var form = $('#enquiry');
   var contact = $('#contact');
   function startEnquiry(interest, note) {
+    if (!form || !contact) return;
     var sel = $('#f-interest');
     if (interest) sel.value = interest;
     var msg = $('#f-message');
@@ -404,7 +522,7 @@
     a.addEventListener('click', function (e) {
       e.preventDefault();
       if (!mobileMenu.hidden) setMenu(false);
-      startEnquiry(a.dataset.interest);
+      startEnquiry(a.dataset.interest, a.dataset.note);
     });
   });
 
@@ -446,8 +564,8 @@
   /* ------------------------------------------------------------ quick actions (call + WhatsApp) */
   (function () {
     var qa = $('#quick-actions');
-    var hero = $('.hero');
-    if (!qa || !('IntersectionObserver' in window)) { if (qa) qa.classList.add('is-visible'); return; }
+    var hero = $('.hero, .page-head');
+    if (!qa || !hero || !contact || !('IntersectionObserver' in window)) { if (qa) qa.classList.add('is-visible'); return; }
     document.body.classList.add('has-quick-bar');
     var pastHero = false, atContact = false;
     function sync() { qa.classList.toggle('is-visible', pastHero && !atContact); }

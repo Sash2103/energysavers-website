@@ -1,0 +1,76 @@
+{
+ "slug": "uninterrupted-power-supply",
+ "title": "Uninterrupted Power Supply",
+ "description": "Reliable Uninterrupted Power Supply in UAE to protect your systems and prevent downtime with efficient backup power solutions.",
+ "sections": [
+  {
+   "id": "ups",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Uninterrupted Power Supply"
+    },
+    {
+     "t": "p",
+     "text": "An Uninterrupted Power Supply (UPS) is a device that provides emergency power to electrical equipment when the primary power source fails. It is also called an uninterruptible power supply, and is designed to provide protection against power outages and power surges. It supplies a continuous source of power to a connected device, such as a computer, router, or other electronic equipment, in the event of a power failure or blackout. UPS systems typically contain a battery that stores energy to provide power when needed. The battery is charged with the primary power source and can be used to provide power when the primary power source is not available. Depending on the type of UPS, the battery can last from a few minutes to several hours, depending on the amount of power being used. UPS systems can also be used to protect against power surges, which can cause damage to sensitive electronic equipment."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/Sinexcel-UPS-brochure-Download.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ups-first",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "UPS FEATURE"
+    },
+    {
+     "t": "h2",
+     "text": "Intelligent Fast Fourier Transform"
+    },
+    {
+     "t": "pdf",
+     "href": "2023/03/Sinexcel-UPS-Solutions-Brochure-V03-210824-Data-Sheet.pdf"
+    },
+    {
+     "t": "p",
+     "text": "DOWNLOAD DATASHEET"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Single Phase in and Single Phase Out – 1~20kVA",
+      "Three Phase in and Three Phase Out – 1~30kVA",
+      "Three Phase in and Single Phase Out – 1~30kVA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ups-second",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "97% high efficiency on-line mode"
+    },
+    {
+     "t": "p",
+     "text": "From the component’s selection to circuit design, we are striving to obtain a more efficient and stable UPS solution."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/97-high-efficiency-on-line-mode-1.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/03/97-high-efficiency-on-line-mode-2.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

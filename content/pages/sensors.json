@@ -1,0 +1,49 @@
+{
+ "slug": "sensors",
+ "title": "Sensors",
+ "description": "Upgrade efficiency with advanced sensors from Energy Savers. Monitor, control, and optimize energy use in smart systems across the UAE.",
+ "sections": [
+  {
+   "id": "automation-detail",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Sensors"
+    },
+    {
+     "t": "p",
+     "text": "Sensors in SCADA automations are components of the automation system that measure physical conditions such as temperature, pressure, and flow. We provide input to the SCADA system, which can then be used to control and monitor processes. Sensors are typically connected to a PLC or RTU, which converts the sensor signal into digital data that can be used by the SCADA system. Types of sensors used in SCADA automations include: temperature, pressure, humidity, flow, light, and vibration sensors. These sensors can be connected to multiple types of devices such as valves, pumps, motors, and switches. By monitoring the performance of these devices, the SCADA system can detect any potential problems and take corrective action."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/3.-Sensor-1-min.png",
+     "alt": "building management systems"
+    },
+    {
+     "t": "p",
+     "text": "These sensors are vital components of any SCADA system, as they play a key role in monitoring and controlling the process. By providing accurate and timely data, they can help maximize the efficiency and performance of the process."
+    }
+   ]
+  },
+  {
+   "id": "automation-list",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Sensors in SCADA systems provide a wide range of benefits, including:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Improved accuracy and precision in data collection and analysis.",
+      "Improved safety, as sensors can detect any dangerous conditions in the system.",
+      "Real-time monitoring of the system to detect any abnormalities or abnormalities in performance.",
+      "Automated control of processes, as the system is able to respond quickly to changes in monitored conditions.",
+      "Increased efficiency, as the SCADA system is able to analyze data quickly and accurately.",
+      "Cost savings, as the system is able to detect problems early on, preventing more costly repairs and downtime."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "smart-meters",
+ "title": "Smart Meters",
+ "description": "Optimize energy use with Energy Savers' smart meters. Accurate monitoring solutions for cost reduction and enhanced efficiency in Dubai.",
+ "sections": [
+  {
+   "id": "automation-detail",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Smart Meters"
+    },
+    {
+     "t": "p",
+     "text": "A smart meter is an electronic device that records energy consumption of a home or business in intervals of an hour or less and communicates that information at least daily back to the utility for monitoring and billing purposes. Smart meters enable two-way communication between the meter and the central system. They typically use one-way radio frequency communication technology, but some use power line carrier communication and others use other communication technologies such as mesh networks. Smart meters can be used to provide customers with energy usage information and to help them make informed decisions about their energy consumption."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/2.-Smart-Meters-min.png",
+     "alt": "building management systems"
+    },
+    {
+     "t": "p",
+     "text": "Smart meters can also be used to detect and diagnose problems with appliances and other home systems. Smart meters are increasingly being used in many countries to replace traditional analog electricity meters. Smart meters provide detailed information on electricity usage that can be used to analyse and manage electricity consumption. Smart meters can also be used to detect and diagnose problems with appliances and other home systems. Smart meters are an essential component of smart grid technology, which is being used to modernize the electrical grid by enabling two-way communication between the electricity provider and customers."
+    }
+   ]
+  }
+ ]
+}

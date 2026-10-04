@@ -1,0 +1,118 @@
+{
+ "slug": "air-purifiers-smoke-filters",
+ "title": "Air Purifiers / Smoke Filters",
+ "description": "High-Efficiency Smoke Filters on experience with our premium systems. Engineered for maximum performance and efficiency, our solutions deliver cleaner air and improved workplace safety. Upgrade today for a healthier, more productive environment.",
+ "sections": [
+  {
+   "id": "air-purifiers",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "About Air Purifiers/Smoke Filters"
+    },
+    {
+     "t": "p",
+     "text": "Air purifiers or smoke filters are devices that remove pollutants from the air in a room or building. They usually use a fan to draw air in, pass it through a filter, and then return the filtered air back into the room. The filters may use a variety of technologies to capture pollutants such as activated carbon, HEPA filters, ozone generators, and ionizers. Air purifiers can help reduce the effects of indoor air pollution and improve air quality."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/Air-Purifiers-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "air-purifiers-feature",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Features of Air Filters"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "text": "HEPA Filters: The most common type of filter used in air purifiers is the High Efficiency Particulate Air (HEPA) filter. This type of filter is designed to capture particles of 0.3 microns or larger from the air, which includes dust, pollen, pet dander, and smoke particles.",
+       "lead": "HEPA Filters"
+      },
+      {
+       "text": "Activated Carbon Filters: Activated carbon filters are great at removing smell, chemicals, smoke, and other pollutants from the air.",
+       "lead": "Activated Carbon Filters"
+      },
+      {
+       "text": "UV Lights: Ultraviolet (UV) lights are used to kill bacteria, viruses, and other microorganisms in the air.",
+       "lead": "UV Lights"
+      },
+      {
+       "text": "Ozone Generators: Ozone generators produce ozone, a gas that can help to remove smoke particles from the air. However, ozone can also be harmful to humans, so it should not be used in occupied areas.",
+       "lead": "Ozone Generators"
+      },
+      {
+       "text": "Ionizers: Ionizers use electrical charges to reduce airborne particles, such as dust and smoke. They can also help to reduce smell and static electricity.",
+       "lead": "Ionizers"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/03/Features-of-Air-Filters-min.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "benefits",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Benefits"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-benefit-1-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Clean Air"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-benefit-2-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Indoor Recycling"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-benefit-3-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Cooling intact"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-benefit-4-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Controls VOC"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/product-benefit-5-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h5",
+     "text": "Sterile environment"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "slug": "sec-40-80kw-integrated-charger",
+ "title": "SEC 40-80kW Integrated Charger",
+ "description": "Discover the SEC 40–80kW Integrated Charger by Energy Savers: scalable, high-efficiency DC fast charging with modular design for flexible deployment.",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Sinexcel SEC 80kW charger is equipped with 2 DC charging connectors, which supports the output at a maximum of 1000V and 80kW full power. In order to charge for more EVs at the same time, an Type 2 connector with 22kW is optional to realize this purpose. It is suitable to various charging scenarios and also meet most of EVs’ charging needs in the market."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/Technical-Specifications-Sinexcel-SEC-80kW-DC-Charger.pdf"
+    },
+    {
+     "t": "link",
+     "href": "contact"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-40-80-kw.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "stability",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Ultra wide output\nvoltage & high efficiency"
+    },
+    {
+     "t": "p",
+     "text": "Output voltage 200-1000V, Constant output voltage 300-1000V.\nSupport high power charging and can output at 80kW continuously.\nCompatible with all EVs in the market and meet future demands."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/constant-power.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ultra-wide-output.png",
+     "alt": ""
+    },
+    {
+     "t": "p",
+     "text": "Equipped with Sinexcel self-developed power module, SEC 80kW can output at a peak efficiency of 96%, which can reduce the power consumption and save the cost thus realize the max profit."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/equipped.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "charging-power",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "40-80kW FLEXIBLE CONFIGURATION FOR DC CHARGING"
+    },
+    {
+     "t": "p",
+     "text": "The SEC 80kW charging system is designed to support a maximum output power of 80kW, ensuring a faster charging rate and an enhanced user experience. Its modular design allows simultaneous charging, with power distribution equally allocated to each connector for flexible power configuration. Equipped with a Sinexcel 20kW power module, this DC charging system offers high efficiency and optimal power utilization. The 40-80kW flexible configuration supports customization and seamless upgrades by adding additional power modules. As a Siemens System Integrator in Dubai, we ensure top-tier integration solutions for efficient and reliable charging infrastructure, meeting the growing demands of the EV industry."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/40-80-kw-flexible.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/40-80-kw-flexible-right.gif",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "hot-plugging",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Connector options"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-80kw-connector-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 80kW CCS2+CCS2+Type2"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-80kw-connector-2.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 80kW CCS2+CHAdeMO+Type2"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-80kw-connector-3.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 80kW CCS2+CHAdeMO"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-80kw-connector-4.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 80kW CCS2 +CCS2"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-80kw-connector-5.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "SEC 80kW CCS2"
+    }
+   ]
+  },
+  {
+   "id": "ser-application",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Modular design for easy installation and maintenance"
+    },
+    {
+     "t": "p",
+     "text": "SEC 80kW adopts function modular design, which makes it convenient to produce, install and maintain."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/modular-design.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ser-specification",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Technical specifications"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-40kw-specifications-1.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ser-40kw-specifications-right.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

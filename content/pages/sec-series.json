@@ -1,0 +1,179 @@
+{
+ "slug": "sec-series",
+ "title": "SEC Series",
+ "description": "Explore Energy Savers' SEC Series EV chargers: scalable, high-efficiency solutions from 30kW to 1280kW, ideal for public and fleet charging needs.",
+ "sections": [
+  {
+   "id": "sec-banner",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Sinexcel has developed the innovative constant power technology, we follow a long-term strategy of marketing, reliable 60-160kW flexible configuration, a convenient power extension, components for high availability and reliability to cover multiple application such as hotel, hospital. we have a clear roadmap for upgrades make our charging systems future proof."
+    },
+    {
+     "t": "pdf",
+     "href": "2023/04/1679024361.pdf"
+    },
+    {
+     "t": "link",
+     "href": "contact"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/SEC-Series.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "technical-benefit",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Technical advantages"
+    },
+    {
+     "t": "h2",
+     "text": "Ultra wide output voltage range to meet market demand"
+    },
+    {
+     "t": "p",
+     "text": "200V-1000V, Compatible with the vast majority of voltage platforms and vehicle charging, Reduces operating expenses, increases carrier earnings, and meets the next 5-10 years of technology."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/ultra-wide-output.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "intelligent",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Technical advantages"
+    },
+    {
+     "t": "h2",
+     "text": "Constant power output speed up charging process"
+    },
+    {
+     "t": "p",
+     "text": "300V-1000V constant power dual output segment, improves the power utilization ratio of DC charger, raises the operation efficiency, and maximizes carrier revenue."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/constant-power.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "sec-dynamic",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Technical advantages"
+    },
+    {
+     "t": "h2",
+     "text": "intelligent dynamic power allocation"
+    },
+    {
+     "t": "p",
+     "text": "The SEC 80kW charging system delivers fast, efficient charging with a modular design for simultaneous charging and flexible power distribution. Sinexcel’s advanced power balancing minimizes costs and breakdowns, enhancing efficiency and profitability. With the Sinexcel 20kW power module, it ensures high power utilization and easy scalability from 40kW to 80kW. Integrated with Siemens WinCC in UAE, it offers reliable performance, optimized energy management, and seamless monitoring for EV charging infrastructure."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/power-image.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/dynamic-right.jpg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "voltage-range",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Technical advantages"
+    },
+    {
+     "t": "h2",
+     "text": "60 - 160kW Flexible Configuration"
+    },
+    {
+     "t": "p",
+     "text": "Customize the EV Charger power configuration for power range 60-160kW, and we reserve power expansion that the EV Charger reliable 180kW in the future, we are experts in developing the right solution for your needs."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/flexible-right.gif",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ser-application",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Built in Safety"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-safety.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-safety-mobile.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "ser-specification",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Specifications"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-specifications.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/sec-speci-right.png",
+     "alt": "",
+     "href": "ser-series"
+    },
+    {
+     "t": "link",
+     "href": "ser-series"
+    }
+   ]
+  },
+  {
+   "id": "focus-on-safety",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Sinexcel EV Charging Station Solutions"
+    },
+    {
+     "t": "img",
+     "src": "2023/04/station-image.jpg",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}

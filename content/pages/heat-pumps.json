@@ -1,0 +1,104 @@
+{
+ "slug": "heat-pumps",
+ "title": "Heat Pumps System",
+ "description": "Energy Savers is leading heat pumps System Supplier in Dubai. We offer advantages over traditional heating and cooling systems for Food Industry, Hospitality Industry with energy efficiency and lower operating costs in Dubai, UAE.",
+ "sections": [
+  {
+   "id": "about-heat",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "ABOUT ES Heat Pump and Air Conditioner"
+    },
+    {
+     "t": "p",
+     "text": "A heat pump is a device that transfers heat energy from a source of heat to what is called a thermal reservoir. Heat pumps are used to provide heating, cooling, and hot water to buildings in the form of space heating, air conditioning, and domestic hot water. Heat pumps transfer heat by circulating a refrigerant through a cycle of evaporation and condensation. Heat pumps can be used to cool as well as heat a space and are often used as an energy efficient alternative to furnaces and air conditioners. Heat pumps are used in a variety of applications, including residential, commercial and industrial settings. They are also used in applications such as geothermal heating and cooling, ground source heat pumps, and absorption heat pumps. Heat pumps offer a number of advantages over traditional heating and cooling systems, including increased energy efficiency and lower operating costs."
+    },
+    {
+     "t": "img",
+     "src": "2023/01/heat-pumps-1-min.png",
+     "alt": "Advantages of Heat Pumps System"
+    }
+   ]
+  },
+  {
+   "id": "advantages",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "ADVANTAGES OF HEAT PUMPS"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Free secondary source – Heating or Cooling",
+      "Higher Co-Efficient of Performance (COP)",
+      "Easy maintenance",
+      "Replaces boilers/calorifiers",
+      "Energy cost savings",
+      "ROI less than 12 months in most cases",
+      "Simultaneous heating and cooling",
+      "Can be Integrated into existing SCADA network"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "2023/01/advantages-of-heat-pumps-1024x747-1-min.png",
+     "alt": "Heat Pump System"
+    }
+   ]
+  },
+  {
+   "id": "insustrial-sec",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Industrial APPLICATIONS"
+    },
+    {
+     "t": "h5",
+     "text": "Food Industry"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Boiler pre-heating"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Process Heating & Cooling"
+    },
+    {
+     "t": "h5",
+     "text": "Hospitality"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Domestic/Potable hot and cold water",
+      "Kitchen application"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Swimming Pool heating and cooling"
+    },
+    {
+     "t": "p",
+     "text": "Similar applications in other industries"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/Calorifier-min.png",
+     "alt": "Industrial Heating and Cooling Systems"
+    },
+    {
+     "t": "img",
+     "src": "2023/01/Boiler-min.png",
+     "alt": "HVAC Services & Systems for Hotels & Hospitality"
+    }
+   ]
+  }
+ ]
+}

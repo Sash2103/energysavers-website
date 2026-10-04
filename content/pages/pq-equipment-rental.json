@@ -1,0 +1,52 @@
+{
+ "slug": "pq-equipment-rental",
+ "title": "PQ Equipment Rental",
+ "description": "Rent advanced power quality analyzers in UAE from Energy Savers - ideal for audits, harmonic studies, and electrical system diagnostics.",
+ "sections": [
+  {
+   "id": "services",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "PQ Equipment Rental is a business that provides rental services for a variety of heavy equipment and machinery, such as backhoes, forklifts, excavators, bulldozers, and more. The company works with both commercial and residential customers to provide the most cost-effective and reliable rental services. PQ Equipment Rental also offers maintenance services, emergency repairs, delivery, and pickup services. The company’s goal is to provide customers with a safe and reliable rental experience, and their customer service team is available 24/7 to answer any questions and concerns. PQ Equipment Rental is committed to providing quality service and reliable equipment to its customers, at the most competitive prices."
+    },
+    {
+     "t": "img",
+     "src": "2023/03/5.-PQ-Equipment-Rental-1-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 50: The Mobile and Universal Power Quality Analyzer"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/5.-PQ-Equipment-Rental-2-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 150: The Mobile Power Quality Allrounder"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/5.-PQ-Equipment-Rental-3-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 200: The Mobile Tool for the Expert"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/5.-PQ-Equipment-Rental-4-min.png",
+     "alt": ""
+    },
+    {
+     "t": "h3",
+     "text": "PQ-Box 300: The Mobile High Frequency Power Quality Tool"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "slug": "solutions",
+ "title": "",
+ "description": "Explore expert energy audit, HVAC optimization, automation, and power quality solutions in Dubai to boost efficiency and reduce energy costs.",
+ "sections": [
+  {
+   "id": "solution",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "2023/03/power-audit22.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "Power Quality Audits"
+    },
+    {
+     "t": "p",
+     "text": "Power quality audit is a process of measuring and evaluating the quality of electric power supplied to a facility. The audit involves testing the voltage, frequency, and power factor of the power delivered to the facility, testing for harmonics, and checking the quality of the power. The audit also looks at the equipment used to monitor and control the power, and assesses the overall quality of the power supply to the facility."
+    },
+    {
+     "t": "link",
+     "href": "power-quality-audits"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/renewable-energy-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "Power Quality Solutions"
+    },
+    {
+     "t": "p",
+     "text": "Power Quality solutions refer to the strategies, technologies and equipment used to ensure that the quality of electrical power supplied to the grid is within acceptable limits. This includes monitoring, analysing, and controlling the voltage, frequency, and power factor of the power supply. Examples of solutions include power factor correction, harmonic mitigation, voltage regulation, over-voltage protection, surge protection, and filter systems."
+    },
+    {
+     "t": "link",
+     "href": "power-quality-solutions"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/hvac-optimisation222.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "HVAC Optimization"
+    },
+    {
+     "t": "p",
+     "text": "HVAC Optimization is the process of improving the efficiency of heating, ventilation, and air conditioning systems (HVAC) by adjusting and fine-tuning components to achieve higher performance. This involves analysing system functions, such as airflow, temperature, humidity, and energy consumption, and then making modifications to maximize efficiency. Optimization can result in improved comfort, better energy efficiency, and lower utility bills."
+    },
+    {
+     "t": "link",
+     "href": "hvac-optimization"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/automated-solution22-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "Automation Solutions"
+    },
+    {
+     "t": "p",
+     "text": "In today’s environment, a successfully managed industry must also be intelligently networked providing real time information to multiple stakeholders needing swift decisions to ensure security, safety and comfort of the occupants and protect the longevity of its assets. Energy Savers provides SCADA automation solutions catered to your business requirements with high efficiency and productivity including integration of extensive types of devices to existing BMS, upgrade of software functionality and customisation of control systems."
+    },
+    {
+     "t": "link",
+     "href": "automation-solutions"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/air-quality22-1.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "Indoor Air quality Improvement"
+    },
+    {
+     "t": "p",
+     "text": "Efficient Indoor Air Quality Enhancement Solutions offered providing air purifiers, smoke filters and odour treatment units for enhanced fresh air quality."
+    },
+    {
+     "t": "link",
+     "href": "indoor-air-quality-improvement"
+    },
+    {
+     "t": "img",
+     "src": "2023/03/smart-metering22.png",
+     "alt": ""
+    },
+    {
+     "t": "h2",
+     "text": "Smart Metering & Lighting"
+    },
+    {
+     "t": "p",
+     "text": "Smart Metering and Lighting are technologies that are used to increase energy efficiency and reduce energy costs in homes and businesses. Smart Meters are digital devices that measure and record electricity, gas, or water usage in real-time. Smart Lighting systems use sensors and automation to control lighting levels and reduce overall energy consumption. Smart Meters and Lighting systems can be connected to the internet or to a local network allowing for greater control, monitoring, and data analysis. Smart Metering and Lighting are important tools for increasing energy efficiency and reducing energy costs. In addition, these systems can provide valuable insights into energy usage and allow for better management of energy resources. Smart Meters and Lighting systems are becoming increasingly popular as they offer immediate and long-term energy savings."
+    },
+    {
+     "t": "link",
+     "href": "smart-metering-lighting"
+    }
+   ]
+  }
+ ]
+}

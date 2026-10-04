@@ -1,0 +1,26 @@
+{
+ "slug": "harmonic-simulation-studies",
+ "title": "Harmonic Simulation Studies",
+ "description": "Discover how our industry-leading harmonic simulation Studies can help protect your power system from damaging harmonics. Leverage powerful simulation tools for accurate analysis and development of effective mitigation strategies.",
+ "sections": [
+  {
+   "id": "services",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Harmonic simulation studies in power quality involve the use of computer simulation to analyze the impact of harmonics on power systems. This type of analysis can help identify potential problems such as overloading of transformers and other equipment, as well as the need for mitigation measures to reduce the effects of harmonics. The simulation also allows engineers to identify potential sources of harmonics, as well as to optimize power system design to reduce the harmonic content. Some of the studies that can be conducted using harmonic simulation include harmonic distortion analysis, harmonic balance analysis, harmonic stability analysis, and voltage and current distortion analysis. These studies can help engineers to identify areas which may require further investigation, as well as to develop strategies to reduce the harmonic content of the power system."
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Harmonic-Simulation-Studies-1.png",
+     "alt": ""
+    },
+    {
+     "t": "img",
+     "src": "2023/04/Harmonic-Simulation-Studies-2.png",
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}
