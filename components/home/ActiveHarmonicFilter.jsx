@@ -9,7 +9,7 @@ export default function ActiveHarmonicFilter() {
       <div className="ahf__track">
         <div className="ahf__stage wrap">
           <div className="ahf__text">
-            <h2 className="ahf__title" id="ahf-title">Active Harmonic <span className="accent">Filter</span></h2>
+            <h2 className="ahf__title" id="ahf-title">Active Harmonic Filter</h2>
             <p className="ahf__std">IEEE 519 · Harmonic Control in Electric Power Systems</p>
             <p className="ahf__intro">An active harmonic filter (AHF) is a type of harmonic filter that uses active components, such as transistors and capacitors, to reduce harmonic current distortion on an electrical system. It can be used in industrial and commercial installations to eliminate harmonic current distortion and improve the efficiency of the system.</p>
             <ol className="callouts">

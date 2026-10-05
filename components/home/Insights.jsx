@@ -11,7 +11,7 @@ export default function Insights() {
     <section className="insights" id="insights" aria-labelledby="insights-title">
       <div className="wrap insights__grid">
         <div className="insights__head">
-          <h2 className="section-title" id="insights-title">Our latest <span className="accent">news</span></h2>
+          <h2 className="section-title" id="insights-title">Our latest news</h2>
           <p>{INSIGHTS_INTRO}</p>
         </div>
         <ul className="posts">

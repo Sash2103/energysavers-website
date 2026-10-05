@@ -11,7 +11,7 @@ export default function Sectors() {
     <section className="sectors on-ink" id="sectors" aria-labelledby="sectors-title">
       <div className="wrap sectors__grid">
         <div className="sectors__intro">
-          <h2 className="section-title" id="sectors-title">Our <span className="accent">sectors</span></h2>
+          <h2 className="section-title" id="sectors-title">Our sectors</h2>
           <p>{SECTORS_INTRO}</p>
         </div>
         <div className="sectors__frame" aria-hidden="true">

@@ -38,7 +38,7 @@ Each item is also marked `TODO(owner)` in the source: `components/home/Stats.jsx
 
 ## Second round (owner feedback)
 
-- **Headings:** display headings now end on one word in Source Serif 4 italic, at the same size as the sentence ("Let us make it *together*"), as on Fixa. "Carbon offset" is the muted first line of that heading instead of a smaller label.
+- **Headings:** display headings ended on one word in Source Serif 4 italic, as on Fixa. In the fifth round this was cut back to the hero only. "Carbon offset" is the muted first line of that heading instead of a smaller label.
 - **Workplans:** the current runs at a steady 4.5 s with a lime pulse at its tip, and each step lights when the current reaches it.
 - **Photos:** sharper case-study, hospitality and About photos (see item 9). Sector photos now have 2000 px versions for the tall frame. Solutions photos are shown at sizes their originals can fill.
 - **About photo:** Business Bay at dusk replaces the analyser-in-panel photo, which now illustrates Energy Audit under Solutions.
@@ -56,7 +56,7 @@ Each item is also marked `TODO(owner)` in the source: `components/home/Stats.jsx
   - Solutions (6), Services (5), Sectors (5) and Case studies (7), each with its list page
 - The blog: a list page and all 58 posts, also at their old addresses.
 - The pages are built by `lib/pages.jsx` from the old site's text (`content/`, saved by `tools/scrape-pages.py`). The header, contact section and footer are the homepage's components. (Until the Next.js port this was `tools/build-pages.py`.)
-- Layout: the homepage's system throughout. There is a light page head with breadcrumb, the title with its italic last word, and the first paragraph. Each old section becomes a band, with its title on the left and its text on the right. Repeated items become ruled tiles, benefit icons sit on ink, and every page ends with the other pages of its group and the contact form.
+- Layout: the homepage's system throughout. There is a light page head with breadcrumb, the title and the first paragraph. Each old section becomes a band, with its title on the left and its text on the right. Repeated items become ruled tiles, benefit icons sit on ink, and every page ends with the other pages of its group and the contact form.
 - Sector pages show Challenges, Root cause analysis, Solutions and Benefits as tabs. Without the script they all show, one after another.
 - Case-study pages reuse the homepage's case write-ups and animated workplans.
 
@@ -101,6 +101,15 @@ The same site, rebuilt with Next.js (App Router) as a static export, so it runs 
   - Interactions checked on the build: mega menu (click and Esc), phone menu, product sheet and chips, "Contact us" pre-fill, case sheet, certificate viewer, services rail, sector tabs (click and arrow keys), form validation and the WhatsApp hand-off (nothing was sent), skip link and back button, `?motion=off`.
   - `node tools/contrast-check.mjs`: all 32 pairs pass.
 - **Costs of Next.js:** each page now carries React's data alongside its HTML, and loads React and Next's runtime. The homepage HTML is 81 KB compressed (38 KB before), and about 135 KB of compressed JavaScript loads instead of 7 KB. The look is unchanged; first load on slow phones will be somewhat slower.
+
+## Fifth round: the italic word, toned down
+
+The owner found the italic word overdone: it ended every heading on every page, including each inner page, case study and blog post title. It is now used the way Fixa uses it.
+
+- **What Fixa does** (fixaplan.com, checked in the browser): one italic word on the whole page, in the hero ("Plan your day without *overwhelm*"). The sans there (Switzer) is regular weight with tight tracking, and the italic matches it in size, spacing and colour. Every other heading is plain sans.
+- **Now:** the italic appears once, as the last word of the homepage hero ("Power quality and energy efficiency *solutions*"). The hero's Archivo changed from semibold at 118% width to weight 450 at normal width, tracked −0.022em, so the sans and the italic look equally heavy.
+- **Plain again:** every other heading on the homepage and the inner pages, including "Let us make it together" and "Case studies". The automatic italic last word on inner page, case study and blog post titles is gone.
+- **Unchanged:** the wording, the other headings' Archivo styling, and the fonts themselves.
 
 ## Placeholders visible on the page
 
@@ -203,8 +212,8 @@ Pass means the site does not do it.
 - **Type.** Pass, with one owner-requested exception.
   - Archivo + Source Serif 4, neither on the font list.
   - No eyebrows above every heading, no gradient text.
-  - The serif-italic last word in display headings was asked for by the owner (the Fixa reference). It uses Source Serif 4, the body font, not Instrument Serif.
-  - Headlines are left-aligned with normal tracking.
+  - The single serif-italic word in the homepage hero was asked for by the owner (the Fixa reference). It uses Source Serif 4, the body font, not Instrument Serif.
+  - Headlines are left-aligned. Only the hero is tracked slightly tight (−0.022em at display size); it is not centred and has no gradient word, so it is not item 17.
 - **Layout.** Pass.
   - No three identical cards, bento, zigzag, stats bar under the hero, logo wall or marquee, testimonials, pricing, FAQ or "how it works".
   - The nav is not blurred or a pill. There is no CTA banner, and widths vary by section.

@@ -4,7 +4,7 @@ import Icon from '@/components/shared/Icon';
 export default function Solutions() {
   return (
     <div className="wrap">
-      <h2 className="section-title" id="solutions-title">Energy efficient building <span className="accent">solutions</span></h2>
+      <h2 className="section-title" id="solutions-title">Energy efficient building solutions</h2>
       <ol className="solutions">
         <li className="solution">
           <figure className="solution__media"><img src="/assets/img/field-panel-analyser-960.webp" srcSet="/assets/img/field-panel-analyser-480.webp 480w, /assets/img/field-panel-analyser-960.webp 960w, /assets/img/field-panel-analyser-1203.webp 1203w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="1203" height="902" alt="A power quality analyser connected inside an open electrical panel during an audit" loading="lazy" decoding="async" /></figure>

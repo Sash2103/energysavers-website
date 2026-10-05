@@ -5,7 +5,7 @@ import CaseArticle from '@/components/shared/CaseArticle';
 export default function CaseStudies() {
   return (
     <>
-      <h2 className="section-title" id="cases-title">Case <span className="accent">studies</span></h2>
+      <h2 className="section-title" id="cases-title">Case studies</h2>
       {/* TODO(owner): the workplan figures come from the old site's diagrams. Confirm whether they were achieved or projected (Emicool's is labelled "Recommended"). */}
       {FEATURED.map(key => <CaseArticle c={caseByKey(key)} key={key} />)}
       <div className="register">

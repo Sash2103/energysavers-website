@@ -18,7 +18,7 @@ export default function Stats() {
         </div>
       </dl>
       <div className="offset">
-        <h2 className="offset__title"><span className="offset__label">Carbon offset</span> Let us make it <span className="accent">together</span></h2>
+        <h2 className="offset__title"><span className="offset__label">Carbon offset</span> Let us make it together</h2>
         <div className="offset__body">
           <p>Through carbon offset projects we reduce emissions, invest in environment projects and help us transition to a net zero economy.</p>
           <p className="offset__claims"><span>100% Happy Customers</span><span>Experienced Team</span></p>

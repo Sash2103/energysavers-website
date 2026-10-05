@@ -9,7 +9,7 @@ export default function HeatPump() {
       <div className="ahf__track">
         <div className="ahf__stage wrap">
           <div className="ahf__text">
-            <h2 className="ahf__title" id="hp-title">Heat Pumps <span className="accent">System</span></h2>
+            <h2 className="ahf__title" id="hp-title">Heat Pumps System</h2>
             <p className="ahf__std">Replaces boilers/calorifiers · Energy cost savings</p>
             <p className="ahf__intro">A heat pump is a device that transfers heat energy from a source of heat to what is called a thermal reservoir. Heat pumps are used to provide heating, cooling, and hot water to buildings in the form of space heating, air conditioning, and domestic hot water.</p>
             <ol className="callouts">

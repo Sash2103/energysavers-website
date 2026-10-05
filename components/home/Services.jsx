@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <div className="services" id="services">
       <div className="wrap services__head">
-        <h2 className="section-title" id="services-title">Our <span className="accent">services</span></h2>
+        <h2 className="section-title" id="services-title">Our services</h2>
         <div className="rail-controls" data-rail-controls="services-rail">
           <p className="rail-controls__count" aria-hidden="true"><span data-rail-index="">01</span> / 05</p>
           <button className="rail-controls__btn" type="button" data-rail-prev="" aria-label="Previous service"><Icon name="arrow" /></button>

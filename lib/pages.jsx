@@ -11,7 +11,7 @@ import { CasePhoto, Scope } from '@/components/shared/CaseArticle';
 import { ABOUT_LEDE, Certs, Highlights, Names } from '@/components/shared/About';
 import { INSIGHTS_INTRO } from '@/components/home/Insights';
 import PhaseTabs from '@/components/behaviour/PhaseTabs';
-import { PageHead, accent, band, contactButton, docLink, inline, list, nextId, prose, siblings, ulHtml } from '@/components/inner/parts';
+import { PageHead, band, contactButton, docLink, inline, list, nextId, prose, siblings, ulHtml } from '@/components/inner/parts';
 import { CASES, caseByKey } from '@/data/cases';
 import { SECTOR_PAGES, SECTORS_INTRO, sectorByKey } from '@/data/sectors';
 import { loadPage, loadPosts, fmtDate } from './content';
@@ -83,7 +83,7 @@ function generic(slug) {
     title: oneLine(title),
     description: d.description || (lede ? oneLine(lede.text) : LABEL.get(slug)),
     main: <>
-      <PageHead slug={slug} title={accent(title)} kicker={kicker.join(' · ') || null} lede={lede ? <p>{inline(lede)}</p> : null}
+      <PageHead slug={slug} title={oneLine(title)} kicker={kicker.join(' · ') || null} lede={lede ? <p>{inline(lede)}</p> : null}
         actions={actions} media={m} wide={wide} />
       {list(secs.map(s => band(slug, s, ctx)))}
       {siblings(slug)}
@@ -96,7 +96,7 @@ function products() {
     title: 'Products',
     description: loadPage('products').description,
     main: <>
-      <PageHead slug="products" title={<>Our <span className="accent">products</span></>} />
+      <PageHead slug="products" title="Our products" />
       <div className="bench bench--page">
         <div className="wrap">
           <ProductLines page />
@@ -111,7 +111,7 @@ function services() {
     title: 'Services',
     description: loadPage('services').description,
     main: <>
-      <PageHead slug="services" title={<>Our <span className="accent">services</span></>} />
+      <PageHead slug="services" title="Our services" />
       <div className="band band--untitled">
         <div className="wrap">
           <ServiceCards page />
@@ -129,7 +129,7 @@ function solutions() {
     title: 'Solutions',
     description: d.description,
     main: <>
-      <PageHead slug="solutions" title={<>Our <span className="accent">solutions</span></>} />
+      <PageHead slug="solutions" title="Our solutions" />
       {list(d.sections.map(s => band('solutions', normalize(s.blocks, 'solutions'), ctx)))}
     </>,
   };
@@ -140,7 +140,7 @@ function sectorsIndex() {
     title: 'Sectors',
     description: loadPage('sectors').description,
     main: <>
-      <PageHead slug="sectors" title={<>Our <span className="accent">sectors</span></>} lede={<p>{SECTORS_INTRO}</p>} />
+      <PageHead slug="sectors" title="Our sectors" lede={<p>{SECTORS_INTRO}</p>} />
       <div className="band band--untitled">
         <div className="wrap band__grid">
           <div className="band__wide">
@@ -187,7 +187,7 @@ function casesIndex() {
     title: 'Case studies',
     description: 'Power quality, HVAC and automation projects by Energy Savers in Dubai.',
     main: <>
-      <PageHead slug="case-studies" title={<>Case <span className="accent">studies</span></>} />
+      <PageHead slug="case-studies" title="Case studies" />
       <div className="band band--untitled">
         <div className="wrap band__grid">
           <div className="band__wide">{caseCards(CASES.map(c => c.key))}</div>
@@ -204,7 +204,7 @@ function casePage(c) {
     // the old scope text with its line break read as a space
     description: c.scope.join('  '),
     main: <>
-      <PageHead slug={c.slug} title={accent(c.client)} kicker={`${c.place} · ${c.year}`} lede={<p><Scope lines={c.scope} /></p>}
+      <PageHead slug={c.slug} title={oneLine(c.client)} kicker={`${c.place} · ${c.year}`} lede={<p><Scope lines={c.scope} /></p>}
         actions={contactButton(c.slug, c.client)} media={<CasePhoto photo={c.photo} sizes="(min-width: 960px) 42vw, 100vw" lazy={false} />} />
       <div className="band">
         <div className="wrap band__grid">
@@ -252,7 +252,7 @@ function sectorPage(slug) {
     title: name,
     description: d.description || oneLine(intro[0].text),
     main: <>
-      <PageHead slug={slug} title={accent(name)} lede={intro.length ? list(intro.map(b => <p>{inline(b)}</p>)) : null}
+      <PageHead slug={slug} title={oneLine(name)} lede={intro.length ? list(intro.map(b => <p>{inline(b)}</p>)) : null}
         actions={contactButton(slug, name)} wide
         media={<HomeImg name={'sector-' + key} sizes="100vw" eager className={`sector-photo sector-photo--${key}`} />} />
       <div className="band band--phases">
@@ -274,7 +274,7 @@ function sectorPage(slug) {
       {cases.length > 0 && (
         <section className="band" aria-labelledby="sector-cases">
           <div className="wrap band__grid">
-            <h2 className="band__title" id="sector-cases">Case <span className="accent">studies</span></h2>
+            <h2 className="band__title" id="sector-cases">Case studies</h2>
             <div className="band__wide">{caseCards(cases, 3)}</div>
           </div>
         </section>
@@ -298,24 +298,24 @@ function about() {
     description: d.description,
     extra: <CertViewer />,
     main: <>
-      <PageHead slug="about" title={<>About <span className="accent">us</span></>} lede={<p>{ABOUT_LEDE}</p>} wide
+      <PageHead slug="about" title="About us" lede={<p>{ABOUT_LEDE}</p>} wide
         media={<HomeImg name="about-business-bay" alt="Business Bay, Dubai, at dusk" sizes="100vw" eager />} />
       <section className="band" aria-labelledby="about-areas">
         <div className="wrap band__grid">
-          <h2 className="band__title band__title--long" id="about-areas">{accent(tidy(areasHeading.text))}</h2>
+          <h2 className="band__title band__title--long" id="about-areas">{tidy(areasHeading.text)}</h2>
           <div className="band__body prose">{ulHtml(areas, ctx)}<p>{inline(certified)}</p></div>
         </div>
       </section>
       <section className="band on-ink" aria-labelledby="about-focus">
         <div className="wrap band__grid">
-          <h2 className="band__title" id="about-focus">Sustainability in <span className="accent">energy</span></h2>
+          <h2 className="band__title" id="about-focus">Sustainability in energy</h2>
           <div className="band__body prose"><p>{inline(focus)}</p></div>
           <div className="band__wide"><Highlights /></div>
         </div>
       </section>
       <section className="band" aria-labelledby="about-certs">
         <div className="wrap band__grid">
-          <h2 className="band__title" id="about-certs">Our <span className="accent">certifications</span></h2>
+          <h2 className="band__title" id="about-certs">Our certifications</h2>
           <div className="band__body"><Certs /></div>
         </div>
       </section>
@@ -334,7 +334,7 @@ function contactPage() {
     description: 'Contact Energy Savers in Dubai and Riyadh: phone, email, WhatsApp and office addresses.',
     contact: false,
     main: <>
-      <PageHead slug="contact-us" title={<>Contact <span className="accent">us</span></>} />
+      <PageHead slug="contact-us" title="Contact us" />
       <Contact page />
     </>,
   };
@@ -351,7 +351,7 @@ function blog() {
     title: 'Blog',
     description: INSIGHTS_INTRO,
     main: <>
-      <PageHead slug="blog" title={<>Our latest <span className="accent">news</span></>} lede={<p>{INSIGHTS_INTRO}</p>} />
+      <PageHead slug="blog" title="Our latest news" lede={<p>{INSIGHTS_INTRO}</p>} />
       <div className="band band--untitled">
         <div className="wrap">
           {[...years.keys()].sort().reverse().map(y => (
@@ -379,7 +379,7 @@ function post(i) {
     title: p.title,
     description: Array.from(p.excerpt.split(' [&hellip;]').join('').split(' […]').join('')).slice(0, 300).join(''),
     main: <>
-      <PageHead slug={p.slug} title={accent(p.title)} kicker={<time dateTime={p.date}>{fmtDate(p.date)}</time>} post parents={parents} />
+      <PageHead slug={p.slug} title={oneLine(p.title)} kicker={<time dateTime={p.date}>{fmtDate(p.date)}</time>} post parents={parents} />
       <article className="band band--article" aria-labelledby="page-title">
         <div className="wrap">
           <div className="article prose">{list(prose(blocks, ctx, 3, true))}</div>

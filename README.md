@@ -55,7 +55,7 @@ Every push to the branch then rebuilds the site. The pages use root-relative add
 | `lib/pages.jsx` | Lays out every inner page and post from `content/` (it replaces the old `tools/build-pages.py`) |
 | `lib/site.js` | Site map, menu labels and the owner notes for single pages |
 | `content/` | The old site's text, saved as JSON by `tools/scrape-pages.py` (pages and blog posts), and `images.json`, the inner-page image sizes written by `tools/build-images.py` |
-| `public/assets/fonts/` | Archivo and Source Serif 4 (roman, and italic for the last word of headings), trimmed; OFL licences alongside |
+| `public/assets/fonts/` | Archivo and Source Serif 4 (roman, and italic for the hero's last word), trimmed; OFL licences alongside |
 | `public/assets/img/` | Homepage WebP images from energysavers.me, plus a few free Pexels photos where the old site's copies were too small (listed in NOTES.md), resized by `tools/fetch-assets.py` |
 | `public/assets/img/up/` | The inner pages' images from the old site, re-encoded to WebP by `tools/build-images.py` |
 | `public/assets/svg/` | Logo (vector trace of the original) and favicon |

@@ -5,7 +5,7 @@ export default function About() {
     <section className="about" id="about" aria-labelledby="about-title">
       <div className="wrap about__grid">
         <div className="about__copy">
-          <h2 className="section-title" id="about-title">About <span className="accent">us</span></h2>
+          <h2 className="section-title" id="about-title">About us</h2>
           <p className="about__lede">{ABOUT_LEDE}</p>
           <Certs />
         </div>

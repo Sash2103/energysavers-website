@@ -7,7 +7,7 @@ export default function Contact({ page = false }) {
     <section className={page ? 'contact contact--page on-ink' : 'contact on-ink'} id="contact" aria-labelledby="contact-title">
       <div className="wrap contact__grid">
         <div className="contact__info">
-          <h2 className="section-title" id="contact-title">Get in <span className="accent">touch</span></h2>
+          <h2 className="section-title" id="contact-title">Get in touch</h2>
           <a className="contact__phone" href="tel:+97145686557">+971&nbsp;4&nbsp;568&nbsp;6557</a>
           <div className="offices">
             <section className="office" aria-labelledby="office-uae">

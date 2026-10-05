@@ -33,7 +33,7 @@
 | Skincare (product page) | Product overview → product opens → variant chips | Prices, stars |
 | TinyWins | Logo animation inside the nav while the page stays usable | Pill nav |
 | Aristotle | Line work drawing itself on | — |
-| Fixa | — (its cursive accent word is on the blacklist) | — |
+| Fixa | One serif-italic word, in the hero only, with the sans at regular weight so both read the same darkness | Italic on every heading |
 
 ## 5. Atmosphere
 - **Thesis:** the site should feel like a well-made drawing set and test report.
@@ -57,7 +57,8 @@
 ## 7. Type
 - **Archivo** (variable width + weight): headings at width 112–118%, weight 600, sentence case, left-aligned. Also nav, labels, buttons and tabular figures.
 - **Source Serif 4** (optical size): paragraphs at 17–18px, 1.55 line height, max 62–68ch.
-- **Accent word:** display headings end on one word set in Source Serif 4 italic (display optical size), at the same size as the sentence, e.g. "Let us make it *together*". The owner asked for this after seeing Fixa; it replaces the earlier "no italic accent words" rule. The "Carbon offset" label is the muted first line of that heading, not a separate small eyebrow.
+- **Accent word: once, in the homepage hero only** ("Power quality and energy efficiency *solutions*"). It is set in Source Serif 4 italic (display optical size) at the same size as the sentence. As on Fixa, the hero's sans is Archivo at regular weight (450) and normal width (100%), tracked −0.022em, so the sans and the italic look equally heavy. Every other heading is plain Archivo. The owner asked for the italic after seeing Fixa, then found it overdone when it ended every heading.
+- The "Carbon offset" label is the muted first line of its heading, not a separate small eyebrow.
 - No mono, no all-caps eyebrows.
 
 ## 8. Components
@@ -69,7 +70,7 @@
 - **Icons:** inline SVG sprite only.
 
 ## 8b. Inner pages
-- **Page head (paper):** breadcrumb, then a kicker line if the old page had one (for example "IEEE 519 · Harmonic Control…"). Then the title with its italic last word, the first paragraph, and the actions: "Contact us" plus any download. The page's first image goes on the right, or full width when it is a wide photo.
+- **Page head (paper):** breadcrumb, then a kicker line if the old page had one (for example "IEEE 519 · Harmonic Control…"). Then the title, the first paragraph, and the actions: "Contact us" plus any download. The page's first image goes on the right, or full width when it is a wide photo.
 - **Bands:** one per old section. The title sits on the left (columns 1–5) and the text on the right (6–12). A modest image sits under the title, and big images, tiles and tables get the full width. Sections without a title are left-aligned prose.
 - **Tiles:** a ruled grid for repeated items (products, features, applications). Linked tiles underline their title on hover. Benefit icons get a 4-column grid on ink when they are light.
 - **Ink bands:** icon grids and graphics drawn for dark backgrounds. Everything else is on paper, with hairlines between bands.

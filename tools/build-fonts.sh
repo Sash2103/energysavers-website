@@ -16,7 +16,7 @@ FEAT="kern,liga,calt,ccmp,locl,mark,mkmk,tnum,lnum,pnum,case"
 "$BIN/pyftsubset" "$TMP/a.ttf" --unicodes="$UNI" --layout-features="$FEAT" --flavor=woff2 --output-file=public/assets/fonts/archivo-var.woff2
 "$BIN/fonttools" varLib.instancer "$TMP/SourceSerif4.ttf" wght=400 opsz=12:32 -o "$TMP/s.ttf" -q
 "$BIN/pyftsubset" "$TMP/s.ttf" --unicodes="$UNI" --layout-features="$FEAT" --flavor=woff2 --output-file=public/assets/fonts/source-serif-4-var.woff2
-# italic: only for the last word of display headings, so one weight and the display optical sizes
+# italic: only for the hero's last word, so one weight and the display optical sizes
 "$BIN/fonttools" varLib.instancer "$TMP/SourceSerif4-Italic.ttf" wght=480 opsz=24:60 -o "$TMP/si.ttf" -q
 "$BIN/pyftsubset" "$TMP/si.ttf" --unicodes="$UNI" --layout-features="$FEAT" --flavor=woff2 --output-file=public/assets/fonts/source-serif-4-italic-var.woff2
 rm -rf "$TMP"

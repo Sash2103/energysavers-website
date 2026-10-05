@@ -153,8 +153,8 @@ sub { font-size: .7em; line-height: 0; }
   font-stretch: 112%;
   letter-spacing: -.005em;
 }
-/* Display headings end on one word set in the body serif's italic, at the same size as the sentence.
-   The italic's x-height is smaller than Archivo's, so it is nudged up to match optically. */
+/* One italic word in the whole site: the end of the homepage hero, in the body serif's italic.
+   Same colour weight as the hero's regular sans; the italic's x-height is smaller, so it is nudged up. */
 .accent {
   font-family: var(--font-body);
   font-style: italic;
@@ -330,10 +330,11 @@ sub { font-size: .7em; line-height: 0; }
 /* ---------------------------------------------------------------- hero */
 .hero { position: relative; padding-top: clamp(32px, 5vw, 64px); overflow: hidden; }
 .hero__grid { display: grid; gap: 24px; }
+/* Regular weight at normal width, tracked tight, so the italic word sits in the same colour */
 .hero__title {
   font-size: clamp(2.3rem, 1.2rem + 4.2vw, 4.6rem);
-  font-stretch: 118%; font-weight: 620; line-height: 1.02;
-  letter-spacing: -.01em; max-width: 21ch;
+  font-stretch: 100%; font-weight: 450; line-height: 1;
+  letter-spacing: -.022em; max-width: 19ch;
 }
 .hero__lede { max-width: 62ch; color: var(--soft-on-ink); font-size: 1.0625rem; }
 @media (min-width: 960px) { .hero__lede { font-size: 1.1875rem; } }

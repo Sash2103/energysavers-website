@@ -30,13 +30,6 @@ export function inline(b) {
   return <Lines text={t} />;
 }
 
-/** The last word in the body serif's italic, as in the homepage headings */
-export function accent(title) {
-  const words = oneLine(title).split(' ');
-  if (words.length < 2) return words[0];
-  return <>{words.slice(0, -1).join(' ')} <span className="accent">{words[words.length - 1]}</span></>;
-}
-
 function crumbs(slug, parents) {
   const trail = [];
   for (let p = parents.get(slug); p; p = parents.get(p)) trail.unshift(p);
@@ -145,7 +138,7 @@ function titleHtml(run, ctx) {
   const long = len(texts.join(' ')) > 56 ? ' band__title--long' : '';
   return [
     <h2 className={'band__title' + long} id={id}>
-      {list(labels.map(t => <><span className="band__label">{t}</span>{' '}</>))}{accent(main)}
+      {list(labels.map(t => <><span className="band__label">{t}</span>{' '}</>))}{oneLine(main)}
     </h2>,
     id,
   ];
@@ -275,7 +268,7 @@ export function siblings(slug) {
   return (
     <nav className="band band--siblings" aria-labelledby="siblings-title">
       <div className="wrap band__grid">
-        <h2 className="band__title" id="siblings-title"><a href={href(parent)}>{accent(LABEL.get(parent))}</a></h2>
+        <h2 className="band__title" id="siblings-title"><a href={href(parent)}>{LABEL.get(parent)}</a></h2>
         <ul className="siblings">
           {CHILDREN.get(parent).map(k => <li key={k}><a href={href(k)} aria-current={k === slug ? 'page' : undefined}>{LABEL.get(k)}</a></li>)}
         </ul>

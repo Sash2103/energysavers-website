@@ -5,7 +5,7 @@ export default function Products() {
   return (
     <section className="bench" id="products" aria-labelledby="products-title">
       <div className="wrap">
-        <h2 className="section-title" id="products-title">Our <span className="accent">products</span></h2>
+        <h2 className="section-title" id="products-title">Our products</h2>
         <ProductLines />
       </div>
     </section>
