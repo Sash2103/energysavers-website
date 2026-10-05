@@ -4,6 +4,11 @@
   ],
   "rules": {
     "doctype-style": "off",
-    "long-title": "off"
+    "long-title": "off",
+    "void-style": "off",
+    "attribute-boolean-style": "off",
+    "attribute-empty-style": "off",
+    "attr-case": "off",
+    "valid-id": ["error", { "relaxed": true }]
   }
 }

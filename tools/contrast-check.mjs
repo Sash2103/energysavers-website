@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Checks every text/UI colour pair used in styles.css against WCAG 2.2 AA.
+// Checks every text/UI colour pair used in app/globals.css against WCAG 2.2 AA.
 // Usage: node tools/contrast-check.mjs   (exits 1 if any pair fails)
 
 const hex = h => h.replace('#', '').match(/../g).map(x => parseInt(x, 16));

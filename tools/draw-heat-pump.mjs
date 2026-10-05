@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Generates the isometric, exploded line drawing of an air-to-water heat pump
-// and writes it into index.html between <!-- hp:start --> and <!-- hp:end -->.
+// and writes it as the React component components/drawings/HeatPumpDrawing.jsx.
 //
 // Usage: node tools/draw-heat-pump.mjs
 //
@@ -9,9 +9,7 @@
 // in the open lower bay, and the electrical cabinet at one end. Each part is an SVG group; CSS moves
 // the groups apart using --e (0 = assembled, 1 = exploded) and the per-part --dx/--dy set here.
 
-import { readFileSync, writeFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
+import { writeDrawing } from './write-drawing.mjs';
 
 const C = Math.cos(Math.PI / 6); // 0.866
 const S = 0.5;
@@ -207,10 +205,5 @@ const svg =
   marker(1, 'coils', anchorCoils) + marker(2, 'comp', anchorComp) + marker(3, 'hx', anchorHx) +
   `</svg>`;
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const file = join(root, 'index.html');
-const html = readFileSync(file, 'utf8');
-const re = /(<!-- hp:start -->)[\s\S]*?(<!-- hp:end -->)/;
-if (!re.test(html)) throw new Error('hp markers not found in index.html');
-writeFileSync(file, html.replace(re, `$1\n          ${svg}\n          $2`));
+writeDrawing('HeatPumpDrawing', svg, 'draw-heat-pump.mjs');
 console.log(`Heat pump drawing: ${(svg.length / 1024).toFixed(1)} KB, viewBox ${vbX} ${vbY} ${vbW} ${vbH}`);

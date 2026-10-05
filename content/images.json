@@ -1,0 +1,4290 @@
+{
+ "2022/12/sinwave-distorted-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2022-12-sinwave-distorted-1-960.webp"
+   ],
+   [
+    1074,
+    "assets/img/up/2022-12-sinwave-distorted-1-1074.webp"
+   ]
+  ],
+  "h": 612,
+  "still": null,
+  "tone": 1,
+  "w": 1074,
+  "white_corners": false
+ },
+ "2022/12/sinwave-purewave.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2022-12-sinwave-purewave-960.webp"
+   ],
+   [
+    1074,
+    "assets/img/up/2022-12-sinwave-purewave-1074.webp"
+   ]
+  ],
+  "h": 612,
+  "still": null,
+  "tone": 1,
+  "w": 1074,
+  "white_corners": false
+ },
+ "2023/01/AHF-1-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    200,
+    "assets/img/up/2023-01-ahf-1-min-200.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.15663346340993434,
+  "w": 200,
+  "white_corners": false
+ },
+ "2023/01/AHF-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    700,
+    "assets/img/up/2023-01-ahf-min-700.webp"
+   ]
+  ],
+  "h": 518,
+  "still": null,
+  "tone": 0.15554113824591193,
+  "w": 700,
+  "white_corners": false
+ },
+ "2023/01/Boiler-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    447,
+    "assets/img/up/2023-01-boiler-min-447.webp"
+   ]
+  ],
+  "h": 323,
+  "still": null,
+  "tone": 0.39362136498516287,
+  "w": 447,
+  "white_corners": false
+ },
+ "2023/01/Calorifier-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    383,
+    "assets/img/up/2023-01-calorifier-min-383.webp"
+   ]
+  ],
+  "h": 312,
+  "still": null,
+  "tone": 0.5210354319024908,
+  "w": 383,
+  "white_corners": false
+ },
+ "2023/01/Untitled-design-92-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    200,
+    "assets/img/up/2023-01-untitled-design-92-min-200.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.7173918722327641,
+  "w": 200,
+  "white_corners": false
+ },
+ "2023/01/Untitled-design-93-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    200,
+    "assets/img/up/2023-01-untitled-design-93-min-200.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.7014496331047742,
+  "w": 200,
+  "white_corners": false
+ },
+ "2023/01/Untitled-design-94-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    200,
+    "assets/img/up/2023-01-untitled-design-94-min-200.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.6665821660062993,
+  "w": 200,
+  "white_corners": false
+ },
+ "2023/01/advance-hvac-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-advance-hvac-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.782779009351434,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/advantages-of-heat-pumps-1024x747-1-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-01-advantages-of-heat-pumps-1024x747-1-min-960.webp"
+   ],
+   [
+    1024,
+    "assets/img/up/2023-01-advantages-of-heat-pumps-1024x747-1-min-1024.webp"
+   ]
+  ],
+  "h": 747,
+  "still": null,
+  "tone": 0.7391161823139848,
+  "w": 1024,
+  "white_corners": false
+ },
+ "2023/01/ahf-design-style-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    768,
+    "assets/img/up/2023-01-ahf-design-style-min-768.webp"
+   ]
+  ],
+  "h": 338,
+  "still": null,
+  "tone": 0.38354900032143985,
+  "w": 768,
+  "white_corners": false
+ },
+ "2023/01/air-quality-green-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-air-quality-green-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7727554355512695,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/automated-solution-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-automated-solution-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.78132603139369,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/burj-al-arab-with-colorful-lights-night-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    650,
+    "assets/img/up/2023-01-burj-al-arab-with-colorful-lights-night-min-650.webp"
+   ]
+  ],
+  "h": 433,
+  "still": null,
+  "tone": 0.19905567325367649,
+  "w": 650,
+  "white_corners": false
+ },
+ "2023/01/charging-power-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    412,
+    "assets/img/up/2023-01-charging-power-min-412.webp"
+   ]
+  ],
+  "h": 970,
+  "still": null,
+  "tone": 0.7520932048681533,
+  "w": 412,
+  "white_corners": false
+ },
+ "2023/01/dlm-left-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    581,
+    "assets/img/up/2023-01-dlm-left-min-581.webp"
+   ]
+  ],
+  "h": 198,
+  "still": null,
+  "tone": 1,
+  "w": 581,
+  "white_corners": false
+ },
+ "2023/01/dml-right-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    581,
+    "assets/img/up/2023-01-dml-right-min-581.webp"
+   ]
+  ],
+  "h": 198,
+  "still": null,
+  "tone": 1,
+  "w": 581,
+  "white_corners": false
+ },
+ "2023/01/energy-plug-suite-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    745,
+    "assets/img/up/2023-01-energy-plug-suite-min-745.webp"
+   ]
+  ],
+  "h": 750,
+  "still": null,
+  "tone": 0.6474374952561677,
+  "w": 745,
+  "white_corners": false
+ },
+ "2023/01/food-production-industry-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-01-food-production-industry-min-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-01-food-production-industry-min-1600.webp"
+   ]
+  ],
+  "h": 1333,
+  "still": null,
+  "tone": 0.5553221415441174,
+  "w": 2000,
+  "white_corners": false
+ },
+ "2023/01/guarantee-savings-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-guarantee-savings-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7770737644623068,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/heat-pumps-1-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    839,
+    "assets/img/up/2023-01-heat-pumps-1-min-839.webp"
+   ]
+  ],
+  "h": 523,
+  "still": null,
+  "tone": 0.4541526230771145,
+  "w": 839,
+  "white_corners": false
+ },
+ "2023/01/hvac-optimisation-green-2.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-hvac-optimisation-green-2-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7777174412090427,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/hvac-right-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    400,
+    "assets/img/up/2023-01-hvac-right-min-400.webp"
+   ]
+  ],
+  "h": 286,
+  "still": null,
+  "tone": 0.3766325689338236,
+  "w": 400,
+  "white_corners": false
+ },
+ "2023/01/improve-efficienty-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-improve-efficienty-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7776528787515007,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/increase-asset-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-increase-asset-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7787868686358667,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/monitoring-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-monitoring-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7787433430162194,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/nonstop-operation-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-nonstop-operation-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7778709134385462,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/power-quality-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-power-quality-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.77690846907994,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/pq-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-pq-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7902207668845304,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/reduce-bill-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-reduce-bill-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7776946031746031,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/reduce-footprint-green.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-reduce-footprint-green-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7776342915601026,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/01/safety-green-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-safety-green-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7776607626608921,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-01-server-room-interior-in-datacenter-3d-render-min-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-01-server-room-interior-in-datacenter-3d-render-min-1600.webp"
+   ]
+  ],
+  "h": 944,
+  "still": null,
+  "tone": 0.4429742792585785,
+  "w": 2000,
+  "white_corners": false
+ },
+ "2023/01/smart-metering-green-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-01-smart-metering-green-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7807296031846851,
+  "w": 55,
+  "white_corners": true
+ },
+ "2023/02/1.-Power-Quality-Audit-1-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    649,
+    "assets/img/up/2023-02-1-power-quality-audit-1-min-649.webp"
+   ]
+  ],
+  "h": 455,
+  "still": null,
+  "tone": 0.9314566479018799,
+  "w": 649,
+  "white_corners": false
+ },
+ "2023/02/1.-Power-Quality-Audit-2-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    662,
+    "assets/img/up/2023-02-1-power-quality-audit-2-min-662.webp"
+   ]
+  ],
+  "h": 400,
+  "still": null,
+  "tone": 0.9399660791973027,
+  "w": 662,
+  "white_corners": true
+ },
+ "2023/02/2.-Power-Quality-Solutions-1-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    632,
+    "assets/img/up/2023-02-2-power-quality-solutions-1-min-632.webp"
+   ]
+  ],
+  "h": 463,
+  "still": null,
+  "tone": 0.5038696806066171,
+  "w": 632,
+  "white_corners": false
+ },
+ "2023/02/2.-Power-Quality-Solutions-2-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    691,
+    "assets/img/up/2023-02-2-power-quality-solutions-2-min-691.webp"
+   ]
+  ],
+  "h": 574,
+  "still": null,
+  "tone": 0.44830594669117624,
+  "w": 691,
+  "white_corners": false
+ },
+ "2023/02/3.-HVAC-Optimization-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-3-hvac-optimization-min-960.webp"
+   ],
+   [
+    1306,
+    "assets/img/up/2023-02-3-hvac-optimization-min-1306.webp"
+   ]
+  ],
+  "h": 854,
+  "still": null,
+  "tone": 0.431730656403187,
+  "w": 1306,
+  "white_corners": false
+ },
+ "2023/02/4-01-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-4-01-min-960.webp"
+   ],
+   [
+    1145,
+    "assets/img/up/2023-02-4-01-min-1145.webp"
+   ]
+  ],
+  "h": 472,
+  "still": null,
+  "tone": 0.9712423766850478,
+  "w": 1145,
+  "white_corners": true
+ },
+ "2023/02/4.-Automation-Solutions-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-4-automation-solutions-min-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-02-4-automation-solutions-min-1600.webp"
+   ]
+  ],
+  "h": 1724,
+  "still": null,
+  "tone": 0.7171281148679934,
+  "w": 2315,
+  "white_corners": false
+ },
+ "2023/02/5.-Indoor-Air-Quality-Improvement-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    594,
+    "assets/img/up/2023-02-5-indoor-air-quality-improvement-min-594.webp"
+   ]
+  ],
+  "h": 358,
+  "still": null,
+  "tone": 0.5282457038909321,
+  "w": 594,
+  "white_corners": false
+ },
+ "2023/02/6.-Smart-Metering-lighting-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    586,
+    "assets/img/up/2023-02-6-smart-metering-lighting-min-586.webp"
+   ]
+  ],
+  "h": 416,
+  "still": null,
+  "tone": 0.6894966888786761,
+  "w": 586,
+  "white_corners": false
+ },
+ "2023/02/AEBERLE-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-aeberle-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9664853814338241,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/AERMEC-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-aermec-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9469391207107843,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/AHF-Pro.png": {
+  "alpha": true,
+  "files": [
+   [
+    328,
+    "assets/img/up/2023-02-ahf-pro-328.webp"
+   ]
+  ],
+  "h": 210,
+  "still": null,
+  "tone": 0.15320627112914137,
+  "w": 328,
+  "white_corners": false
+ },
+ "2023/02/About-us-page-1-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-about-us-page-1-min-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-02-about-us-page-1-min-1600.webp"
+   ]
+  ],
+  "h": 1488,
+  "still": null,
+  "tone": 0.46490793198529384,
+  "w": 2644,
+  "white_corners": false
+ },
+ "2023/02/CONDENSATOR-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-condensator-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.967719699754902,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/Harmonic-Control-in-Electric-Power-Systems.png": {
+  "alpha": true,
+  "files": [
+   [
+    728,
+    "assets/img/up/2023-02-harmonic-control-in-electric-power-systems-728.webp"
+   ]
+  ],
+  "h": 297,
+  "still": null,
+  "tone": 0.8493863503370085,
+  "w": 728,
+  "white_corners": false
+ },
+ "2023/02/New-technology-updated-the-old-PFC-requirement-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    430,
+    "assets/img/up/2023-02-new-technology-updated-the-old-pfc-requirement-min-430.webp"
+   ]
+  ],
+  "h": 264,
+  "still": null,
+  "tone": 0.8983309187675085,
+  "w": 430,
+  "white_corners": false
+ },
+ "2023/02/PLUG-SUITE-min-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    924,
+    "assets/img/up/2023-02-plug-suite-min-min-924.webp"
+   ]
+  ],
+  "h": 699,
+  "still": null,
+  "tone": 0.6810009853187506,
+  "w": 924,
+  "white_corners": false
+ },
+ "2023/02/SIEMENS-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-siemens-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9658313503370096,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/SINEXEL-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-sinexel-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9725371614583334,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/absorption-chillers-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-02-absorption-chillers-min-250.webp"
+   ]
+  ],
+  "h": 250,
+  "still": null,
+  "tone": 0.7264640557275558,
+  "w": 250,
+  "white_corners": false
+ },
+ "2023/02/agthia-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-agthia-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9336176608455885,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/air-purifier-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-02-air-purifier-min-250.webp"
+   ]
+  ],
+  "h": 250,
+  "still": null,
+  "tone": 0.5361390405399628,
+  "w": 250,
+  "white_corners": false
+ },
+ "2023/02/al-ghurair-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-al-ghurair-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9576827244178928,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/al-zahra-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-al-zahra-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9320267823223032,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/bid-workplan-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    839,
+    "assets/img/up/2023-02-bid-workplan-min-839.webp"
+   ]
+  ],
+  "h": 146,
+  "still": null,
+  "tone": 0.6899038620147194,
+  "w": 839,
+  "white_corners": false
+ },
+ "2023/02/bif-factory-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    453,
+    "assets/img/up/2023-02-bif-factory-min-453.webp"
+   ]
+  ],
+  "h": 329,
+  "still": null,
+  "tone": 0.2940631786151959,
+  "w": 453,
+  "white_corners": false
+ },
+ "2023/02/burj-ai-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    360,
+    "assets/img/up/2023-02-burj-ai-min-360.webp"
+   ]
+  ],
+  "h": 263,
+  "still": null,
+  "tone": 0.5490560707720582,
+  "w": 360,
+  "white_corners": false
+ },
+ "2023/02/burj-ai-workplan-min-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    928,
+    "assets/img/up/2023-02-burj-ai-workplan-min-1-928.webp"
+   ]
+  ],
+  "h": 141,
+  "still": null,
+  "tone": 0.6770444304002585,
+  "w": 928,
+  "white_corners": false
+ },
+ "2023/02/db-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-db-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9197393244485295,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/dewa-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-dewa-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9775852267156858,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/dp-words-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-dp-words-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.20872006816789312,
+  "w": 225,
+  "white_corners": false
+ },
+ "2023/02/dp-world-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    359,
+    "assets/img/up/2023-02-dp-world-min-359.webp"
+   ]
+  ],
+  "h": 263,
+  "still": null,
+  "tone": 0.6080246384803926,
+  "w": 359,
+  "white_corners": false
+ },
+ "2023/02/dubai-custom-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-dubai-custom-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9226881173406865,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/dubai-medical-University-hospital-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    453,
+    "assets/img/up/2023-02-dubai-medical-university-hospital-min-453.webp"
+   ]
+  ],
+  "h": 330,
+  "still": null,
+  "tone": 0.577081325827204,
+  "w": 453,
+  "white_corners": false
+ },
+ "2023/02/dubai-medical-workplan-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    679,
+    "assets/img/up/2023-02-dubai-medical-workplan-min-679.webp"
+   ]
+  ],
+  "h": 158,
+  "still": null,
+  "tone": 0.6885698562750037,
+  "w": 679,
+  "white_corners": true
+ },
+ "2023/02/dubai-municipality-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-dubai-municipality-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.926695024509803,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/ekc-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-ekc-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.8924557306985276,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/emaar-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-emaar-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.8847991781556374,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/emicool-min-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    360,
+    "assets/img/up/2023-02-emicool-min-1-360.webp"
+   ]
+  ],
+  "h": 264,
+  "still": null,
+  "tone": 0.5900866467524499,
+  "w": 360,
+  "white_corners": false
+ },
+ "2023/02/emicool-workplan-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-emicool-workplan-min-960.webp"
+   ],
+   [
+    1034,
+    "assets/img/up/2023-02-emicool-workplan-min-1034.webp"
+   ]
+  ],
+  "h": 136,
+  "still": null,
+  "tone": 0.7534790091180499,
+  "w": 1034,
+  "white_corners": false
+ },
+ "2023/02/erco-worldwide-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-erco-worldwide-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9631676991421566,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/four-seasons-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-four-seasons-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9745863970588234,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/grand-hyatt-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-grand-hyatt-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9120278324142173,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/grand-mills-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-grand-mills-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.8307496361825975,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/heat-pumps-min-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-02-heat-pumps-min-1-250.webp"
+   ]
+  ],
+  "h": 250,
+  "still": null,
+  "tone": 0.6075516846233227,
+  "w": 250,
+  "white_corners": false
+ },
+ "2023/02/iffco-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-iffco-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9007432590379904,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/industrial-blue-cooling-tower-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-industrial-blue-cooling-tower-min-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-02-industrial-blue-cooling-tower-min-1600.webp"
+   ]
+  ],
+  "h": 1307,
+  "still": null,
+  "tone": 0.5092036343443618,
+  "w": 2000,
+  "white_corners": false
+ },
+ "2023/02/jumeirah-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-jumeirah-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9685443826593128,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/key-highlights1-min-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-key-highlights1-min-1-960.webp"
+   ],
+   [
+    1051,
+    "assets/img/up/2023-02-key-highlights1-min-1-1051.webp"
+   ]
+  ],
+  "h": 684,
+  "still": null,
+  "tone": 0.7901192351723302,
+  "w": 1051,
+  "white_corners": false
+ },
+ "2023/02/magic-planet-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-magic-planet-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9489096315870102,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/mall-of-the-emirates-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-mall-of-the-emirates-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9225751792279413,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/mina-asalam-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    359,
+    "assets/img/up/2023-02-mina-asalam-min-359.webp"
+   ]
+  ],
+  "h": 263,
+  "still": null,
+  "tone": 0.39360396139705905,
+  "w": 359,
+  "white_corners": false
+ },
+ "2023/02/mina-asalam-workplan-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-mina-asalam-workplan-min-960.webp"
+   ],
+   [
+    969,
+    "assets/img/up/2023-02-mina-asalam-workplan-min-969.webp"
+   ]
+  ],
+  "h": 145,
+  "still": null,
+  "tone": 0.6761862745098033,
+  "w": 969,
+  "white_corners": false
+ },
+ "2023/02/nakheel-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-nakheel-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9357931112132356,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/park-hyatt-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-park-hyatt-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9833755009191184,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/pq-mobile.png": {
+  "alpha": true,
+  "files": [
+   [
+    200,
+    "assets/img/up/2023-02-pq-mobile-200.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.26987045423194433,
+  "w": 200,
+  "white_corners": true
+ },
+ "2023/02/rak-ceramics-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-rak-ceramics-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9423662928921575,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/unileven-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-02-unileven-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9245444140625008,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/02/wild-wadi-min-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    359,
+    "assets/img/up/2023-02-wild-wadi-min-1-359.webp"
+   ]
+  ],
+  "h": 263,
+  "still": null,
+  "tone": 0.5222938403799018,
+  "w": 359,
+  "white_corners": false
+ },
+ "2023/02/wild-wadi-workplan-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    922,
+    "assets/img/up/2023-02-wild-wadi-workplan-min-922.webp"
+   ]
+  ],
+  "h": 173,
+  "still": null,
+  "tone": 0.7125296493369132,
+  "w": 922,
+  "white_corners": false
+ },
+ "2023/02/woman-operating-pharmaceutical-production-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-02-woman-operating-pharmaceutical-production-min-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-02-woman-operating-pharmaceutical-production-min-1600.webp"
+   ]
+  ],
+  "h": 1333,
+  "still": null,
+  "tone": 0.5688436825980389,
+  "w": 2000,
+  "white_corners": false
+ },
+ "2023/03/1.-BMS-Servers-controllers.png": {
+  "alpha": false,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-03-1-bms-servers-controllers-250.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.9205932544424015,
+  "w": 250,
+  "white_corners": true
+ },
+ "2023/03/1.-Energy-Audit-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-03-1-energy-audit-min-960.webp"
+   ],
+   [
+    1203,
+    "assets/img/up/2023-03-1-energy-audit-min-1203.webp"
+   ]
+  ],
+  "h": 902,
+  "still": null,
+  "tone": 0.4708605491727945,
+  "w": 1203,
+  "white_corners": false
+ },
+ "2023/03/1.-eCoo-20-ST-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    300,
+    "assets/img/up/2023-03-1-ecoo-20-st-min-300.webp"
+   ]
+  ],
+  "h": 300,
+  "still": null,
+  "tone": 0.8514754503676488,
+  "w": 300,
+  "white_corners": true
+ },
+ "2023/03/2.-PQ-Audit-Measurement-1-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    830,
+    "assets/img/up/2023-03-2-pq-audit-measurement-1-min-830.webp"
+   ]
+  ],
+  "h": 622,
+  "still": null,
+  "tone": 0.2125122395833332,
+  "w": 830,
+  "white_corners": false
+ },
+ "2023/03/2.-PQ-Audit-Measurement-2-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    825,
+    "assets/img/up/2023-03-2-pq-audit-measurement-2-min-825.webp"
+   ]
+  ],
+  "h": 353,
+  "still": null,
+  "tone": 0.9446345174632346,
+  "w": 825,
+  "white_corners": false
+ },
+ "2023/03/2.-PQ-Audit-Measurement-3-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    627,
+    "assets/img/up/2023-03-2-pq-audit-measurement-3-min-627.webp"
+   ]
+  ],
+  "h": 618,
+  "still": null,
+  "tone": 0.8965624555759807,
+  "w": 627,
+  "white_corners": true
+ },
+ "2023/03/2.-Smart-Meters-.png": {
+  "alpha": false,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-03-2-smart-meters-250.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.6025672403492661,
+  "w": 250,
+  "white_corners": false
+ },
+ "2023/03/2.-Smart-Meters-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    513,
+    "assets/img/up/2023-03-2-smart-meters-min-513.webp"
+   ]
+  ],
+  "h": 374,
+  "still": null,
+  "tone": 0.6242336106004913,
+  "w": 513,
+  "white_corners": false
+ },
+ "2023/03/2.-eCoo-20X-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    224,
+    "assets/img/up/2023-03-2-ecoo-20x-min-224.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.8940118558517189,
+  "w": 224,
+  "white_corners": true
+ },
+ "2023/03/3.-Sensor-1-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    517,
+    "assets/img/up/2023-03-3-sensor-1-min-517.webp"
+   ]
+  ],
+  "h": 345,
+  "still": null,
+  "tone": 0.42078303768382425,
+  "w": 517,
+  "white_corners": true
+ },
+ "2023/03/3.-Sensor-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-03-3-sensor-1-250.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.416220500153187,
+  "w": 250,
+  "white_corners": true
+ },
+ "2023/03/3.-eCoo-30X-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    300,
+    "assets/img/up/2023-03-3-ecoo-30x-min-300.webp"
+   ]
+  ],
+  "h": 300,
+  "still": null,
+  "tone": 0.8840045986519631,
+  "w": 300,
+  "white_corners": true
+ },
+ "2023/03/4.-Power-Supply-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    450,
+    "assets/img/up/2023-03-4-power-supply-min-450.webp"
+   ]
+  ],
+  "h": 297,
+  "still": null,
+  "tone": 0.5601885998774517,
+  "w": 450,
+  "white_corners": false
+ },
+ "2023/03/4.-Power-Supply.png": {
+  "alpha": false,
+  "files": [
+   [
+    250,
+    "assets/img/up/2023-03-4-power-supply-250.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.5820239100796576,
+  "w": 250,
+  "white_corners": false
+ },
+ "2023/03/4.-eCoo-30X-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-03-4-ecoo-30x-min-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.8427447931985308,
+  "w": 225,
+  "white_corners": true
+ },
+ "2023/03/5.-PQ-Equipment-Rental-1-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    275,
+    "assets/img/up/2023-03-5-pq-equipment-rental-1-min-275.webp"
+   ]
+  ],
+  "h": 204,
+  "still": null,
+  "tone": 0.5405112140012234,
+  "w": 275,
+  "white_corners": false
+ },
+ "2023/03/5.-PQ-Equipment-Rental-2-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    287,
+    "assets/img/up/2023-03-5-pq-equipment-rental-2-min-287.webp"
+   ]
+  ],
+  "h": 200,
+  "still": null,
+  "tone": 0.5875868780637244,
+  "w": 287,
+  "white_corners": false
+ },
+ "2023/03/5.-PQ-Equipment-Rental-3-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    296,
+    "assets/img/up/2023-03-5-pq-equipment-rental-3-min-296.webp"
+   ]
+  ],
+  "h": 220,
+  "still": null,
+  "tone": 0.5657510837928915,
+  "w": 296,
+  "white_corners": false
+ },
+ "2023/03/5.-PQ-Equipment-Rental-4-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    292,
+    "assets/img/up/2023-03-5-pq-equipment-rental-4-min-292.webp"
+   ]
+  ],
+  "h": 217,
+  "still": null,
+  "tone": 0.5646262607230361,
+  "w": 292,
+  "white_corners": false
+ },
+ "2023/03/97-high-efficiency-on-line-mode-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    454,
+    "assets/img/up/2023-03-97-high-efficiency-on-line-mode-1-454.webp"
+   ]
+  ],
+  "h": 320,
+  "still": null,
+  "tone": 0.9510295082720625,
+  "w": 454,
+  "white_corners": true
+ },
+ "2023/03/97-high-efficiency-on-line-mode-2.png": {
+  "alpha": true,
+  "files": [
+   [
+    459,
+    "assets/img/up/2023-03-97-high-efficiency-on-line-mode-2-459.webp"
+   ]
+  ],
+  "h": 323,
+  "still": null,
+  "tone": 1,
+  "w": 459,
+  "white_corners": false
+ },
+ "2023/03/Absorption-Chillers-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    277,
+    "assets/img/up/2023-03-absorption-chillers-min-277.webp"
+   ]
+  ],
+  "h": 460,
+  "still": null,
+  "tone": 0.7231526556510299,
+  "w": 277,
+  "white_corners": false
+ },
+ "2023/03/Air-Purifiers-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    369,
+    "assets/img/up/2023-03-air-purifiers-min-369.webp"
+   ]
+  ],
+  "h": 409,
+  "still": null,
+  "tone": 0.5349863289973529,
+  "w": 369,
+  "white_corners": false
+ },
+ "2023/03/Energy-Audit.png": {
+  "alpha": false,
+  "files": [
+   [
+    208,
+    "assets/img/up/2023-03-energy-audit-208.webp"
+   ]
+  ],
+  "h": 155,
+  "still": null,
+  "tone": 0.4717556089154408,
+  "w": 208,
+  "white_corners": false
+ },
+ "2023/03/Features-of-Air-Filters-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    600,
+    "assets/img/up/2023-03-features-of-air-filters-min-600.webp"
+   ]
+  ],
+  "h": 215,
+  "still": null,
+  "tone": 0.8229672985600468,
+  "w": 600,
+  "white_corners": true
+ },
+ "2023/03/Harmonic-Simulation-Studies-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    208,
+    "assets/img/up/2023-03-harmonic-simulation-studies-1-208.webp"
+   ]
+  ],
+  "h": 155,
+  "still": null,
+  "tone": 0.9392321629901966,
+  "w": 208,
+  "white_corners": true
+ },
+ "2023/03/Harmonic-Studies-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    208,
+    "assets/img/up/2023-03-harmonic-studies-1-208.webp"
+   ]
+  ],
+  "h": 155,
+  "still": null,
+  "tone": 0.9401956211703442,
+  "w": 208,
+  "white_corners": true
+ },
+ "2023/03/PQ-Box-150-min-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    395,
+    "assets/img/up/2023-03-pq-box-150-min-1-395.webp"
+   ]
+  ],
+  "h": 293,
+  "still": null,
+  "tone": 0.5879538028492635,
+  "w": 395,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-150-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    395,
+    "assets/img/up/2023-03-pq-box-150-min-395.webp"
+   ]
+  ],
+  "h": 293,
+  "still": null,
+  "tone": 0.5879538028492635,
+  "w": 395,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-200-min-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    392,
+    "assets/img/up/2023-03-pq-box-200-min-1-392.webp"
+   ]
+  ],
+  "h": 291,
+  "still": null,
+  "tone": 0.5661873973651954,
+  "w": 392,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-200-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    392,
+    "assets/img/up/2023-03-pq-box-200-min-392.webp"
+   ]
+  ],
+  "h": 291,
+  "still": null,
+  "tone": 0.5661873973651954,
+  "w": 392,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-300-min-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    386,
+    "assets/img/up/2023-03-pq-box-300-min-1-386.webp"
+   ]
+  ],
+  "h": 286,
+  "still": null,
+  "tone": 0.5648897395833306,
+  "w": 386,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-300-min.png": {
+  "alpha": false,
+  "files": [
+   [
+    386,
+    "assets/img/up/2023-03-pq-box-300-min-386.webp"
+   ]
+  ],
+  "h": 286,
+  "still": null,
+  "tone": 0.5648897395833306,
+  "w": 386,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-50-min-1.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    408,
+    "assets/img/up/2023-03-pq-box-50-min-1-408.webp"
+   ]
+  ],
+  "h": 303,
+  "still": null,
+  "tone": 0.541219504442401,
+  "w": 408,
+  "white_corners": false
+ },
+ "2023/03/PQ-Box-50-min.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    408,
+    "assets/img/up/2023-03-pq-box-50-min-408.webp"
+   ]
+  ],
+  "h": 303,
+  "still": null,
+  "tone": 0.541219504442401,
+  "w": 408,
+  "white_corners": false
+ },
+ "2023/03/PQ-Mobile-Analyser.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-03-pq-mobile-analyser-960.webp"
+   ],
+   [
+    1124,
+    "assets/img/up/2023-03-pq-mobile-analyser-1124.webp"
+   ]
+  ],
+  "h": 859,
+  "still": null,
+  "tone": 0.27091972381170376,
+  "w": 1124,
+  "white_corners": false
+ },
+ "2023/03/Voltage-Optimizer-1-min.png": {
+  "alpha": true,
+  "files": [
+   [
+    227,
+    "assets/img/up/2023-03-voltage-optimizer-1-min-227.webp"
+   ]
+  ],
+  "h": 430,
+  "still": null,
+  "tone": 0.6693778926249915,
+  "w": 227,
+  "white_corners": false
+ },
+ "2023/03/Voltage-Stabilizer.png": {
+  "alpha": true,
+  "files": [
+   [
+    267,
+    "assets/img/up/2023-03-voltage-stabilizer-267.webp"
+   ]
+  ],
+  "h": 682,
+  "still": null,
+  "tone": 0.5424492208299896,
+  "w": 267,
+  "white_corners": false
+ },
+ "2023/03/air-quality22-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-03-air-quality22-1-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.9999999999999999,
+  "w": 40,
+  "white_corners": true
+ },
+ "2023/03/analysis.png": {
+  "alpha": true,
+  "files": [
+   [
+    100,
+    "assets/img/up/2023-03-analysis-100.webp"
+   ]
+  ],
+  "h": 100,
+  "still": null,
+  "tone": 0.3915227749674812,
+  "w": 100,
+  "white_corners": true
+ },
+ "2023/03/automated-solution22-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-03-automated-solution22-1-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.9999999999999999,
+  "w": 40,
+  "white_corners": true
+ },
+ "2023/03/extremely.png": {
+  "alpha": true,
+  "files": [
+   [
+    100,
+    "assets/img/up/2023-03-extremely-100.webp"
+   ]
+  ],
+  "h": 100,
+  "still": null,
+  "tone": 0.39378238774799856,
+  "w": 100,
+  "white_corners": true
+ },
+ "2023/03/frequencies.png": {
+  "alpha": true,
+  "files": [
+   [
+    100,
+    "assets/img/up/2023-03-frequencies-100.webp"
+   ]
+  ],
+  "h": 100,
+  "still": null,
+  "tone": 0.39463906988436376,
+  "w": 100,
+  "white_corners": true
+ },
+ "2023/03/hvac-optimisation222.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-03-hvac-optimisation222-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.9999999999999998,
+  "w": 40,
+  "white_corners": true
+ },
+ "2023/03/power-audit22.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-03-power-audit22-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.9999999999999999,
+  "w": 40,
+  "white_corners": true
+ },
+ "2023/03/pq-measurement.png": {
+  "alpha": false,
+  "files": [
+   [
+    208,
+    "assets/img/up/2023-03-pq-measurement-208.webp"
+   ]
+  ],
+  "h": 155,
+  "still": null,
+  "tone": 0.21295008501838242,
+  "w": 208,
+  "white_corners": false
+ },
+ "2023/03/product-automation.png": {
+  "alpha": true,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-03-product-automation-225.webp"
+   ]
+  ],
+  "h": 240,
+  "still": null,
+  "tone": 0.5319060812613714,
+  "w": 225,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-1-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-1-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.775681952069717,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.781636270778924,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-2-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-2-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7813897930283231,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-2.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-2-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7789659927660374,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-3-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-3-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7752051229946518,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-3.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-3-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.781486432213635,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-4-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-4-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7850089673202612,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-4.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-4-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7813705164789323,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-5-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-5-1-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7822933480919234,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-benefit-5.png": {
+  "alpha": true,
+  "files": [
+   [
+    55,
+    "assets/img/up/2023-03-product-benefit-5-55.webp"
+   ]
+  ],
+  "h": 55,
+  "still": null,
+  "tone": 0.7811605018599074,
+  "w": 55,
+  "white_corners": false
+ },
+ "2023/03/product-ev-chargers.png": {
+  "alpha": true,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-03-product-ev-chargers-225.webp"
+   ]
+  ],
+  "h": 240,
+  "still": null,
+  "tone": 0.7125595994597363,
+  "w": 225,
+  "white_corners": false
+ },
+ "2023/03/product-hvac.png": {
+  "alpha": true,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-03-product-hvac-225.webp"
+   ]
+  ],
+  "h": 240,
+  "still": null,
+  "tone": 0.7257061764705877,
+  "w": 225,
+  "white_corners": false
+ },
+ "2023/03/renewable-energy-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-03-renewable-energy-1-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.9999999999999999,
+  "w": 40,
+  "white_corners": true
+ },
+ "2023/03/smart-metering22.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-03-smart-metering22-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.9999999999999998,
+  "w": 40,
+  "white_corners": true
+ },
+ "2023/03/wlan.png": {
+  "alpha": true,
+  "files": [
+   [
+    100,
+    "assets/img/up/2023-03-wlan-100.webp"
+   ]
+  ],
+  "h": 100,
+  "still": null,
+  "tone": 0.39423464872295894,
+  "w": 100,
+  "white_corners": true
+ },
+ "2023/04/200-240kW-Integrated-Charger.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-200-240kw-integrated-charger-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.6745676039288175,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/360-480kW-Distributed-Charger.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-360-480kw-distributed-charger-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.8394146344780687,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/40-80-kw-flexible-right.gif": {
+  "alpha": true,
+  "files": [
+   [
+    580,
+    "assets/img/up/2023-04-40-80-kw-flexible-right-580.webp"
+   ]
+  ],
+  "h": 632,
+  "still": "assets/img/up/2023-04-40-80-kw-flexible-right-580-still.webp",
+  "tone": 0.8880648398898352,
+  "w": 580,
+  "white_corners": true
+ },
+ "2023/04/40-80-kw-flexible.png": {
+  "alpha": true,
+  "files": [
+   [
+    297,
+    "assets/img/up/2023-04-40-80-kw-flexible-297.webp"
+   ]
+  ],
+  "h": 451,
+  "still": null,
+  "tone": 0.7072102355515516,
+  "w": 297,
+  "white_corners": false
+ },
+ "2023/04/40-80kW-Integrated-Charger.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-40-80kw-integrated-charger-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.682438386696451,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/60-160-kW-Integrated-Charger.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-60-160-kw-integrated-charger-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.7977631124348473,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/Accredition-certificate.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    724,
+    "assets/img/up/2023-04-accredition-certificate-724.webp"
+   ]
+  ],
+  "h": 1024,
+  "still": null,
+  "tone": 0.9725217248774503,
+  "w": 724,
+  "white_corners": true
+ },
+ "2023/04/BID-Factory.png": {
+  "alpha": true,
+  "files": [
+   [
+    360,
+    "assets/img/up/2023-04-bid-factory-360.webp"
+   ]
+  ],
+  "h": 260,
+  "still": null,
+  "tone": 0.3266419132965691,
+  "w": 360,
+  "white_corners": false
+ },
+ "2023/04/BMS-Servers-and-controllers.png": {
+  "alpha": true,
+  "files": [
+   [
+    204,
+    "assets/img/up/2023-04-bms-servers-and-controllers-204.webp"
+   ]
+  ],
+  "h": 204,
+  "still": null,
+  "tone": 0.5316262122626835,
+  "w": 204,
+  "white_corners": false
+ },
+ "2023/04/DP-World.png": {
+  "alpha": true,
+  "files": [
+   [
+    360,
+    "assets/img/up/2023-04-dp-world-360.webp"
+   ]
+  ],
+  "h": 263,
+  "still": null,
+  "tone": 0.650237347579657,
+  "w": 360,
+  "white_corners": false
+ },
+ "2023/04/Emicool-in-Motor-City.png": {
+  "alpha": true,
+  "files": [
+   [
+    360,
+    "assets/img/up/2023-04-emicool-in-motor-city-360.webp"
+   ]
+  ],
+  "h": 339,
+  "still": null,
+  "tone": 0.6499329710477929,
+  "w": 360,
+  "white_corners": false
+ },
+ "2023/04/Harmonic-Simulation-Studies-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    624,
+    "assets/img/up/2023-04-harmonic-simulation-studies-1-624.webp"
+   ]
+  ],
+  "h": 374,
+  "still": null,
+  "tone": 0.9248385010723048,
+  "w": 624,
+  "white_corners": true
+ },
+ "2023/04/Harmonic-Simulation-Studies-2.png": {
+  "alpha": false,
+  "files": [
+   [
+    624,
+    "assets/img/up/2023-04-harmonic-simulation-studies-2-624.webp"
+   ]
+  ],
+  "h": 375,
+  "still": null,
+  "tone": 0.9052857375919136,
+  "w": 624,
+  "white_corners": true
+ },
+ "2023/04/Harmonic-Studies-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    624,
+    "assets/img/up/2023-04-harmonic-studies-1-624.webp"
+   ]
+  ],
+  "h": 340,
+  "still": null,
+  "tone": 0.945248922334559,
+  "w": 624,
+  "white_corners": true
+ },
+ "2023/04/Harmonic-Studies-2.png": {
+  "alpha": false,
+  "files": [
+   [
+    624,
+    "assets/img/up/2023-04-harmonic-studies-2-624.webp"
+   ]
+  ],
+  "h": 343,
+  "still": null,
+  "tone": 0.9570261833639708,
+  "w": 624,
+  "white_corners": true
+ },
+ "2023/04/Interstellar-AC-Charger.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-interstellar-ac-charger-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.8639039428993363,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/Mira-AC-Charger.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-mira-ac-charger-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.48984299536900167,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/Power-Quality.png": {
+  "alpha": true,
+  "files": [
+   [
+    225,
+    "assets/img/up/2023-04-power-quality-225.webp"
+   ]
+  ],
+  "h": 240,
+  "still": null,
+  "tone": 0.31532879809009384,
+  "w": 225,
+  "white_corners": false
+ },
+ "2023/04/SEC-Series.png": {
+  "alpha": true,
+  "files": [
+   [
+    244,
+    "assets/img/up/2023-04-sec-series-244.webp"
+   ]
+  ],
+  "h": 389,
+  "still": null,
+  "tone": 0.7018056153621048,
+  "w": 244,
+  "white_corners": false
+ },
+ "2023/04/SER-20kW-Power-Module.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-ser-20kw-power-module-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.7871047345561882,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/SER-40kW-Power-Module.png": {
+  "alpha": true,
+  "files": [
+   [
+    373,
+    "assets/img/up/2023-04-ser-40kw-power-module-373.webp"
+   ]
+  ],
+  "h": 347,
+  "still": null,
+  "tone": 0.671009138223191,
+  "w": 373,
+  "white_corners": false
+ },
+ "2023/04/SER-Series.png": {
+  "alpha": true,
+  "files": [
+   [
+    625,
+    "assets/img/up/2023-04-ser-series-625.webp"
+   ]
+  ],
+  "h": 270,
+  "still": null,
+  "tone": 0.5688436850644887,
+  "w": 625,
+  "white_corners": false
+ },
+ "2023/04/advance-ser.png": {
+  "alpha": true,
+  "files": [
+   [
+    678,
+    "assets/img/up/2023-04-advance-ser-678.webp"
+   ]
+  ],
+  "h": 366,
+  "still": null,
+  "tone": 0.4251870832669104,
+  "w": 678,
+  "white_corners": false
+ },
+ "2023/04/attractive-icon.png": {
+  "alpha": true,
+  "files": [
+   [
+    30,
+    "assets/img/up/2023-04-attractive-icon-30.webp"
+   ]
+  ],
+  "h": 30,
+  "still": null,
+  "tone": 0.7801817763884937,
+  "w": 30,
+  "white_corners": false
+ },
+ "2023/04/authorization.png": {
+  "alpha": true,
+  "files": [
+   [
+    34,
+    "assets/img/up/2023-04-authorization-34.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.7834183372549021,
+  "w": 34,
+  "white_corners": false
+ },
+ "2023/04/backflow.png": {
+  "alpha": true,
+  "files": [
+   [
+    36,
+    "assets/img/up/2023-04-backflow-36.webp"
+   ]
+  ],
+  "h": 36,
+  "still": null,
+  "tone": 0.7879994479345134,
+  "w": 36,
+  "white_corners": false
+ },
+ "2023/04/bluetooth.png": {
+  "alpha": true,
+  "files": [
+   [
+    23,
+    "assets/img/up/2023-04-bluetooth-23.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.7848363642224016,
+  "w": 23,
+  "white_corners": false
+ },
+ "2023/04/business.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-04-business-40.webp"
+   ]
+  ],
+  "h": 43,
+  "still": null,
+  "tone": 0.7815967502986844,
+  "w": 40,
+  "white_corners": false
+ },
+ "2023/04/charging-360.png": {
+  "alpha": true,
+  "files": [
+   [
+    50,
+    "assets/img/up/2023-04-charging-360-50.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.3875673011115281,
+  "w": 50,
+  "white_corners": false
+ },
+ "2023/04/charging-modes.png": {
+  "alpha": true,
+  "files": [
+   [
+    33,
+    "assets/img/up/2023-04-charging-modes-33.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.7815444617847134,
+  "w": 33,
+  "white_corners": false
+ },
+ "2023/04/cold.png": {
+  "alpha": true,
+  "files": [
+   [
+    40,
+    "assets/img/up/2023-04-cold-40.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.783212971503268,
+  "w": 40,
+  "white_corners": false
+ },
+ "2023/04/constant-power.png": {
+  "alpha": true,
+  "files": [
+   [
+    543,
+    "assets/img/up/2023-04-constant-power-543.webp"
+   ]
+  ],
+  "h": 499,
+  "still": null,
+  "tone": 0.6105327170868348,
+  "w": 543,
+  "white_corners": true
+ },
+ "2023/04/customer.png": {
+  "alpha": true,
+  "files": [
+   [
+    42,
+    "assets/img/up/2023-04-customer-42.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.7872721596244133,
+  "w": 42,
+  "white_corners": false
+ },
+ "2023/04/driving-360.png": {
+  "alpha": true,
+  "files": [
+   [
+    46,
+    "assets/img/up/2023-04-driving-360-46.webp"
+   ]
+  ],
+  "h": 35,
+  "still": null,
+  "tone": 0.39051700316807986,
+  "w": 46,
+  "white_corners": false
+ },
+ "2023/04/dust.png": {
+  "alpha": true,
+  "files": [
+   [
+    42,
+    "assets/img/up/2023-04-dust-42.webp"
+   ]
+  ],
+  "h": 34,
+  "still": null,
+  "tone": 0.7842935212418294,
+  "w": 42,
+  "white_corners": false
+ },
+ "2023/04/dynamic-right.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    908,
+    "assets/img/up/2023-04-dynamic-right-908.webp"
+   ]
+  ],
+  "h": 859,
+  "still": null,
+  "tone": 0.5534120075061235,
+  "w": 908,
+  "white_corners": false
+ },
+ "2023/04/earth-fault.png": {
+  "alpha": true,
+  "files": [
+   [
+    36,
+    "assets/img/up/2023-04-earth-fault-36.webp"
+   ]
+  ],
+  "h": 35,
+  "still": null,
+  "tone": 0.7818807485151736,
+  "w": 36,
+  "white_corners": false
+ },
+ "2023/04/efficiency-output.png": {
+  "alpha": true,
+  "files": [
+   [
+    878,
+    "assets/img/up/2023-04-efficiency-output-878.webp"
+   ]
+  ],
+  "h": 382,
+  "still": null,
+  "tone": 0.969079409870228,
+  "w": 878,
+  "white_corners": false
+ },
+ "2023/04/emergency-stopstrong.png": {
+  "alpha": true,
+  "files": [
+   [
+    36,
+    "assets/img/up/2023-04-emergency-stopstrong-36.webp"
+   ]
+  ],
+  "h": 36,
+  "still": null,
+  "tone": 0.7838742431890242,
+  "w": 36,
+  "white_corners": false
+ },
+ "2023/04/energy-conservation.png": {
+  "alpha": false,
+  "files": [
+   [
+    690,
+    "assets/img/up/2023-04-energy-conservation-690.webp"
+   ]
+  ],
+  "h": 394,
+  "still": null,
+  "tone": 0.983239110753677,
+  "w": 690,
+  "white_corners": true
+ },
+ "2023/04/energy-icon.png": {
+  "alpha": true,
+  "files": [
+   [
+    64,
+    "assets/img/up/2023-04-energy-icon-64.webp"
+   ]
+  ],
+  "h": 64,
+  "still": null,
+  "tone": 0.09675681045751634,
+  "w": 64,
+  "white_corners": false
+ },
+ "2023/04/equipped.png": {
+  "alpha": true,
+  "files": [
+   [
+    719,
+    "assets/img/up/2023-04-equipped-719.webp"
+   ]
+  ],
+  "h": 391,
+  "still": null,
+  "tone": 0.6165289965397923,
+  "w": 719,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-1.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-1-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-1-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.895125802696084,
+  "w": 1920,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-2.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-2-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-2-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.36265750153186316,
+  "w": 1920,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-3.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-3-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-3-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.1590396354166662,
+  "w": 1910,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-4.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-4-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-4-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.294366141237745,
+  "w": 1920,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-5.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-5-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-5-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.07255742876838243,
+  "w": 1920,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-6.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-6-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-6-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.35247306066176426,
+  "w": 1920,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-7.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ev-banner-7-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-ev-banner-7-1600.webp"
+   ]
+  ],
+  "h": 853,
+  "still": null,
+  "tone": 0.1471188066789216,
+  "w": 1920,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-1.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-1-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.8809860692402015,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-2.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-2-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.18647711243872453,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-3.png": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-3-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.2916150543811276,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-4.png": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-4-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.3023019316789216,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-5.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-5-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.06435608302696086,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-6.png": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-6-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.5100922418811286,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ev-banner-m-7.png": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ev-banner-m-7-750.webp"
+   ]
+  ],
+  "h": 1350,
+  "still": null,
+  "tone": 0.46746157475489974,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/fault.png": {
+  "alpha": true,
+  "files": [
+   [
+    28,
+    "assets/img/up/2023-04-fault-28.webp"
+   ]
+  ],
+  "h": 28,
+  "still": null,
+  "tone": 0.7909404857241147,
+  "w": 28,
+  "white_corners": false
+ },
+ "2023/04/flexible-icon.png": {
+  "alpha": true,
+  "files": [
+   [
+    30,
+    "assets/img/up/2023-04-flexible-icon-30.webp"
+   ]
+  ],
+  "h": 30,
+  "still": null,
+  "tone": 0.7812859909785503,
+  "w": 30,
+  "white_corners": true
+ },
+ "2023/04/flexible-right.gif": {
+  "alpha": true,
+  "files": [
+   [
+    580,
+    "assets/img/up/2023-04-flexible-right-580.webp"
+   ]
+  ],
+  "h": 623,
+  "still": "assets/img/up/2023-04-flexible-right-580-still.webp",
+  "tone": 0.8666467554179562,
+  "w": 580,
+  "white_corners": false
+ },
+ "2023/04/heat.png": {
+  "alpha": true,
+  "files": [
+   [
+    37,
+    "assets/img/up/2023-04-heat-37.webp"
+   ]
+  ],
+  "h": 37,
+  "still": null,
+  "tone": 0.7868404052773519,
+  "w": 37,
+  "white_corners": false
+ },
+ "2023/04/high-reliability.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    450,
+    "assets/img/up/2023-04-high-reliability-450.webp"
+   ]
+  ],
+  "h": 414,
+  "still": null,
+  "tone": 0.8785868734681367,
+  "w": 450,
+  "white_corners": true
+ },
+ "2023/04/higher-power.png": {
+  "alpha": true,
+  "files": [
+   [
+    806,
+    "assets/img/up/2023-04-higher-power-806.webp"
+   ]
+  ],
+  "h": 502,
+  "still": null,
+  "tone": 0.5594593464052288,
+  "w": 806,
+  "white_corners": false
+ },
+ "2023/04/hot-plugging.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-hot-plugging-960.webp"
+   ],
+   [
+    1045,
+    "assets/img/up/2023-04-hot-plugging-1045.webp"
+   ]
+  ],
+  "h": 528,
+  "still": null,
+  "tone": 0.8646639299938721,
+  "w": 1045,
+  "white_corners": true
+ },
+ "2023/04/input.png": {
+  "alpha": true,
+  "files": [
+   [
+    38,
+    "assets/img/up/2023-04-input-38.webp"
+   ]
+  ],
+  "h": 31,
+  "still": null,
+  "tone": 0.7823040566088696,
+  "w": 38,
+  "white_corners": false
+ },
+ "2023/04/interstellar-ac-charger-main.png": {
+  "alpha": true,
+  "files": [
+   [
+    381,
+    "assets/img/up/2023-04-interstellar-ac-charger-main-381.webp"
+   ]
+  ],
+  "h": 473,
+  "still": null,
+  "tone": 0.7624268704996149,
+  "w": 381,
+  "white_corners": false
+ },
+ "2023/04/lighting.png": {
+  "alpha": true,
+  "files": [
+   [
+    37,
+    "assets/img/up/2023-04-lighting-37.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.783086305368048,
+  "w": 37,
+  "white_corners": false
+ },
+ "2023/04/low-noise-icon.png": {
+  "alpha": true,
+  "files": [
+   [
+    30,
+    "assets/img/up/2023-04-low-noise-icon-30.webp"
+   ]
+  ],
+  "h": 30,
+  "still": null,
+  "tone": 0.7789476422764218,
+  "w": 30,
+  "white_corners": false
+ },
+ "2023/04/manage-charging.png": {
+  "alpha": true,
+  "files": [
+   [
+    44,
+    "assets/img/up/2023-04-manage-charging-44.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.7752498605787927,
+  "w": 44,
+  "white_corners": false
+ },
+ "2023/04/management1.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    690,
+    "assets/img/up/2023-04-management1-690.webp"
+   ]
+  ],
+  "h": 380,
+  "still": null,
+  "tone": 0.9402494500612747,
+  "w": 690,
+  "white_corners": true
+ },
+ "2023/04/management2.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    690,
+    "assets/img/up/2023-04-management2-690.webp"
+   ]
+  ],
+  "h": 380,
+  "still": null,
+  "tone": 0.9318834865196076,
+  "w": 690,
+  "white_corners": true
+ },
+ "2023/04/matrix-power.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    588,
+    "assets/img/up/2023-04-matrix-power-588.webp"
+   ]
+  ],
+  "h": 328,
+  "still": null,
+  "tone": 0.24065985217524455,
+  "w": 588,
+  "white_corners": false
+ },
+ "2023/04/mira-ac-speci-right.png": {
+  "alpha": true,
+  "files": [
+   [
+    107,
+    "assets/img/up/2023-04-mira-ac-speci-right-107.webp"
+   ]
+  ],
+  "h": 620,
+  "still": null,
+  "tone": 0.43405331818564574,
+  "w": 107,
+  "white_corners": false
+ },
+ "2023/04/mira-ac-specifications.png": {
+  "alpha": true,
+  "files": [
+   [
+    860,
+    "assets/img/up/2023-04-mira-ac-specifications-860.webp"
+   ]
+  ],
+  "h": 919,
+  "still": null,
+  "tone": 0.14315812346813728,
+  "w": 860,
+  "white_corners": false
+ },
+ "2023/04/mira-ac.png": {
+  "alpha": true,
+  "files": [
+   [
+    181,
+    "assets/img/up/2023-04-mira-ac-181.webp"
+   ]
+  ],
+  "h": 432,
+  "still": null,
+  "tone": 0.5017502880519116,
+  "w": 181,
+  "white_corners": false
+ },
+ "2023/04/modular-design.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-modular-design-960.webp"
+   ],
+   [
+    1373,
+    "assets/img/up/2023-04-modular-design-1373.webp"
+   ]
+  ],
+  "h": 887,
+  "still": null,
+  "tone": 0.6422923685906289,
+  "w": 1373,
+  "white_corners": false
+ },
+ "2023/04/monitor-charging.png": {
+  "alpha": true,
+  "files": [
+   [
+    46,
+    "assets/img/up/2023-04-monitor-charging-46.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.7820085154061627,
+  "w": 46,
+  "white_corners": false
+ },
+ "2023/04/output.png": {
+  "alpha": true,
+  "files": [
+   [
+    31,
+    "assets/img/up/2023-04-output-31.webp"
+   ]
+  ],
+  "h": 32,
+  "still": null,
+  "tone": 0.7782998142414853,
+  "w": 31,
+  "white_corners": false
+ },
+ "2023/04/over-temperature.png": {
+  "alpha": true,
+  "files": [
+   [
+    33,
+    "assets/img/up/2023-04-over-temperature-33.webp"
+   ]
+  ],
+  "h": 32,
+  "still": null,
+  "tone": 0.7820303504708962,
+  "w": 33,
+  "white_corners": false
+ },
+ "2023/04/overcurrent.png": {
+  "alpha": true,
+  "files": [
+   [
+    36,
+    "assets/img/up/2023-04-overcurrent-36.webp"
+   ]
+  ],
+  "h": 36,
+  "still": null,
+  "tone": 0.7841949867514564,
+  "w": 36,
+  "white_corners": false
+ },
+ "2023/04/parameters.png": {
+  "alpha": true,
+  "files": [
+   [
+    38,
+    "assets/img/up/2023-04-parameters-38.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.773940135370872,
+  "w": 38,
+  "white_corners": true
+ },
+ "2023/04/power-360.png": {
+  "alpha": false,
+  "files": [
+   [
+    731,
+    "assets/img/up/2023-04-power-360-731.webp"
+   ]
+  ],
+  "h": 403,
+  "still": null,
+  "tone": 0.852393520220588,
+  "w": 731,
+  "white_corners": true
+ },
+ "2023/04/power-image.png": {
+  "alpha": true,
+  "files": [
+   [
+    298,
+    "assets/img/up/2023-04-power-image-298.webp"
+   ]
+  ],
+  "h": 84,
+  "still": null,
+  "tone": 0.3910895525389642,
+  "w": 298,
+  "white_corners": false
+ },
+ "2023/04/product-views.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-product-views-960.webp"
+   ],
+   [
+    1440,
+    "assets/img/up/2023-04-product-views-1440.webp"
+   ]
+  ],
+  "h": 695,
+  "still": null,
+  "tone": 0.8779955338541652,
+  "w": 1440,
+  "white_corners": true
+ },
+ "2023/04/protection.png": {
+  "alpha": true,
+  "files": [
+   [
+    38,
+    "assets/img/up/2023-04-protection-38.webp"
+   ]
+  ],
+  "h": 31,
+  "still": null,
+  "tone": 0.7826114073215541,
+  "w": 38,
+  "white_corners": false
+ },
+ "2023/04/rain.png": {
+  "alpha": true,
+  "files": [
+   [
+    32,
+    "assets/img/up/2023-04-rain-32.webp"
+   ]
+  ],
+  "h": 40,
+  "still": null,
+  "tone": 0.7780932901296109,
+  "w": 32,
+  "white_corners": false
+ },
+ "2023/04/reliable-charging.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-reliable-charging-960.webp"
+   ],
+   [
+    1428,
+    "assets/img/up/2023-04-reliable-charging-1428.webp"
+   ]
+  ],
+  "h": 581,
+  "still": null,
+  "tone": 0.39544357392686796,
+  "w": 1428,
+  "white_corners": false
+ },
+ "2023/04/safety-icon-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    64,
+    "assets/img/up/2023-04-safety-icon-1-64.webp"
+   ]
+  ],
+  "h": 64,
+  "still": null,
+  "tone": 0.065936449765747,
+  "w": 64,
+  "white_corners": false
+ },
+ "2023/04/safety-icon.png": {
+  "alpha": true,
+  "files": [
+   [
+    64,
+    "assets/img/up/2023-04-safety-icon-64.webp"
+   ]
+  ],
+  "h": 64,
+  "still": null,
+  "tone": 0.065936449765747,
+  "w": 64,
+  "white_corners": false
+ },
+ "2023/04/safety-mobile.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-safety-mobile-960.webp"
+   ],
+   [
+    1125,
+    "assets/img/up/2023-04-safety-mobile-1125.webp"
+   ]
+  ],
+  "h": 1977,
+  "still": null,
+  "tone": 0.8797777144607835,
+  "w": 1125,
+  "white_corners": true
+ },
+ "2023/04/safety-short-circuit.png": {
+  "alpha": true,
+  "files": [
+   [
+    36,
+    "assets/img/up/2023-04-safety-short-circuit-36.webp"
+   ]
+  ],
+  "h": 36,
+  "still": null,
+  "tone": 0.7835165389714602,
+  "w": 36,
+  "white_corners": false
+ },
+ "2023/04/sec-200-installation.png": {
+  "alpha": true,
+  "files": [
+   [
+    295,
+    "assets/img/up/2023-04-sec-200-installation-295.webp"
+   ]
+  ],
+  "h": 429,
+  "still": null,
+  "tone": 0.677088680128768,
+  "w": 295,
+  "white_corners": false
+ },
+ "2023/04/sec-200-support-right.gif": {
+  "alpha": false,
+  "files": [
+   [
+    800,
+    "assets/img/up/2023-04-sec-200-support-right-800.webp"
+   ]
+  ],
+  "h": 1102,
+  "still": "assets/img/up/2023-04-sec-200-support-right-800-still.webp",
+  "tone": 0.9095756035539214,
+  "w": 1200,
+  "white_corners": true
+ },
+ "2023/04/sec-200kw-ultra.png": {
+  "alpha": true,
+  "files": [
+   [
+    922,
+    "assets/img/up/2023-04-sec-200kw-ultra-922.webp"
+   ]
+  ],
+  "h": 599,
+  "still": null,
+  "tone": 0.6598449745026215,
+  "w": 922,
+  "white_corners": false
+ },
+ "2023/04/sec-200kw.png": {
+  "alpha": true,
+  "files": [
+   [
+    265,
+    "assets/img/up/2023-04-sec-200kw-265.webp"
+   ]
+  ],
+  "h": 439,
+  "still": null,
+  "tone": 0.6822001067800572,
+  "w": 265,
+  "white_corners": false
+ },
+ "2023/04/sec-240kw-connector-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    227,
+    "assets/img/up/2023-04-sec-240kw-connector-1-227.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.7308845636231988,
+  "w": 227,
+  "white_corners": false
+ },
+ "2023/04/sec-240kw-connector-2.png": {
+  "alpha": true,
+  "files": [
+   [
+    228,
+    "assets/img/up/2023-04-sec-240kw-connector-2-228.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.6785990711767624,
+  "w": 228,
+  "white_corners": false
+ },
+ "2023/04/sec-240kw-connector-3.png": {
+  "alpha": true,
+  "files": [
+   [
+    228,
+    "assets/img/up/2023-04-sec-240kw-connector-3-228.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.6747194755703171,
+  "w": 228,
+  "white_corners": false
+ },
+ "2023/04/sec-40-80-kw.png": {
+  "alpha": true,
+  "files": [
+   [
+    216,
+    "assets/img/up/2023-04-sec-40-80-kw-216.webp"
+   ]
+  ],
+  "h": 403,
+  "still": null,
+  "tone": 0.6708091304746189,
+  "w": 216,
+  "white_corners": false
+ },
+ "2023/04/sec-480kw.png": {
+  "alpha": true,
+  "files": [
+   [
+    662,
+    "assets/img/up/2023-04-sec-480kw-662.webp"
+   ]
+  ],
+  "h": 472,
+  "still": null,
+  "tone": 0.8350500811563338,
+  "w": 662,
+  "white_corners": false
+ },
+ "2023/04/sec-80kw-connector-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    204,
+    "assets/img/up/2023-04-sec-80kw-connector-1-204.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.6769107425781543,
+  "w": 204,
+  "white_corners": false
+ },
+ "2023/04/sec-80kw-connector-2.png": {
+  "alpha": true,
+  "files": [
+   [
+    204,
+    "assets/img/up/2023-04-sec-80kw-connector-2-204.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.6816074884543297,
+  "w": 204,
+  "white_corners": false
+ },
+ "2023/04/sec-80kw-connector-3.png": {
+  "alpha": true,
+  "files": [
+   [
+    202,
+    "assets/img/up/2023-04-sec-80kw-connector-3-202.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.7234036341294001,
+  "w": 202,
+  "white_corners": false
+ },
+ "2023/04/sec-80kw-connector-4.png": {
+  "alpha": true,
+  "files": [
+   [
+    202,
+    "assets/img/up/2023-04-sec-80kw-connector-4-202.webp"
+   ]
+  ],
+  "h": 330,
+  "still": null,
+  "tone": 0.7252526607574502,
+  "w": 202,
+  "white_corners": false
+ },
+ "2023/04/sec-80kw-connector-5.png": {
+  "alpha": true,
+  "files": [
+   [
+    202,
+    "assets/img/up/2023-04-sec-80kw-connector-5-202.webp"
+   ]
+  ],
+  "h": 331,
+  "still": null,
+  "tone": 0.78894934990334,
+  "w": 202,
+  "white_corners": false
+ },
+ "2023/04/sec-safety-mobile.png": {
+  "alpha": true,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-sec-safety-mobile-750.webp"
+   ]
+  ],
+  "h": 1191,
+  "still": null,
+  "tone": 0.8121204891853645,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/sec-safety.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-sec-safety-960.webp"
+   ],
+   [
+    1435,
+    "assets/img/up/2023-04-sec-safety-1435.webp"
+   ]
+  ],
+  "h": 1137,
+  "still": null,
+  "tone": 0.7961037154715895,
+  "w": 1435,
+  "white_corners": false
+ },
+ "2023/04/sec-speci-right.png": {
+  "alpha": true,
+  "files": [
+   [
+    710,
+    "assets/img/up/2023-04-sec-speci-right-710.webp"
+   ]
+  ],
+  "h": 711,
+  "still": null,
+  "tone": 0.7349682684256499,
+  "w": 710,
+  "white_corners": false
+ },
+ "2023/04/sec-specifications.png": {
+  "alpha": true,
+  "files": [
+   [
+    784,
+    "assets/img/up/2023-04-sec-specifications-784.webp"
+   ]
+  ],
+  "h": 668,
+  "still": null,
+  "tone": 0.14858695695465604,
+  "w": 784,
+  "white_corners": false
+ },
+ "2023/04/ser-40-speci-right.gif": {
+  "alpha": true,
+  "files": [
+   [
+    570,
+    "assets/img/up/2023-04-ser-40-speci-right-570.webp"
+   ]
+  ],
+  "h": 391,
+  "still": "assets/img/up/2023-04-ser-40-speci-right-570-still.webp",
+  "tone": 0.4701349255846915,
+  "w": 570,
+  "white_corners": true
+ },
+ "2023/04/ser-40kw-product-mobile.png": {
+  "alpha": true,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ser-40kw-product-mobile-750.webp"
+   ]
+  ],
+  "h": 1038,
+  "still": null,
+  "tone": 0.5531834428316783,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/ser-40kw-product.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ser-40kw-product-960.webp"
+   ],
+   [
+    1357,
+    "assets/img/up/2023-04-ser-40kw-product-1357.webp"
+   ]
+  ],
+  "h": 438,
+  "still": null,
+  "tone": 0.5472501849796519,
+  "w": 1357,
+  "white_corners": false
+ },
+ "2023/04/ser-40kw-specifications-1.png": {
+  "alpha": false,
+  "files": [
+   [
+    900,
+    "assets/img/up/2023-04-ser-40kw-specifications-1-900.webp"
+   ]
+  ],
+  "h": 763,
+  "still": null,
+  "tone": 0.1526171744791667,
+  "w": 900,
+  "white_corners": false
+ },
+ "2023/04/ser-40kw-specifications-right.png": {
+  "alpha": true,
+  "files": [
+   [
+    769,
+    "assets/img/up/2023-04-ser-40kw-specifications-right-769.webp"
+   ]
+  ],
+  "h": 711,
+  "still": null,
+  "tone": 0.6927964005998996,
+  "w": 769,
+  "white_corners": false
+ },
+ "2023/04/ser-40kw-specifications.png": {
+  "alpha": false,
+  "files": [
+   [
+    900,
+    "assets/img/up/2023-04-ser-40kw-specifications-900.webp"
+   ]
+  ],
+  "h": 763,
+  "still": null,
+  "tone": 0.1526171744791667,
+  "w": 900,
+  "white_corners": false
+ },
+ "2023/04/ser-application.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-ser-application-960.webp"
+   ],
+   [
+    1422,
+    "assets/img/up/2023-04-ser-application-1422.webp"
+   ]
+  ],
+  "h": 1095,
+  "still": null,
+  "tone": 0.10844338618259854,
+  "w": 1422,
+  "white_corners": false
+ },
+ "2023/04/ser-series-40kw.png": {
+  "alpha": true,
+  "files": [
+   [
+    582,
+    "assets/img/up/2023-04-ser-series-40kw-582.webp"
+   ]
+  ],
+  "h": 206,
+  "still": null,
+  "tone": 0.2449818685658199,
+  "w": 582,
+  "white_corners": true
+ },
+ "2023/04/ser-series-mobile.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    750,
+    "assets/img/up/2023-04-ser-series-mobile-750.webp"
+   ]
+  ],
+  "h": 1175,
+  "still": null,
+  "tone": 0.1618208884803909,
+  "w": 750,
+  "white_corners": false
+ },
+ "2023/04/short-circuit.png": {
+  "alpha": true,
+  "files": [
+   [
+    24,
+    "assets/img/up/2023-04-short-circuit-24.webp"
+   ]
+  ],
+  "h": 33,
+  "still": null,
+  "tone": 0.78656516468025,
+  "w": 24,
+  "white_corners": false
+ },
+ "2023/04/smart-icon.png": {
+  "alpha": true,
+  "files": [
+   [
+    64,
+    "assets/img/up/2023-04-smart-icon-64.webp"
+   ]
+  ],
+  "h": 64,
+  "still": null,
+  "tone": 0.2412552941176469,
+  "w": 64,
+  "white_corners": false
+ },
+ "2023/04/smart-management.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    786,
+    "assets/img/up/2023-04-smart-management-786.webp"
+   ]
+  ],
+  "h": 412,
+  "still": null,
+  "tone": 0.8853107199754897,
+  "w": 786,
+  "white_corners": true
+ },
+ "2023/04/specifications-detail.png": {
+  "alpha": true,
+  "files": [
+   [
+    789,
+    "assets/img/up/2023-04-specifications-detail-789.webp"
+   ]
+  ],
+  "h": 758,
+  "still": null,
+  "tone": 0.13011950137867648,
+  "w": 789,
+  "white_corners": false
+ },
+ "2023/04/specifications-right.gif": {
+  "alpha": true,
+  "files": [
+   [
+    507,
+    "assets/img/up/2023-04-specifications-right-507.webp"
+   ]
+  ],
+  "h": 230,
+  "still": "assets/img/up/2023-04-specifications-right-507-still.webp",
+  "tone": 0.7203048503611971,
+  "w": 507,
+  "white_corners": true
+ },
+ "2023/04/stablity-image.png": {
+  "alpha": true,
+  "files": [
+   [
+    833,
+    "assets/img/up/2023-04-stablity-image-833.webp"
+   ]
+  ],
+  "h": 452,
+  "still": null,
+  "tone": 0.588615186382245,
+  "w": 833,
+  "white_corners": false
+ },
+ "2023/04/station-image.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-station-image-960.webp"
+   ],
+   [
+    1600,
+    "assets/img/up/2023-04-station-image-1600.webp"
+   ]
+  ],
+  "h": 761,
+  "still": null,
+  "tone": 0.9243726991421557,
+  "w": 1920,
+  "white_corners": true
+ },
+ "2023/04/step-1.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-step-1-960.webp"
+   ],
+   [
+    1400,
+    "assets/img/up/2023-04-step-1-1400.webp"
+   ]
+  ],
+  "h": 659,
+  "still": null,
+  "tone": 0.8960895149638806,
+  "w": 1400,
+  "white_corners": false
+ },
+ "2023/04/step-2.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-step-2-960.webp"
+   ],
+   [
+    1440,
+    "assets/img/up/2023-04-step-2-1440.webp"
+   ]
+  ],
+  "h": 676,
+  "still": null,
+  "tone": 0.8921104122176923,
+  "w": 1440,
+  "white_corners": false
+ },
+ "2023/04/streamlined-design.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-streamlined-design-960.webp"
+   ],
+   [
+    1503,
+    "assets/img/up/2023-04-streamlined-design-1503.webp"
+   ]
+  ],
+  "h": 701,
+  "still": null,
+  "tone": 0.6591129255940782,
+  "w": 1503,
+  "white_corners": false
+ },
+ "2023/04/supporting-mute-mode.jpg": {
+  "alpha": false,
+  "files": [
+   [
+    776,
+    "assets/img/up/2023-04-supporting-mute-mode-776.webp"
+   ]
+  ],
+  "h": 336,
+  "still": null,
+  "tone": 0.8836447158394601,
+  "w": 776,
+  "white_corners": true
+ },
+ "2023/04/temperature.png": {
+  "alpha": true,
+  "files": [
+   [
+    30,
+    "assets/img/up/2023-04-temperature-30.webp"
+   ]
+  ],
+  "h": 36,
+  "still": null,
+  "tone": 0.7894988271521085,
+  "w": 30,
+  "white_corners": false
+ },
+ "2023/04/terminal-360.png": {
+  "alpha": false,
+  "files": [
+   [
+    731,
+    "assets/img/up/2023-04-terminal-360-731.webp"
+   ]
+  ],
+  "h": 403,
+  "still": null,
+  "tone": 0.8731215579044115,
+  "w": 731,
+  "white_corners": true
+ },
+ "2023/04/ultra-wide-output.png": {
+  "alpha": true,
+  "files": [
+   [
+    616,
+    "assets/img/up/2023-04-ultra-wide-output-616.webp"
+   ]
+  ],
+  "h": 489,
+  "still": null,
+  "tone": 0.5768713153594766,
+  "w": 616,
+  "white_corners": false
+ },
+ "2023/04/under-voltage.png": {
+  "alpha": true,
+  "files": [
+   [
+    23,
+    "assets/img/up/2023-04-under-voltage-23.webp"
+   ]
+  ],
+  "h": 38,
+  "still": null,
+  "tone": 0.7865430577812528,
+  "w": 23,
+  "white_corners": false
+ },
+ "2023/04/voltage-range.png": {
+  "alpha": true,
+  "files": [
+   [
+    631,
+    "assets/img/up/2023-04-voltage-range-631.webp"
+   ]
+  ],
+  "h": 523,
+  "still": null,
+  "tone": 0.5680947376283839,
+  "w": 631,
+  "white_corners": false
+ },
+ "2023/04/voltage-speed.png": {
+  "alpha": true,
+  "files": [
+   [
+    960,
+    "assets/img/up/2023-04-voltage-speed-960.webp"
+   ],
+   [
+    1000,
+    "assets/img/up/2023-04-voltage-speed-1000.webp"
+   ]
+  ],
+  "h": 500,
+  "still": null,
+  "tone": 0.7425880784313724,
+  "w": 1000,
+  "white_corners": false
+ },
+ "2023/04/weatherproof-image.png": {
+  "alpha": true,
+  "files": [
+   [
+    334,
+    "assets/img/up/2023-04-weatherproof-image-334.webp"
+   ]
+  ],
+  "h": 460,
+  "still": null,
+  "tone": 0.52680973671578,
+  "w": 334,
+  "white_corners": false
+ },
+ "2023/04/wide-constant.png": {
+  "alpha": true,
+  "files": [
+   [
+    720,
+    "assets/img/up/2023-04-wide-constant-720.webp"
+   ]
+  ],
+  "h": 421,
+  "still": null,
+  "tone": 0.6097782913165266,
+  "w": 720,
+  "white_corners": false
+ },
+ "2023/11/pdfrendition1.png": {
+  "alpha": true,
+  "files": [
+   [
+    724,
+    "assets/img/up/2023-11-pdfrendition1-724.webp"
+   ]
+  ],
+  "h": 1024,
+  "still": null,
+  "tone": 0.8349301815257354,
+  "w": 724,
+  "white_corners": true
+ },
+ "2026/07/helmholz_logo.jpg.jpeg": {
+  "alpha": false,
+  "files": [
+   [
+    225,
+    "assets/img/up/2026-07-helmholz-logo-jpg-225.webp"
+   ]
+  ],
+  "h": 225,
+  "still": null,
+  "tone": 0.9732954940257352,
+  "w": 225,
+  "white_corners": true
+ }
+}

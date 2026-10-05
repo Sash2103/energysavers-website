@@ -2,7 +2,7 @@
 """Download the curated images (from energysavers.me unless a full URL is given) and write web-ready copies.
 
 Usage:  python3 tools/fetch-assets.py
-Writes: assets/img/<name>-<width>.webp and assets/img/manifest.json
+Writes: public/assets/img/<name>-<width>.webp and public/assets/img/manifest.json
 Source files are cached in tools/.cache/ (git-ignored).
 """
 import io, json, os, subprocess, sys
@@ -10,7 +10,7 @@ from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", ".cache")
-OUT = os.path.join(ROOT, "assets", "img")
+OUT = os.path.join(ROOT, "public", "assets", "img")
 BASE = "https://www.energysavers.me/wp-content/uploads/"
 
 
@@ -85,7 +85,7 @@ MANIFEST = [
     ("p-ev-40-80",       "2023/04/40-80kW-Integrated-Charger.png",    "cutout", [373]),
     ("p-ev-interstellar", "2023/04/Interstellar-AC-Charger.png",      "cutout", [373]),
     ("p-ev-mira",        "2023/04/Mira-AC-Charger.png",               "cutout", [373]),
-    # logo source (traced separately into assets/svg)
+    # logo source (traced separately into public/assets/svg)
     ("logo-source",      "2025/05/cropped-cropped-ENERGY-SAVERS-scaled-1.png", "cutout", [1638]),
 ]
 

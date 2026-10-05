@@ -16,11 +16,12 @@ service-account*.json
 .npmrc
 .netrc
 
-# Dependencies and build output
+# Dependencies and build output (Next.js: .next/ is the build cache, out/ the static export)
 node_modules/
+.next/
+out/
 dist/
 build/
-.next/
 .cache/
 .vercel/
 .netlify/
@@ -29,6 +30,7 @@ build/
 # OS / editor
 .DS_Store
 *.log
+npm-debug.log*
 .vscode/*
 !.vscode/extensions.json
 

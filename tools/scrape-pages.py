@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Save the inner pages and blog posts of energysavers.me as structured content for tools/build-pages.py.
+"""Save the inner pages and blog posts of energysavers.me as structured content for the Next.js pages (lib/pages.jsx).
 
 Usage:  python3 tools/scrape-pages.py
 Writes: content/pages/<slug>.json, content/posts/<slug>.json

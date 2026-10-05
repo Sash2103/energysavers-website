@@ -1,0 +1,4 @@
+# Next.js's own 404 page (inline styles), not part of the site
+out/404/
+out/404.html
+out/_not-found/

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Generates the isometric, exploded line drawing of an active harmonic filter module
-// and writes it into index.html between <!-- ahf:start --> and <!-- ahf:end -->.
+// and writes it as the React component components/drawings/AhfDrawing.jsx.
 //
 // Usage: node tools/draw-ahf.mjs
 //
@@ -10,9 +10,7 @@
 // Each part is an SVG group; CSS moves the groups apart using --e (0 = assembled,
 // 1 = exploded) and the per-part --dx/--dy set here.
 
-import { readFileSync, writeFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
+import { writeDrawing } from './write-drawing.mjs';
 
 const C = Math.cos(Math.PI / 6); // 0.866
 const S = 0.5;
@@ -193,7 +191,7 @@ function marker(num, part, [ax, ay]) {
 }
 
 const order = ['base', 'lower', 'igbt', 'upper', 'front', 'side', 'cover'];
-// data-focus ties a part to the callout step that lights it up (see .ahf[data-step] in styles.css)
+// data-focus ties a part to the callout step that lights it up (see .ahf[data-step] in app/globals.css)
 const FOCUS = { upper: 1, igbt: 2, lower: 3 };
 const group = k => `<g class="ahf-part" data-part="${k}"${FOCUS[k] ? ` data-focus="${FOCUS[k]}"` : ''} style="--dx:${PARTS[k].dx};--dy:${PARTS[k].dy}">${parts[k].join('')}</g>`;
 const svg =
@@ -203,10 +201,5 @@ const svg =
   marker(1, 'upper', anchorUpper) + marker(2, 'igbt', anchorIgbt) + marker(3, 'lower', anchorLower) +
   `</svg>`;
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const file = join(root, 'index.html');
-const html = readFileSync(file, 'utf8');
-const re = /(<!-- ahf:start -->)[\s\S]*?(<!-- ahf:end -->)/;
-if (!re.test(html)) throw new Error('ahf markers not found in index.html');
-writeFileSync(file, html.replace(re, `$1\n          ${svg}\n          $2`));
+writeDrawing('AhfDrawing', svg, 'draw-ahf.mjs');
 console.log(`AHF drawing: ${(svg.length / 1024).toFixed(1)} KB, viewBox ${vbX} ${vbY} ${vbW} ${vbH}`);

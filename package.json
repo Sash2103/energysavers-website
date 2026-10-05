@@ -1,10 +1,14 @@
 {
   "name": "energysavers-website",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "Static preview of the Energy Savers homepage redesign. No dependencies.",
   "scripts": {
-    "dev": "python3 -m http.server 8080",
-    "start": "python3 -m http.server 8080"
+    "dev": "next dev -H localhost",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   }
 }
