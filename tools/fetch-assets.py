@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Download the curated images (from energysavers.me unless a full URL is given) and write web-ready copies.
 
-Usage:  python3 tools/fetch-assets.py
+Usage:  python3 tools/fetch-assets.py              # every image in MANIFEST
+        python3 tools/fetch-assets.py NAME [NAME…]  # only these (the others' files and manifest entries stay)
 Writes: public/assets/img/<name>-<width>.webp and public/assets/img/manifest.json
+        Then run tools/build-avif.py for the smaller AVIF copies.
 Source files are cached in tools/.cache/ (git-ignored).
 """
 import io, json, os, subprocess, sys
@@ -48,14 +50,25 @@ MANIFEST = [
     ("pq-rental-kit",         "2023/01/PQ-300-feature-min.png",               "cutout", [480, 900]),
     # About: Business Bay, where the Dubai office is
     ("about-business-bay",    pexels(13398520),                               "photo", [480, 960, 1440, 1920]),
-    # sector photos (2000px for the tall desktop frame, which crops wide photos)
+    # sector photos: phones and the sector pages (2000px for the sector page heads)
     # hospitality: the old site's copy is only 650px wide, so this is a free Pexels photo
     # ("Architectural Building Lighted on Night Time" by Abbas Mohammed, pexels.com/photo/3680902)
+    # data centres: the old 3D render is replaced by a photo of a real data centre aisle
+    # ("Server Racks on Data Center" by Brett Sayles, pexels.com/photo/4508751)
     ("sector-hospitality", pexels(3680902),                                                "photo", [480, 960, 1440, 2000]),
     ("sector-industrial",  "2023/01/food-production-industry-min.jpg",                     "photo", [480, 960, 1440, 2000]),
-    ("sector-datacentre",  "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg", "photo", [480, 960, 1440, 2000]),
+    ("sector-datacentre",  pexels(4508751),                                                "photo", [480, 960, 1440, 2000]),
     ("sector-commercial",  "2023/01/woman-operating-pharmaceutical-production-min.jpg",    "photo", [480, 960, 1440, 2000]),
     ("sector-cooling",     "2023/01/industrial-blue-cooling-tower-min.jpg",                "photo", [480, 960, 1440, 2000]),
+    # the same photos cropped to 4:5 for the full-height panel beside the sector list (desktop),
+    # at the most their originals allow (the three old-site photos are 2000px wide originals)
+    ("sector-frame-hospitality", pexels(3680902),                                             "photo", [800, 1200, 1600], {"crop": (.132, 0, .868, 1)}),
+    ("sector-frame-industrial",  "2023/01/food-production-industry-min.jpg",                  "photo", [800, 1200, 1600], {"crop": (.283, 0, .817, 1)}),
+    ("sector-frame-datacentre",  pexels(4508751),                                             "photo", [800, 1200, 1600], {"crop": (.1, 0, .633, 1)}),
+    ("sector-frame-commercial",  "2023/01/woman-operating-pharmaceutical-production-min.jpg", "photo", [800, 1200, 1600], {"crop": (.413, 0, .947, 1)}),
+    ("sector-frame-cooling",     "2023/01/industrial-blue-cooling-tower-min.jpg",             "photo", [800, 1200, 1600], {"crop": (.239, 0, .761, 1)}),
+    # key highlights: their own photo of the first solar thermal (adsorption) chiller plant, at Mina A'Salam
+    ("highlight-adsorption-chiller", "2022/12/1663417779243-min.jpg",                        "photo", [480, 800]),
     # certificates
     ("cert-iso-9001",  "2023/11/pdfrendition1.png",           "doc", [360, 724]),
     ("cert-deaas",     "2023/04/Accredition-certificate.jpg", "doc", [360, 724]),
@@ -110,8 +123,15 @@ def has_alpha(im):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    manifest = {}
+    only = set(sys.argv[1:])
+    unknown = only - {m[0] for m in MANIFEST}
+    if unknown:
+        raise SystemExit("not in MANIFEST: " + ", ".join(sorted(unknown)))
+    path_json = os.path.join(OUT, "manifest.json")
+    manifest = json.load(open(path_json)) if only and os.path.exists(path_json) else {}
     for name, path, kind, widths, *rest in MANIFEST:
+        if only and name not in only:
+            continue
         opts = rest[0] if rest else {}
         src = Image.open(fetch(path))
         if src.mode == "P":
@@ -127,12 +147,15 @@ def main():
             h = round(h0 * w / w0)
             r = im.resize((w, h), Image.LANCZOS) if w != w0 else im
             base = os.path.join(OUT, f"{name}-{w}")
-            # WebP only: every current browser supports it (Safari 14+, 2020)
+            # WebP for every browser (Safari 14+, 2020); tools/build-avif.py adds smaller AVIF copies
             r.save(base + ".webp", "WEBP", quality=80 if kind != "doc" else 86, method=6)
             files.append(w)
         manifest[name] = {"src": path, "kind": kind, "w": w0, "h": h0, "alpha": alpha, "widths": files, **opts}
         print(f"{name:24s} {w0}x{h0} alpha={alpha} -> {files}")
-    with open(os.path.join(OUT, "manifest.json"), "w") as f:
+    # keep MANIFEST's order
+    order = [m[0] for m in MANIFEST]
+    manifest = {k: manifest[k] for k in sorted(manifest, key=lambda k: order.index(k) if k in order else len(order))}
+    with open(path_json, "w") as f:
         json.dump(manifest, f, indent=1)
 
 

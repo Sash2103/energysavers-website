@@ -1,4 +1,5 @@
 import { href, LINE_OF_KEY, PRODUCT_KEYS } from '@/lib/site';
+import Pic from '@/lib/pic';
 
 // The four product lines. On the homepage the photo and product names open the product sheet;
 // on the Products page they link to the line and product pages.
@@ -71,7 +72,7 @@ export default function ProductLines({ page = false }) {
   return (
     <div className="bench__shelf">
       {LINES.map(l => {
-        const img = <img src={l.img.src} srcSet={l.img.srcSet} sizes={l.img.sizes} width={l.img.width} height={l.img.height} alt={l.img.alt} loading="lazy" decoding="async" />;
+        const img = <Pic src={l.img.src} srcSet={l.img.srcSet} sizes={l.img.sizes} width={l.img.width} height={l.img.height} alt={l.img.alt} loading="lazy" decoding="async" />;
         const line = href(LINE_OF_KEY[l.key]);
         return (
           <article className="line" data-line={l.key} key={l.key}>

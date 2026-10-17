@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Workplan from './Workplan';
+import Pic from '@/lib/pic';
 
 /** Scope lines, separated by line breaks as on the old site. */
 export function Scope({ lines }) {
@@ -9,7 +10,7 @@ export function Scope({ lines }) {
 /** A case photo. sizes overrides the homepage's sizes where the photo has several widths. */
 export function CasePhoto({ photo, sizes, lazy = true }) {
   return (
-    <img src={photo.src} srcSet={photo.srcSet} sizes={photo.srcSet ? (sizes || photo.sizes) : undefined}
+    <Pic src={photo.src} srcSet={photo.srcSet} sizes={photo.srcSet ? (sizes || photo.sizes) : undefined}
       width={photo.width} height={photo.height} alt={photo.alt} loading={lazy ? 'lazy' : undefined} decoding="async" />
   );
 }

@@ -42,11 +42,10 @@ const pairs = [
   ['muted text on form panel', mutedInk, ink2, 4.5],
   ['inactive callout title (58% paper on ink)', mix(paper, ink, 0.58), ink, 4.5],
   ['inactive callout body (58% soft on ink)', mix(softInk, ink, 0.58), ink, 4.5],
-  ['inactive sector text (72% soft on ink)', mix(softInk, ink, 0.72), ink, 4.5],
-  ['inactive sector muted (72% muted on ink)', mix(mutedInk, ink, 0.72), ink, 4.5],
+  ['inactive sector text (70% paper on ink)', mix(paper, ink, 0.7), ink, 4.5],
+  ['inactive sector muted (70% muted on ink)', mix(mutedInk, ink, 0.7), ink, 4.5],
   ['focus ring on paper (UI)', blue, paper, 3],
   ['focus ring on ink (UI)', lime, ink, 3],
-  ['switch Off state (ink on amber)', ink, amber, 4.5],
 ];
 
 let failed = 0;

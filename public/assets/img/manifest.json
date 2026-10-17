@@ -234,10 +234,10 @@
   ]
  },
  "sector-datacentre": {
-  "src": "2023/01/server-room-interior-in-datacenter-3d-render-min.jpg",
+  "src": "https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg",
   "kind": "photo",
-  "w": 2000,
-  "h": 944,
+  "w": 5568,
+  "h": 3712,
   "alpha": false,
   "widths": [
    480,
@@ -270,6 +270,104 @@
    960,
    1440,
    2000
+  ]
+ },
+ "sector-frame-hospitality": {
+  "src": "https://images.pexels.com/photos/3680902/pexels-photo-3680902.jpeg",
+  "kind": "photo",
+  "w": 2487,
+  "h": 3110,
+  "alpha": false,
+  "widths": [
+   800,
+   1200,
+   1600
+  ],
+  "crop": [
+   0.132,
+   0,
+   0.868,
+   1
+  ]
+ },
+ "sector-frame-industrial": {
+  "src": "2023/01/food-production-industry-min.jpg",
+  "kind": "photo",
+  "w": 1068,
+  "h": 1333,
+  "alpha": false,
+  "widths": [
+   800,
+   1068
+  ],
+  "crop": [
+   0.283,
+   0,
+   0.817,
+   1
+  ]
+ },
+ "sector-frame-datacentre": {
+  "src": "https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg",
+  "kind": "photo",
+  "w": 2968,
+  "h": 3712,
+  "alpha": false,
+  "widths": [
+   800,
+   1200,
+   1600
+  ],
+  "crop": [
+   0.1,
+   0,
+   0.633,
+   1
+  ]
+ },
+ "sector-frame-commercial": {
+  "src": "2023/01/woman-operating-pharmaceutical-production-min.jpg",
+  "kind": "photo",
+  "w": 1068,
+  "h": 1333,
+  "alpha": false,
+  "widths": [
+   800,
+   1068
+  ],
+  "crop": [
+   0.413,
+   0,
+   0.947,
+   1
+  ]
+ },
+ "sector-frame-cooling": {
+  "src": "2023/01/industrial-blue-cooling-tower-min.jpg",
+  "kind": "photo",
+  "w": 1044,
+  "h": 1307,
+  "alpha": false,
+  "widths": [
+   800,
+   1044
+  ],
+  "crop": [
+   0.239,
+   0,
+   0.761,
+   1
+  ]
+ },
+ "highlight-adsorption-chiller": {
+  "src": "2022/12/1663417779243-min.jpg",
+  "kind": "photo",
+  "w": 800,
+  "h": 485,
+  "alpha": false,
+  "widths": [
+   480,
+   800
   ]
  },
  "cert-iso-9001": {

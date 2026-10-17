@@ -1,4 +1,5 @@
 import Icon from '@/components/shared/Icon';
+import Pic from '@/lib/pic';
 
 // The four solutions, as photo tiles that link to their pages.
 export default function Solutions() {
@@ -7,7 +8,7 @@ export default function Solutions() {
       <h2 className="section-title" id="solutions-title">Energy efficient building solutions</h2>
       <ol className="solutions">
         <li className="solution">
-          <figure className="solution__media"><img src="/assets/img/field-panel-analyser-960.webp" srcSet="/assets/img/field-panel-analyser-480.webp 480w, /assets/img/field-panel-analyser-960.webp 960w, /assets/img/field-panel-analyser-1203.webp 1203w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="1203" height="902" alt="A power quality analyser connected inside an open electrical panel during an audit" loading="lazy" decoding="async" /></figure>
+          <figure className="solution__media"><Pic src="/assets/img/field-panel-analyser-960.webp" srcSet="/assets/img/field-panel-analyser-480.webp 480w, /assets/img/field-panel-analyser-960.webp 960w, /assets/img/field-panel-analyser-1203.webp 1203w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="1203" height="902" alt="A power quality analyser connected inside an open electrical panel during an audit" loading="lazy" decoding="async" /></figure>
           <div className="solution__body">
             <p className="solution__num" aria-hidden="true">01</p>
             <h3 className="solution__name"><a href="/energy-audit/">Energy Audit<Icon name="arrow" /></a></h3>
@@ -15,7 +16,7 @@ export default function Solutions() {
           </div>
         </li>
         <li className="solution">
-          <figure className="solution__media"><img src="/assets/img/field-pq-install-1-632.webp" srcSet="/assets/img/field-pq-install-1-480.webp 480w, /assets/img/field-pq-install-1-632.webp 632w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="632" height="463" alt="Power quality equipment connected in an electrical panel on site" loading="lazy" decoding="async" /></figure>
+          <figure className="solution__media"><Pic src="/assets/img/field-pq-install-1-632.webp" srcSet="/assets/img/field-pq-install-1-480.webp 480w, /assets/img/field-pq-install-1-632.webp 632w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="632" height="463" alt="Power quality equipment connected in an electrical panel on site" loading="lazy" decoding="async" /></figure>
           <div className="solution__body">
             <p className="solution__num" aria-hidden="true">02</p>
             <h3 className="solution__name"><a href="/power-quality-solutions/">Power Quality Solutions<Icon name="arrow" /></a></h3>
@@ -23,7 +24,7 @@ export default function Solutions() {
           </div>
         </li>
         <li className="solution">
-          <figure className="solution__media"><img src="/assets/img/field-plant-room-960.webp" srcSet="/assets/img/field-plant-room-480.webp 480w, /assets/img/field-plant-room-960.webp 960w, /assets/img/field-plant-room-1306.webp 1306w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="1306" height="854" alt="Plant room with chilled water pumps and pipework" loading="lazy" decoding="async" /></figure>
+          <figure className="solution__media"><Pic src="/assets/img/field-plant-room-960.webp" srcSet="/assets/img/field-plant-room-480.webp 480w, /assets/img/field-plant-room-960.webp 960w, /assets/img/field-plant-room-1306.webp 1306w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="1306" height="854" alt="Plant room with chilled water pumps and pipework" loading="lazy" decoding="async" /></figure>
           <div className="solution__body">
             <p className="solution__num" aria-hidden="true">03</p>
             <h3 className="solution__name"><a href="/hvac-optimization/">HVAC Optimisation<Icon name="arrow" /></a></h3>
@@ -31,7 +32,7 @@ export default function Solutions() {
           </div>
         </li>
         <li className="solution">
-          <figure className="solution__media"><img src="/assets/img/solution-automation-960.webp" srcSet="/assets/img/solution-automation-480.webp 480w, /assets/img/solution-automation-960.webp 960w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="960" height="640" alt="An operator using the touch panel of an industrial control cabinet" loading="lazy" decoding="async" /></figure>
+          <figure className="solution__media"><Pic src="/assets/img/solution-automation-960.webp" srcSet="/assets/img/solution-automation-480.webp 480w, /assets/img/solution-automation-960.webp 960w" sizes="(min-width: 1100px) 330px, (min-width: 720px) 46vw, 120px" width="960" height="640" alt="An operator using the touch panel of an industrial control cabinet" loading="lazy" decoding="async" /></figure>
           <div className="solution__body">
             <p className="solution__num" aria-hidden="true">04</p>
             <h3 className="solution__name"><a href="/automation-solutions/">Automation / BMS<Icon name="arrow" /></a></h3>

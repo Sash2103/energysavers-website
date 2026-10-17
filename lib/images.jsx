@@ -4,6 +4,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { pyRound } from './text';
+import Pic, { avifOf } from './pic';
 
 const PUBLIC = join(process.cwd(), 'public');
 let IMAGES;
@@ -23,16 +24,17 @@ export const isIcon = path => image(path).w <= 160;
 /** A product shot on a transparent or white ground (not a photo). */
 export const isCutout = path => { const i = image(path); return i.alpha || i.white_corners; };
 
-/** An old-site image: srcset from its WebP files, a still frame for reduced motion, a phone version. */
+/** An old-site image: srcset from its WebP files (and their AVIF copies), a still frame for reduced
+ *  motion, a phone version. */
 export function Img({ path, alt = '', sizes = '(min-width: 960px) 50vw, 100vw', className = '', mobile = null, eager = false }) {
   const info = image(path);
   const files = info.files;
   const [w] = files[files.length - 1];
   const h = pyRound(info.h * w / info.w);
   const many = files.length > 1;
+  const srcSet = many ? files.map(([fw, r]) => `/${r} ${fw}w`).join(', ') : undefined;
   const tag = (
-    <img className={className || undefined} src={'/' + files[0][1]}
-      srcSet={many ? files.map(([fw, r]) => `/${r} ${fw}w`).join(', ') : undefined} sizes={many ? sizes : undefined}
+    <img className={className || undefined} src={'/' + files[0][1]} srcSet={srcSet} sizes={many ? sizes : undefined}
       width={w} height={h} alt={alt} loading={eager ? undefined : 'lazy'} decoding="async" />
   );
   const sources = [];
@@ -40,9 +42,15 @@ export function Img({ path, alt = '', sizes = '(min-width: 960px) 50vw, 100vw', 
   if (mobile) {
     const m = image(mobile);
     const [mw, mrel] = m.files[m.files.length - 1];
-    sources.push(<source media="(max-width: 719px)" srcSet={'/' + mrel} width={mw} height={pyRound(m.h * mw / m.w)} key="mobile" />);
+    const mh = pyRound(m.h * mw / m.w);
+    const mAvif = avifOf('/' + mrel);
+    if (mAvif) sources.push(<source media="(max-width: 719px)" type="image/avif" srcSet={mAvif} width={mw} height={mh} key="mobile-avif" />);
+    sources.push(<source media="(max-width: 719px)" srcSet={'/' + mrel} width={mw} height={mh} key="mobile" />);
   }
-  return sources.length ? <picture>{sources}{tag}</picture> : tag;
+  if (!sources.length) return <Pic {...tag.props} />;
+  const avif = avifOf(srcSet || '/' + files[0][1]);
+  if (avif) sources.push(<source type="image/avif" srcSet={avif} sizes={many ? sizes : undefined} key="avif" />);
+  return <picture>{sources}{tag}</picture>;
 }
 
 /** Width and height of a WebP file, read from its header. */
@@ -66,7 +74,7 @@ export function HomeImg({ name, alt = '', sizes = '100vw', className = '', eager
   const [, height] = webpSize(join(dir, f));
   const fallback = (found.find(([w2]) => w2 >= 960) || found[found.length - 1])[1];
   return (
-    <img className={className || undefined} src={`/assets/img/${fallback}`} srcSet={found.map(([w2, f2]) => `/assets/img/${f2} ${w2}w`).join(', ')}
+    <Pic className={className || undefined} src={`/assets/img/${fallback}`} srcSet={found.map(([w2, f2]) => `/assets/img/${f2} ${w2}w`).join(', ')}
       sizes={sizes} width={w} height={height} alt={alt} loading={eager ? undefined : 'lazy'} decoding="async" />
   );
 }

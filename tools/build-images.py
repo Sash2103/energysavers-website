@@ -7,7 +7,7 @@ Usage:  python3 tools/build-images.py                 # refresh content/images.j
 Reads:  every image referenced in content/pages/*.json and content/posts/*.json.
         Originals are downloaded once into tools/.cache/uploads/ (needs Pillow).
 Writes: content/images.json (size, WebP files, transparency, white corners, tone) and, with --encode,
-        public/assets/img/up/*.webp.
+        public/assets/img/up/*.webp. Then run tools/build-avif.py for the smaller AVIF copies.
 
 The Next.js build reads content/images.json to lay out the pages (app/[slug]/page.jsx, lib/images.jsx).
 Not every referenced image is shown (some sit in sections the pages leave out), so WebP files are only
@@ -23,6 +23,9 @@ CACHE = os.path.join(ROOT, "tools", ".cache", "uploads")
 PUBLIC = os.path.join(ROOT, "public")
 IMG_DIR = "assets/img/up"   # under public/, served as /assets/img/up/
 UPLOADS = "https://www.energysavers.me/wp-content/uploads/"
+# Animations shown as their first frame only: this one is 10 fps motion, which looks choppy on the
+# page (the owner found it laggy, 2026-10-17). The others are slow slideshows and stay animated.
+STILL_ONLY = {"2023/04/sec-200-support-right.gif"}
 
 
 def original(path):
@@ -42,7 +45,14 @@ def measure(path, encode):
     info = {"w": W, "h": H, "files": [], "still": None}
     rgba = im.convert("RGBA")
     info["alpha"] = rgba.getextrema()[3][0] < 250
-    if getattr(im, "is_animated", False):
+    if getattr(im, "is_animated", False) and path in STILL_ONLY:
+        w = min(W, 800)
+        still = f"{IMG_DIR}/{stem}-{w}-still.webp"
+        if encode and not os.path.exists(os.path.join(PUBLIC, still)):
+            first = next(ImageSequence.Iterator(im)).convert("RGBA" if info["alpha"] else "RGB")
+            first.resize((w, round(H * w / W)), Image.LANCZOS).save(os.path.join(PUBLIC, still), "WEBP", quality=82, method=6)
+        info["files"] = [[w, still]]
+    elif getattr(im, "is_animated", False):
         w = min(W, 800)
         out, still = f"{IMG_DIR}/{stem}-{w}.webp", f"{IMG_DIR}/{stem}-{w}-still.webp"
         if encode and not os.path.exists(os.path.join(PUBLIC, out)):

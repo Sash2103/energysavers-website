@@ -3602,11 +3602,11 @@
   "files": [
    [
     800,
-    "assets/img/up/2023-04-sec-200-support-right-800.webp"
+    "assets/img/up/2023-04-sec-200-support-right-800-still.webp"
    ]
   ],
   "h": 1102,
-  "still": "assets/img/up/2023-04-sec-200-support-right-800-still.webp",
+  "still": null,
   "tone": 0.9095756035539214,
   "w": 1200,
   "white_corners": true

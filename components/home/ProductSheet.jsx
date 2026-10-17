@@ -1,5 +1,6 @@
 import Icon from '@/components/shared/Icon';
 import ProductSheetControls from '@/components/behaviour/ProductSheetControls';
+import Pic from '@/lib/pic';
 
 // The product quick-view sheet. Each product links to its full page; chips switch between the products of a line.
 export default function ProductSheet() {
@@ -12,7 +13,7 @@ export default function ProductSheet() {
       <div className="sheet__chips" id="product-chips" role="group" aria-label="Products in this line" />
       <div className="sheet__body">
         <article className="product" id="product-ahf" data-line="Power Quality" hidden>
-          <div className="product__media"><img src="/assets/img/p-ahf-700.webp" srcSet="/assets/img/p-ahf-400.webp 400w, /assets/img/p-ahf-700.webp 700w" sizes="(min-width: 900px) 34vw, 86vw" width="700" height="518" alt="Active harmonic filter modules" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ahf-700.webp" srcSet="/assets/img/p-ahf-400.webp 400w, /assets/img/p-ahf-700.webp 700w" sizes="(min-width: 900px) 34vw, 86vw" width="700" height="518" alt="Active harmonic filter modules" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/ahf/">Active Harmonic Filter<Icon name="arrow" /></a></h2>
             <p className="product__models">AHF · AHF Pro</p>
@@ -30,7 +31,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-svg" data-line="Power Quality" hidden>
-          <div className="product__media"><img src="/assets/img/p-svg-200.webp" width="200" height="200" alt="Static var generator module" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-svg-200.webp" width="200" height="200" alt="Static var generator module" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/static-var-generator/">Static Var Generator<Icon name="arrow" /></a></h2>
             <p className="product__models">SVG · SVG Pro · ASVG</p>
@@ -48,7 +49,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-oskar" data-line="Power Quality" hidden>
-          <div className="product__media product__media--tall"><img src="/assets/img/p-oskar-267.webp" width="267" height="682" alt="OSKAR voltage optimisation cabinet" loading="lazy" decoding="async" /></div>
+          <div className="product__media product__media--tall"><Pic src="/assets/img/p-oskar-267.webp" width="267" height="682" alt="OSKAR voltage optimisation cabinet" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/voltage-optimizers/">Voltage Optimization<Icon name="arrow" /></a></h2>
             <p className="product__models">OSKAR</p>
@@ -66,7 +67,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ups" data-line="Power Quality" hidden>
-          <div className="product__media"><img src="/assets/img/p-ups-200.webp" width="200" height="200" alt="Uninterrupted power supply cabinet" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ups-200.webp" width="200" height="200" alt="Uninterrupted power supply cabinet" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/uninterrupted-power-supply/">Uninterrupted Power Supply<Icon name="arrow" /></a></h2>
             <p className="product__models">UPS</p>
@@ -84,7 +85,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-pq-mobile" data-line="Power Quality" hidden>
-          <div className="product__media"><img src="/assets/img/p-pq-mobile-1124.webp" srcSet="/assets/img/p-pq-mobile-480.webp 480w, /assets/img/p-pq-mobile-1124.webp 1124w" sizes="(min-width: 900px) 34vw, 86vw" width="1124" height="859" alt="PQ-Box mobile power quality analyser" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-pq-mobile-1124.webp" srcSet="/assets/img/p-pq-mobile-480.webp 480w, /assets/img/p-pq-mobile-1124.webp 1124w" sizes="(min-width: 900px) 34vw, 86vw" width="1124" height="859" alt="PQ-Box mobile power quality analyser" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/power-quality-mobile-anlayser/">Power Quality Mobile Analyser<Icon name="arrow" /></a></h2>
             <p className="product__models">PQ-Box 50 · PQ-Box 150 · PQ-Box 200 · PQ-Box 300</p>
@@ -102,7 +103,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-heat-pump" data-line="HVAC" hidden>
-          <div className="product__media"><img src="/assets/img/p-heat-pump-839.webp" srcSet="/assets/img/p-heat-pump-420.webp 420w, /assets/img/p-heat-pump-839.webp 839w" sizes="(min-width: 900px) 34vw, 86vw" width="839" height="523" alt="Heat pump unit" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-heat-pump-839.webp" srcSet="/assets/img/p-heat-pump-420.webp 420w, /assets/img/p-heat-pump-839.webp 839w" sizes="(min-width: 900px) 34vw, 86vw" width="839" height="523" alt="Heat pump unit" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/heat-pumps/">Heat Pumps System<Icon name="arrow" /></a></h2>
             <p>A heat pump is a device that transfers heat energy from a source of heat to what is called a thermal reservoir. Heat pumps are used to provide heating, cooling, and hot water to buildings in the form of space heating, air conditioning, and domestic hot water.</p>
@@ -119,7 +120,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-adsorption" data-line="HVAC" hidden>
-          <div className="product__media product__media--tall"><img src="/assets/img/p-adsorption-277.webp" width="277" height="460" alt="eCoo adsorption chiller" loading="lazy" decoding="async" /></div>
+          <div className="product__media product__media--tall"><Pic src="/assets/img/p-adsorption-277.webp" width="277" height="460" alt="eCoo adsorption chiller" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/adsorption-chiller/">Adsorption Chiller<Icon name="arrow" /></a></h2>
             <p className="product__models">eCoo 20 ST · eCoo 20X · eCoo 30X · eCoo 30</p>
@@ -137,7 +138,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-air-purifier" data-line="HVAC" hidden>
-          <div className="product__media"><img src="/assets/img/p-air-purifier-369.webp" width="369" height="409" alt="Ceiling air purifier shown with its filter and grille separated" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-air-purifier-369.webp" width="369" height="409" alt="Ceiling air purifier shown with its filter and grille separated" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/air-purifiers-smoke-filters/">Air Purifiers / Smoke Filters<Icon name="arrow" /></a></h2>
             <p>Air purifiers or smoke filters are devices that remove pollutants from the air in a room or building. They usually use a fan to draw air in, pass it through a filter, and then return the filtered air back into the room.</p>
@@ -153,7 +154,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-bms" data-line="Automation" hidden>
-          <div className="product__media product__media--photo"><img src="/assets/img/p-bms-250.webp" width="250" height="200" alt="BMS server and controller hardware" loading="lazy" decoding="async" /></div>
+          <div className="product__media product__media--photo"><Pic src="/assets/img/p-bms-250.webp" width="250" height="200" alt="BMS server and controller hardware" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/bms-servers-controllers/">BMS Servers &amp; Controllers<Icon name="arrow" /></a></h2>
             <p>BMS Servers &amp; Controllers are server and controller systems used to monitor and control building management systems (BMS). BMS systems are used to manage heating, ventilation, air conditioning, lighting, security, and access control systems in commercial and residential buildings.</p>
@@ -169,7 +170,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-sensors" data-line="Automation" hidden>
-          <div className="product__media product__media--photo"><img src="/assets/img/p-sensors-517.webp" width="517" height="345" alt="Industrial sensors used in SCADA systems" loading="lazy" decoding="async" /></div>
+          <div className="product__media product__media--photo"><Pic src="/assets/img/p-sensors-517.webp" width="517" height="345" alt="Industrial sensors used in SCADA systems" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/sensors/">Sensors<Icon name="arrow" /></a></h2>
             <p>Sensors in SCADA automations are components of the automation system that measure physical conditions such as temperature, pressure, and flow. They provide input to the SCADA system, which can then be used to control and monitor processes.</p>
@@ -184,7 +185,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-power-supply" data-line="Automation" hidden>
-          <div className="product__media product__media--photo"><img src="/assets/img/p-power-supply-450.webp" width="450" height="297" alt="DIN-rail power supply units" loading="lazy" decoding="async" /></div>
+          <div className="product__media product__media--photo"><Pic src="/assets/img/p-power-supply-450.webp" width="450" height="297" alt="DIN-rail power supply units" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/power-supply/">Power Supply<Icon name="arrow" /></a></h2>
             <p>Power supply in SCADA automation is a system that provides power to the SCADA system, including all of its components, such as computers, remote terminal units, and programmable logic controllers.</p>
@@ -199,7 +200,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-smart-meters" data-line="Automation" hidden>
-          <div className="product__media product__media--photo"><img src="/assets/img/p-smart-meters-513.webp" width="513" height="374" alt="Smart energy meter" loading="lazy" decoding="async" /></div>
+          <div className="product__media product__media--photo"><Pic src="/assets/img/p-smart-meters-513.webp" width="513" height="374" alt="Smart energy meter" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/smart-meters/">Smart Meters<Icon name="arrow" /></a></h2>
             <p>A smart meter is an electronic device that records energy consumption of a home or business in intervals of an hour or less and communicates that information at least daily back to the utility for monitoring and billing purposes. Smart meters enable two-way communication between the meter and the central system.</p>
@@ -209,7 +210,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ev-360-480" data-line="EV Chargers" hidden>
-          <div className="product__media"><img src="/assets/img/p-ev-360-480-662.webp" srcSet="/assets/img/p-ev-360-480-400.webp 400w, /assets/img/p-ev-360-480-662.webp 662w" sizes="(min-width: 900px) 34vw, 86vw" width="662" height="472" alt="Sinexcel distributed charger: power bank and user terminal" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ev-360-480-662.webp" srcSet="/assets/img/p-ev-360-480-400.webp 400w, /assets/img/p-ev-360-480-662.webp 662w" sizes="(min-width: 900px) 34vw, 86vw" width="662" height="472" alt="Sinexcel distributed charger: power bank and user terminal" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/360480kw-distributed-charger/">360~480kW Distributed Charger<Icon name="arrow" /></a></h2>
             <p>Flexible charging brings customers profitability and better user experience.</p>
@@ -225,7 +226,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ev-200-240" data-line="EV Chargers" hidden>
-          <div className="product__media"><img src="/assets/img/p-ev-200-240-373.webp" width="373" height="347" alt="SEC 200-240kW integrated charger" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ev-200-240-373.webp" width="373" height="347" alt="SEC 200-240kW integrated charger" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/sec-200-240kw-integrated-charger/">SEC 200-240kW Integrated Charger<Icon name="arrow" /></a></h2>
             <p>SEC 240kW charger is an integrated solution, with power flexibly distributed to two connectors simultaneously, controlled by an intelligent algorithm that realizes high-performance EV charging.</p>
@@ -241,7 +242,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ev-60-160" data-line="EV Chargers" hidden>
-          <div className="product__media"><img src="/assets/img/p-ev-60-160-373.webp" width="373" height="347" alt="SEC 60-160kW integrated charger" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ev-60-160-373.webp" width="373" height="347" alt="SEC 60-160kW integrated charger" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/sec-series/">SEC 60-160kW Integrated Charger<Icon name="arrow" /></a></h2>
             <p>Sinexcel has developed the innovative constant power technology: a reliable 60-160kW flexible configuration, a convenient power extension, and components for high availability and reliability to cover multiple applications such as hotels and hospitals.</p>
@@ -256,7 +257,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ev-40-80" data-line="EV Chargers" hidden>
-          <div className="product__media"><img src="/assets/img/p-ev-40-80-373.webp" width="373" height="347" alt="SEC 40-80kW integrated charger" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ev-40-80-373.webp" width="373" height="347" alt="SEC 40-80kW integrated charger" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/sec-40-80kw-integrated-charger/">SEC 40-80kW Integrated Charger<Icon name="arrow" /></a></h2>
             <p>Sinexcel SEC 80kW charger is equipped with 2 DC charging connectors, which support output at a maximum of 1000V and 80kW full power. To charge more EVs at the same time, a Type 2 connector with 22kW is optional.</p>
@@ -271,7 +272,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ev-interstellar" data-line="EV Chargers" hidden>
-          <div className="product__media"><img src="/assets/img/p-ev-interstellar-373.webp" width="373" height="347" alt="Interstellar AC wall charger" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ev-interstellar-373.webp" width="373" height="347" alt="Interstellar AC wall charger" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/interstellar-ac-charger/">Interstellar AC Charger<Icon name="arrow" /></a></h2>
             <p className="product__models">7kW · 22kW</p>
@@ -287,7 +288,7 @@ export default function ProductSheet() {
           </div>
         </article>
         <article className="product" id="product-ev-mira" data-line="EV Chargers" hidden>
-          <div className="product__media"><img src="/assets/img/p-ev-mira-373.webp" width="373" height="347" alt="Mira AC charger" loading="lazy" decoding="async" /></div>
+          <div className="product__media"><Pic src="/assets/img/p-ev-mira-373.webp" width="373" height="347" alt="Mira AC charger" loading="lazy" decoding="async" /></div>
           <div className="product__text">
             <h2 className="product__name"><a href="/mira-ac-charger/">Mira AC Charger<Icon name="arrow" /></a></h2>
             <p className="product__models">7kW</p>

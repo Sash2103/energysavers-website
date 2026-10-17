@@ -1,3 +1,4 @@
+import Pic from '@/lib/pic';
 // The five services. On the homepage they are a rail of cards (swipe, arrows, drag); on the Services
 // page the same cards sit in a grid, with page-level headings.
 const HOME_SIZES = '(min-width: 960px) 420px, 84vw';
@@ -9,7 +10,7 @@ export default function ServiceCards({ page = false }) {
   const items = (
     <>
       <li className="svc">
-        <figure className="svc__media svc__media--photo"><img src="/assets/img/field-pq-install-2-691.webp" srcSet="/assets/img/field-pq-install-2-480.webp 480w, /assets/img/field-pq-install-2-691.webp 691w" sizes={sizes} width="691" height="574" alt="Two power quality analysers logging at an open switchboard during an audit" loading="lazy" decoding="async" /></figure>
+        <figure className="svc__media svc__media--photo"><Pic src="/assets/img/field-pq-install-2-691.webp" srcSet="/assets/img/field-pq-install-2-480.webp 480w, /assets/img/field-pq-install-2-691.webp 691w" sizes={sizes} width="691" height="574" alt="Two power quality analysers logging at an open switchboard during an audit" loading="lazy" decoding="async" /></figure>
         <div className="svc__body">
           <p className="svc__num" aria-hidden="true">01</p>
           <Name className="svc__name"><a href="/energy-audit/">Energy Audit</a></Name>
@@ -17,7 +18,7 @@ export default function ServiceCards({ page = false }) {
         </div>
       </li>
       <li className="svc">
-        <figure className="svc__media svc__media--photo"><img src="/assets/img/field-analyser-screen-830.webp" srcSet="/assets/img/field-analyser-screen-480.webp 480w, /assets/img/field-analyser-screen-830.webp 830w" sizes={sizes} width="830" height="622" alt="Power quality analyser screen showing live readings during a measurement" loading="lazy" decoding="async" /></figure>
+        <figure className="svc__media svc__media--photo"><Pic src="/assets/img/field-analyser-screen-830.webp" srcSet="/assets/img/field-analyser-screen-480.webp 480w, /assets/img/field-analyser-screen-830.webp 830w" sizes={sizes} width="830" height="622" alt="Power quality analyser screen showing live readings during a measurement" loading="lazy" decoding="async" /></figure>
         <div className="svc__body">
           <p className="svc__num" aria-hidden="true">02</p>
           <Name className="svc__name"><a href="/pq-audit-and-measurement/">PQ Audit and Measurement</a></Name>
@@ -25,7 +26,7 @@ export default function ServiceCards({ page = false }) {
         </div>
       </li>
       <li className="svc">
-        <figure className="svc__media svc__media--doc"><img src="/assets/img/report-thd-624.webp" width="624" height="340" alt="Report excerpt: total harmonic distortion in voltage recorded over the measurement period" loading="lazy" decoding="async" /></figure>
+        <figure className="svc__media svc__media--doc"><Pic src="/assets/img/report-thd-624.webp" width="624" height="340" alt="Report excerpt: total harmonic distortion in voltage recorded over the measurement period" loading="lazy" decoding="async" /></figure>
         <div className="svc__body">
           <p className="svc__num" aria-hidden="true">03</p>
           <Name className="svc__name"><a href="/harmonic-studies/">Harmonic Studies</a></Name>
@@ -33,7 +34,7 @@ export default function ServiceCards({ page = false }) {
         </div>
       </li>
       <li className="svc">
-        <figure className="svc__media svc__media--doc"><img src="/assets/img/report-spectrum-624.webp" width="624" height="374" alt="Report excerpt: harmonic spectrum of the current, by harmonic order" loading="lazy" decoding="async" /></figure>
+        <figure className="svc__media svc__media--doc"><Pic src="/assets/img/report-spectrum-624.webp" width="624" height="374" alt="Report excerpt: harmonic spectrum of the current, by harmonic order" loading="lazy" decoding="async" /></figure>
         <div className="svc__body">
           <p className="svc__num" aria-hidden="true">04</p>
           <Name className="svc__name"><a href="/harmonic-simulation-studies/">Harmonic Simulation Studies</a></Name>
@@ -41,7 +42,7 @@ export default function ServiceCards({ page = false }) {
         </div>
       </li>
       <li className="svc">
-        <figure className="svc__media svc__media--product"><img src="/assets/img/pq-rental-kit-900.webp" srcSet="/assets/img/pq-rental-kit-480.webp 480w, /assets/img/pq-rental-kit-900.webp 900w" sizes={sizes} width="900" height="656" alt="PQ-Box power quality analyser kit in its carry case" loading="lazy" decoding="async" /></figure>
+        <figure className="svc__media svc__media--product"><Pic src="/assets/img/pq-rental-kit-900.webp" srcSet="/assets/img/pq-rental-kit-480.webp 480w, /assets/img/pq-rental-kit-900.webp 900w" sizes={sizes} width="900" height="656" alt="PQ-Box power quality analyser kit in its carry case" loading="lazy" decoding="async" /></figure>
         <div className="svc__body">
           <p className="svc__num" aria-hidden="true">05</p>
           <Name className="svc__name"><a href="/pq-equipment-rental/">PQ Equipment Rental</a></Name>

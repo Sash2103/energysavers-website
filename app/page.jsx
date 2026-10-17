@@ -1,5 +1,6 @@
 import Shell from '@/components/site/Shell';
 import Hero from '@/components/home/Hero';
+import KeyHighlights from '@/components/home/KeyHighlights';
 import Proof from '@/components/home/Proof';
 import ActiveHarmonicFilter from '@/components/home/ActiveHarmonicFilter';
 import HeatPump from '@/components/home/HeatPump';
@@ -17,12 +18,13 @@ export const metadata = {
   description: 'Energy Savers is a UAE based engineering company focusing on implementing Power Quality/HVAC/SCADA solutions to industrial and commercial clients.',
 };
 
-// Sections alternate ink and paper on purpose: hero, proof, AHF, heat pump, bench, offer, sectors,
-// About, insights, contact.
+// Sections alternate ink and paper on purpose: hero, key highlights + proof, AHF, heat pump, bench,
+// offer, sectors, About, insights, contact.
 export default function Home() {
   return (
     <Shell home extra={<><ProductSheet /><CaseSheet /><CertViewer /></>}>
       <Hero />
+      <KeyHighlights />
       <Proof />
       <ActiveHarmonicFilter />
       <HeatPump />

@@ -33,6 +33,10 @@ Each item is also marked `TODO(owner)` in the source: `components/home/Stats.jsx
      - DP World: a container terminal at night, by Oleksiy Yeshtokyn (pexels.com/photo/39621561)
    - Burj Al Arab case: the 2000 px photo from their own media library (`51664-burj-al-arab-hotel-min.jpg`).
    - Dubai Medical and BID Factory still use the old 450 px photos; they only appear in the case sheet. Better originals are needed.
+   - Added in the sixth round, also under the Pexels licence:
+     - Hero film: "Industrial Factory Workers Operating Machinery" by Usman AbdulrasheedGambo (pexels.com/video/32243444). It shows a pump-room crew, not an Energy Savers site, so it has no caption or alt text naming anyone.
+     - Data Centres / Telecom sector: "Server Racks on Data Center" by Brett Sayles (pexels.com/photo/4508751), replacing the old 3D render.
+   - Key highlights uses their own photo of the adsorption chiller plant at Mina A'Salam (the image of their blog post about it, 800 px).
 10. **Contact details.** Which phone is primary (+971 4 568 6557 is used in the header), the WhatsApp number (+971 52 536 0124), and whether there are social accounts besides LinkedIn.
 11. **Claims to confirm.** "Funding assistance" and "energy model development" were in the old hero; they were dropped from About for length. "First Solar Thermal Chiller installation in the UAE" is shown, and "ROI less than 12 months in most cases" appears on the heat pump sheet.
 
@@ -83,7 +87,7 @@ Each item is also marked `TODO(owner)` in the source: `components/home/Stats.jsx
 - **Tabs and duplicates.** Tab labels that the old pages repeated above their panels are merged. Each phone-only copy of an image is used as the phone version of the same image.
 - **Downloads.** The PDF brochures and data sheets still link to the old site (`energysavers.me/wp-content/uploads/…`). Copy them across before the old site is switched off.
 - **Images.** 236 of the old pages' images are re-encoded to WebP (8.8 MB in `public/assets/img/up/`).
-  - The 7.7 MB animated cable-management GIF is now a 1.2 MB animated WebP, with a still frame for reduced motion.
+  - The 7.7 MB animated cable-management GIF became a 1.2 MB animated WebP; since the sixth round it is its first frame, a 10 KB still.
   - Five graphics drawn for the old site's dark sections (white labels) sit on ink bands so their labels stay readable.
   - Several product and spec images are small originals (300–900 px), so they are shown at modest sizes.
 
@@ -110,6 +114,41 @@ The owner found the italic word overdone: it ended every heading on every page, 
 - **Now:** the italic appears once, as the last word of the homepage hero ("Power quality and energy efficiency *solutions*"). The hero's Archivo changed from semibold at 118% width to weight 450 at normal width, tracked −0.022em, so the sans and the italic look equally heavy.
 - **Plain again:** every other heading on the homepage and the inner pages, including "Let us make it together" and "Case studies". The automatic italic last word on inner page, case study and blog post titles is gone.
 - **Unchanged:** the wording, the other headings' Archivo styling, and the fonts themselves.
+
+## Sixth round (owner feedback, 17 October 2026)
+
+**Hero**
+- The waveform, the harmonic-order chart and the filter switch are gone. The hero now fills the screen, over a blurred film of a crew at work in a plant room (credit in item 9).
+- The film is blurred, slightly desaturated and looped once, when it is made (`tools/build-hero-video.sh`), so the browser plays a plain video and blurs nothing itself. The loop crossfades its end into its start, so it never jumps.
+- Size: 173 KB (AV1, for current browsers) or 307 KB (H.264, for the rest) on desktop; phones held upright get a 9:16 crop of 96 KB or 166 KB. The still frame that shows first is 14 KB. The old site's hero video was 8.7 MB.
+- Readability: an ink scrim, darkest behind the text. Checked on every half second of the film, the dimmest text (the grey lede) keeps at least 5.9:1 on desktop and 5.3:1 on phones (AA asks for 4.5:1).
+- It plays only while the hero is on screen. A pause button sits at the end of the facts row (top corner on phones). With reduced motion, Save-Data or a 2G connection the film never loads and the still stays.
+
+**Key highlights, straight after the hero**
+- The four highlights moved up from the bottom of About and are now large: their own photos for three (the adsorption chiller plant, analysers at a switchboard, a plant room) and, for "Represents top brands…", the brands named in an ink panel.
+- The heading is "Key highlights", from the old site's "Key highlights of the company". The supplier names moved here from About's "Our suppliers" (the About page still has both lists).
+
+**Sectors**
+- On desktop the photo now fills the right side of the screen, full height, and changes as you scroll. A small title block in its corner names the sector shown (01 / 05, the name, five squares).
+- The orange square bullets and the serif lists are gone: challenges are ruled rows in the sans, the solution sits behind a lime rule (lime means "corrected" on this site), and case studies are underlined links.
+- Data Centres / Telecom has a real photo of a data centre aisle instead of the 3D render (credit in item 9). The panel uses 4:5 crops at the most each original allows: 1600 px wide for hospitality and data centres. Industrial, commercial and cooling come from 2000 × 1333 originals, so on a full-height retina panel they are shown about 1.3 times their size. Sharper photos of the same subjects can replace them if you want.
+
+**About**
+- The Business Bay photo is gone from the homepage's About. The About page still uses it as its header photo; say if it should go there too.
+- The statement is set large and types itself out once it scrolls into view (about 5 seconds, with a lime square caret). The whole sentence is in the page for screen readers and search engines, and shows at once with reduced motion.
+- Below it: "Our certifications" (the two certificates, as before) and "Our clients" as a ruled list.
+
+**Workplans**
+- The current runs in 3 s instead of 4.5 s.
+
+**Lighter pages**
+- Every photo and graphic now also has an AVIF copy, which browsers that read AVIF (nearly all current ones) download instead of the WebP. Each copy's quality is the lowest whose SSIM against the original is at least the WebP's, so it looks the same. Across the site: 10.1 MB of WebP → 7.4 MB of AVIF (27% smaller). Two images where AVIF did not help keep WebP only (`tools/build-avif.py`).
+- The SEC 200–240 kW page's cable-management animation (a 10 fps GIF that looked choppy, 1.2 MB) is now its first frame, a 10 KB still. The other four old animations are slow slideshows (1–2 frames a second) and stay as they were.
+- Measured in Chrome on a 1710 px retina window, scrolling the whole homepage now downloads 2.5 MB of images plus the 0.17 MB film, against 3.0 MB of images before: about 10% less, with the film and the new photos included.
+
+**Blacklist exceptions, asked for by the owner**
+- Items 85 and 96 (a dimmed background video behind the hero text). It is film of plant-room work, graded and scrimmed in the site's ink, and pausable.
+- Item 91 (typewriter text). It is used once, on the About statement, not on the hero headline.
 
 ## Placeholders visible on the page
 
@@ -184,10 +223,13 @@ There is no other placeholder text, lorem ipsum or invented figure.
 
 ## Checks run
 
-- `node tools/contrast-check.mjs`: all 32 colour pairs meet WCAG 2.2 AA.
+Last run in the sixth round, 17 October 2026.
+
+- `node tools/contrast-check.mjs`: all 31 colour pairs meet WCAG 2.2 AA. The hero text over the film was measured separately (see the sixth round).
 - `npx html-validate "out/**/index.html"`: all 118 pages are clean. Switched off: uppercase DOCTYPE and the 70-character title limit (several blog post titles are longer), plus four rules about how React writes HTML (`<img/>`, `async=""`, `charSet`, empty attributes); ids are checked with the HTML5 rules, because Next names one of its scripts `_R_`. Next's own 404 page is skipped (`.htmlvalidateignore`).
-- Link check: all 10,323 local links and image references on the 118 pages resolve.
-- Phone width: no page scrolls sideways at 360 px.
+- Link check: all 11,465 local links, image, AVIF and video references on the 118 pages resolve.
+- Phone width: no page scrolls sideways at 360 px (all 118 pages).
+- Sixth round, in Chrome: the hero film plays (AV1), fades in over its still, pauses and resumes from its button, pauses when scrolled away and resumes on return; with `?motion=off` no film is downloaded, the button is hidden and the About statement shows whole. The sector photo and its title block follow the sector in the middle of the screen. The About statement types out in about 5 s. Phone (390, 360) and tablet (768) layouts of the hero, Key highlights, sectors and About. Browsers that read AVIF get the AVIF copies, and the sector page heads keep their 21:9 crop.
 - No console errors on the homepage, a product page, a sector page, a case page, About, Products, Services, Contact, the blog list or a post.
 - Lighthouse, mobile and desktop: see the results in the hand-off message.
 - Manual checks:
@@ -221,13 +263,14 @@ Pass means the site does not do it.
 - **Components.** Pass.
   - Square corners, no hover lifts or glows, no rounded icon boxes, no fake browser frames.
   - No chat pop-up, cookie banner, modal on load, back-to-top or progress bar.
-- **Imagery.** Pass. Real project and field photos, no stock handshakes, holograms or 3D shapes. Sector photos are kept as approved. Where the old copies were too small, photos of the same real places were used (item 9).
-- **Motion.** Pass.
-  - No scroll-reveal, counters, parallax, typewriter, rotating words, cursor effects or background video.
+- **Imagery.** Pass, with one owner-requested exception. Real project and field photos, no stock handshakes, holograms or 3D shapes. Sector photos are kept as approved; the data centre's 3D render is now a real photo. Where the old copies were too small, photos of the same real places were used (item 9). The hero's film behind dimmed text (items 85 and 96) was asked for by the owner in the sixth round.
+- **Motion.** Pass, with two owner-requested exceptions.
+  - No scroll-reveal, counters, parallax, rotating words or cursor effects.
+  - Asked for by the owner in the sixth round: the hero's background film (item 96), which pauses off screen, has a pause button and never loads with reduced motion; and the typed About statement (item 91), once, not in the hero.
   - The logo animation never delays content: the loader only appears if the fonts aren't ready after 400 ms, capped at 3 s.
 - **Judgement calls.**
-  - The hero is dark with an animated diagram, not a video. It demonstrates the company's product.
-  - The AHF section uses sticky scrolling, but scrolling stays native (no scroll-jacking).
+  - The hero film shows plant-room work, the kind of site the company works in, graded into the site's ink rather than dimmed with black.
+  - The AHF section and the sectors' photo panel use sticky positioning, but scrolling stays native (no scroll-jacking).
 
 ## Teardown "before you call it done"
 
@@ -241,7 +284,9 @@ Pass means the site does not do it.
 
 | Command | Does |
 |---|---|
-| `python3 tools/fetch-assets.py` | Re-downloads and re-encodes the images listed in its manifest |
+| `python3 tools/fetch-assets.py [NAME…]` | Re-downloads and re-encodes the images listed in its manifest (or only the named ones) |
+| `python3 tools/build-avif.py` | Writes AVIF copies of the WebP images, at the same SSIM, where they save at least 10% |
+| `sh tools/build-hero-video.sh` | Makes the hero film (blurred, graded, looped) and its still frames from the Pexels clip |
 | `node tools/draw-ahf.mjs` | Regenerates the exploded AHF drawing as `components/drawings/AhfDrawing.jsx` |
 | `node tools/draw-heat-pump.mjs` | Regenerates the exploded heat pump drawing as `components/drawings/HeatPumpDrawing.jsx` |
 | `node tools/contrast-check.mjs` | Contrast audit |

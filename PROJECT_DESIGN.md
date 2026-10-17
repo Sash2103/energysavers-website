@@ -22,7 +22,7 @@
 - **Identity:** an engineering firm that measures, corrects and automates electrical and HVAC systems, with named UAE projects.
 - **Direction: "engineering drawing set".** Documentation-grade and precise. Two colours from the logo (blue-ink and paper), with lime as the only accent, meaning "corrected / result / action".
 - **Avoid:** a navy and neon cockpit, green-eco, and copying Atlas literally.
-- **Distinctive:** a live harmonic waveform that becomes clean when the filter switches on; an exploded AHF line drawing; workplans drawn as single-line diagrams; square geometry taken from the logo.
+- **Distinctive:** a blurred film of a plant-room crew behind the hero, graded into the site's ink; an exploded AHF line drawing; workplans drawn as single-line diagrams; square geometry taken from the logo (the About caret, the sectors' title block).
 - **Quiet:** body copy, lists and the footer.
 
 ## 4. References used, and how
@@ -37,7 +37,7 @@
 
 ## 5. Atmosphere
 - **Thesis:** the site should feel like a well-made drawing set and test report.
-- **First viewport:** "Power quality and energy efficiency solutions". One sentence on who it is for, the specialisms, "Request an audit" with phone and WhatsApp, and the waveform that demonstrates the product.
+- **First viewport:** "Power quality and energy efficiency solutions". One sentence on who it is for, the specialisms, "Request an audit" with phone and WhatsApp, the facts, all over a blurred film of a crew at work in a plant room (the owner asked for the film in place of the waveform).
 
 ## 6. Colour roles
 | Role | Value |
@@ -51,7 +51,7 @@
 | Amber (status only: starting / out-of-limit values) | `#E2A33B` |
 | Muted text | `#42525A` on paper, `#A9B6BC` on ink |
 
-- No gradients, glows or blur.
+- No gradients, glows or blur, except in the hero (owner's request): the film is blurred when it is made, and its ink scrim is darkest behind the text. The dimmest hero text keeps at least 5.3:1 over the film's brightest frames.
 - Lime is never used as text on paper.
 
 ## 7. Type
@@ -60,13 +60,16 @@
 - **Accent word: once, in the homepage hero only** ("Power quality and energy efficiency *solutions*"). It is set in Source Serif 4 italic (display optical size) at the same size as the sentence. As on Fixa, the hero's sans is Archivo at regular weight (450) and normal width (100%), tracked −0.022em, so the sans and the italic look equally heavy. Every other heading is plain Archivo. The owner asked for the italic after seeing Fixa, then found it overdone when it ended every heading.
 - The "Carbon offset" label is the muted first line of its heading, not a separate small eyebrow.
 - No mono, no all-caps eyebrows.
+- Lists that read as data (sector challenges, Key highlights, client names) are set in Archivo; the serif is for paragraphs.
 
 ## 8. Components
 - **Buttons:** one primary per view, square. Ink on lime on dark sections, paper on ink on light sections. The arrow nudges 3px on hover. Secondary actions are underlined text links.
 - **Nav:** solid ink. Hides on scroll down and returns on scroll up. Products open a mega menu of four ruled columns. Mobile gets a full-screen menu.
 - **Sheets:** native `<dialog>` panels from the right. Product sheets have variant chips. Case sheets clone the case article.
 - **Workplan:** `<ol>` single-line diagram, horizontal on tablet and up, vertical on phones.
-- **Lists:** small square markers, blue on paper and amber or lime on ink.
+- **Lists:** small square markers, blue on paper and lime on ink. Sector challenges are ruled rows with no markers, and a sector's result sits behind a 2px lime rule (the owner found the amber markers and serif lists generic).
+- **Key highlights:** straight after the hero. Four tiles in large Archivo: three with their own site photos, and the brands they represent named in an ink panel.
+- **Sector panel (desktop):** the photo fills the right side of the screen at full height, flush with the edge, and changes with the sector in the middle of the screen. A drawing-style title block in its corner names the sector (01 / 05, name, five squares).
 - **Icons:** inline SVG sprite only.
 
 ## 8b. Inner pages
@@ -80,15 +83,17 @@
 
 ## 9. Layout
 - **Grid:** 12 columns, gutter `clamp(16px, 4vw, 56px)`, widths up to 1360px.
-- **Rhythm:** sections alternate on purpose, ink and paper: hero, proof, AHF, heat pump, bench, offer, sectors, About, insights, contact.
+- **Rhythm:** sections alternate on purpose, ink and paper: hero, key highlights and proof, AHF, heat pump, bench, offer, sectors, About, insights, contact.
 - **Rules:** 1px hairlines divide content only. Headings change treatment between sections.
 - **Breakpoints:** 640, 720, 960, 1000, 1100, 1180, 1360.
 
 ## 10. Motion
 - **Purpose:** motion only explains a mechanism or confirms an action.
-- **Waveform:** a Fourier sum with the 5th, 7th, 11th and 13th harmonics, which decay when the switch flips. There is a pause control, and it stops off-screen.
+- **Hero film:** a 15 s loop, blurred and graded when it is made (`tools/build-hero-video.sh`), 173 KB in AV1. It plays only while the hero is on screen, has a pause button, and never loads with reduced motion, Save-Data or 2G; the still frame stays instead. (It replaced the harmonic waveform, which the owner found added nothing.)
 - **AHF and heat pump:** the same blueprint treatment: a scroll-linked explode on desktop with three steps (no scroll-jacking); the part for the current step fills lime. The heat pump section is mirrored (drawing on the left). On phones each plays once. With reduced motion they are shown static and exploded.
-- **Workplans:** the lime "current" runs once, at a steady 4.5 s with a pulse at its tip, lighting each step as it arrives (the owner found the first 1.6 s version too fast to notice).
+- **Workplans:** the lime "current" runs once, at a steady 3 s with a pulse at its tip, lighting each step as it arrives (the owner found 1.6 s too fast to notice, then 4.5 s a little slow).
+- **About statement:** typed out once when it scrolls into view, about 5 s, behind a lime square caret that blinks twice and goes. The whole sentence is in the page, and shows at once with reduced motion. The only typed text on the site.
+- **Sector panel:** the photos crossfade (0.6 s) as the sector in the middle of the screen changes.
 - **Logo:** the energize sequence runs once per session. The loader appears only on slow font loads.
 - **Reduced motion:** honoured via `prefers-reduced-motion` and `?motion=off`.
 
@@ -107,8 +112,8 @@
 - **`app/[slug]/page.jsx` + `lib/pages.jsx`:** inner pages and posts, built from `content/` at build time.
 - **`app/globals.css`:** tokens → components → sections → motion.
 - **`components/behaviour/`:** behaviour, one small client component per job.
-- **`public/assets/`:** fonts, images and logo SVG.
-- **`tools/`:** asset pipeline, the two drawing generators and the contrast check.
+- **`public/assets/`:** fonts, images (WebP, with AVIF copies), the hero film (`video/`) and logo SVG. `lib/pic.jsx` offers the AVIF copies wherever they exist.
+- **`tools/`:** asset pipeline (images, AVIF copies, hero film), the two drawing generators and the contrast check.
 
 ## 13. Evaluation
 Contrast script, html-validate, Lighthouse (mobile and desktop), visual checks at 1440, 768, 390 and 360, interaction checks, and the blacklist audit in NOTES.md.
