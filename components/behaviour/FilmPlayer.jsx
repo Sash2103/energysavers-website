@@ -2,15 +2,16 @@
 import { useEffect } from 'react';
 import { $, motionOn } from './dom';
 
-// Hero film: plays muted in a loop while the hero is on screen, and fades in over the still frame once
-// it is actually playing. It is never loaded with reduced motion, Save-Data or a 2G connection, and
-// the button beside the facts pauses and resumes it.
-export default function HeroVideo() {
+// A background film (the hero's, and the inner page heads'): plays muted in a loop while its section is
+// on screen, and fades in over the still frame once it is actually playing. It is never loaded with
+// reduced motion, Save-Data or a 2G connection, and the section's button pauses and resumes it.
+// section, video, button: selectors of the section, its <video> and its pause button.
+export default function FilmPlayer({ section, video: videoSel, button }) {
   useEffect(() => {
-    const hero = $('.hero');
-    const video = $('.hero__video');
-    const btn = $('.hero__pause');
-    if (!hero || !video || !btn) return;
+    const box = $(section);
+    const video = $(videoSel);
+    const btn = $(button);
+    if (!box || !video || !btn) return;
     const net = navigator.connection;
     if (!motionOn() || (net && (net.saveData || /2g$/.test(net.effectiveType || '')))) return;
 
@@ -35,7 +36,7 @@ export default function HeroVideo() {
     btn.addEventListener('click', onClick);
     btn.hidden = false;
     const io = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; sync(); });
-    io.observe(hero);
+    io.observe(box);
     document.addEventListener('visibilitychange', sync);
     return () => {
       io.disconnect();
@@ -44,6 +45,6 @@ export default function HeroVideo() {
       btn.removeEventListener('click', onClick);
       video.pause();
     };
-  }, []);
+  }, [section, videoSel, button]);
   return null;
 }

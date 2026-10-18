@@ -59,7 +59,7 @@ Every push to the branch then rebuilds the site. The pages use root-relative add
 | `public/assets/fonts/` | Archivo and Source Serif 4 (roman, and italic for the hero's last word), trimmed; OFL licences alongside |
 | `public/assets/img/` | Homepage WebP images from energysavers.me, plus a few free Pexels photos where the old site's copies were too small (listed in NOTES.md), resized by `tools/fetch-assets.py`; AVIF copies beside them from `tools/build-avif.py` |
 | `public/assets/img/up/` | The inner pages' images from the old site, re-encoded to WebP by `tools/build-images.py`, with AVIF copies |
-| `public/assets/video/` | The hero film (AV1 and H.264, 16:9 and a 9:16 phone crop), made by `tools/build-hero-video.sh` |
+| `public/assets/video/` | The hero film (AV1 and H.264, 16:9 and a 9:16 phone crop), made by `tools/build-hero-video.sh`, and the inner page heads' films, made by `tools/build-head-films.sh` |
 | `public/assets/svg/` | Logo (vector trace of the original) and favicon |
 | `tools/` | Dev-only scripts, see below |
 | `PROJECT_DESIGN.md` | Design brief: palette, type, components, motion rules |
@@ -74,6 +74,7 @@ python3 tools/fetch-assets.py    # re-download and re-encode the homepage images
                                  #   name some (python3 tools/fetch-assets.py sector-frame-cooling …) to redo only those
 python3 tools/build-avif.py      # AVIF copies of the WebP images that have none yet, at the same quality (Pillow 11.2+, ffmpeg)
 sh tools/build-hero-video.sh     # the hero film and its still frames (ffmpeg with libx264 and libsvtav1, Pillow)
+sh tools/build-head-films.sh     # the seven page-head films and their stills (same needs); ONLY=head-hvac … for one
 python3 tools/scrape-pages.py    # save the old site's pages and posts into content/ (raw HTML cached in tools/.cache/)
 python3 tools/build-images.py    # measure the inner pages' images into content/images.json (needs Pillow);
                                  #   add --encode to write any missing WebP files into public/assets/img/up/
@@ -84,7 +85,7 @@ sh tools/build-fonts.sh          # rebuild the trimmed fonts into public/assets/
 npx html-validate "out/**/index.html"   # HTML checks for every built page (run npm run build first; config in .htmlvalidate.json)
 ```
 
-ffmpeg isn't needed to run or build the site, only to remake the film and the AVIF copies. Point `FFMPEG` at any build with libx264 and libsvtav1, for example the one in the `ffmpeg-static` npm package: `FFMPEG=/path/to/ffmpeg sh tools/build-hero-video.sh`.
+ffmpeg isn't needed to run or build the site, only to remake the film and the AVIF copies. Point `FFMPEG` at any build with libx264 and libsvtav1, for example the one in the `ffmpeg-static` npm package: `FFMPEG=/path/to/ffmpeg sh tools/build-hero-video.sh` (the same for `tools/build-head-films.sh`).
 
 If the content gains a new image, the build stops and prints the `tools/build-images.py --encode …` command to run.
 The header, contact section and footer are components, so a change to them reaches every page on the next build.

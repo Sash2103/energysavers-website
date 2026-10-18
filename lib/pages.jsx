@@ -11,14 +11,15 @@ import { CasePhoto, Scope } from '@/components/shared/CaseArticle';
 import { ABOUT_LEDE, Certs, Highlights, Names } from '@/components/shared/About';
 import { INSIGHTS_INTRO } from '@/components/home/Insights';
 import PhaseTabs from '@/components/behaviour/PhaseTabs';
-import { PageHead, band, contactButton, docLink, inline, list, nextId, prose, siblings, ulHtml } from '@/components/inner/parts';
+import { Fold, PageHead, band, chars, columns, contactButton, docLink, inline, joinHeadings, list, nextId, onPlate, pageText, prose, siblings, ulHtml } from '@/components/inner/parts';
 import { CASES, caseByKey } from '@/data/cases';
 import { SECTOR_PAGES, SECTORS_INTRO, sectorByKey } from '@/data/sectors';
+import { SUMMARIES } from '@/data/summaries';
 import { loadPage, loadPosts, fmtDate } from './content';
 import { normalize, layout } from './blocks';
 import { HomeImg, Img, image, isIcon, isCutout } from './images';
-import { LABEL, PARENT, CHILDREN, href, topOf } from './site';
-import { isHeading, len, lvl, norm, oneLine, tidy } from './text';
+import { LABEL, PARENT, CHILDREN, HEAD_IMAGE, HEAD_HOME_IMAGE, filmOf, href, topOf } from './site';
+import { flat, isHeading, len, lvl, norm, oneLine, opening, sentences, tidy } from './text';
 
 const SPECIAL = new Set(['about', 'products', 'services', 'solutions', 'sectors', 'case-studies', 'contact-us', 'blog']);
 
@@ -39,6 +40,7 @@ function generic(slug) {
   const docs = [];
   let lede = null;
   let media = null;
+  let more = [];
   if (secs.length) {
     const first = secs.shift();
     let rest = [];
@@ -54,10 +56,11 @@ function generic(slug) {
       while (i < first.length && isHeading(first[i])) i++;
       let run = first.slice(0, i);
       const later = new Set(first.slice(i).filter(isHeading).map(lvl));
-      if (run.length && later.has(lvl(run[run.length - 1]))) { run = run.slice(0, -1); i -= 1; }
+      const isTitle = h => { const a = norm(h.text), b = norm(title); return b.includes(a) || a.includes(b); };
+      // a heading that repeats the page title stays the head's, even when a section of its level follows
+      if (run.length && later.has(lvl(run[run.length - 1])) && !isTitle(run[run.length - 1])) { run = run.slice(0, -1); i -= 1; }
       for (const h of run) {
-        const a = norm(h.text), b = norm(title);
-        if (!(b.includes(a) || a.includes(b))) kicker.push(tidy(h.text));
+        if (!isTitle(h)) kicker.push(tidy(h.text));
       }
       for (const b of first.slice(i)) {
         const textStarted = rest.some(isHeading);
@@ -67,28 +70,65 @@ function generic(slug) {
         else rest.push(b);
       }
     }
+    // the head's paragraphs after its first one belong with it (a list stays in view, in a band)
+    let k = 0;
+    while (slug !== 'ev-chargers' && k < rest.length && rest[k].t === 'p') k++;
+    more = rest.slice(0, k);
+    rest = rest.slice(k);
     if (rest.length) secs.unshift(rest);
   }
+  const { lede: summary, points, fold, text } = summarize(slug, lede, more, !secs.length);
   const actions = <>{contactButton(slug, title)}{list(docs.slice(0, 2).map(b => docLink(b)))}</>;
   let m = null;
-  let wide = false;
-  if (media) {
-    const info = image(media.src);
-    wide = info.w / info.h > 1.7;
-    const cutout = isCutout(media.src);
-    m = <Img path={media.src} alt={cutout ? oneLine(title) : ''} sizes={wide ? '100vw' : '(min-width: 960px) 42vw, 100vw'}
-      mobile={media.mobile} eager className={cutout && !wide ? 'is-cutout' : ''} />;
+  let crop = false;
+  let plate = false;
+  let plateWidth = 480;
+  const src = media ? media.src : HEAD_IMAGE[slug];
+  if (src) {
+    const info = image(src);
+    // a product made on white stands on its plate, whatever its shape; a wide photo (the EV Chargers
+    // banner) sits beside the text, cut to the product, rather than across the page
+    plate = onPlate(src);
+    crop = !plate && info.w / info.h > 1.7;
+    plateWidth = info.w;
+    m = <Img path={src} alt={isCutout(src) ? oneLine(title) : ''} sizes="(min-width: 960px) 36vw, 100vw" mobile={media && media.mobile} eager />;
+  } else if (HEAD_HOME_IMAGE[slug]) {
+    plate = true;
+    m = <HomeImg name={HEAD_HOME_IMAGE[slug]} alt={oneLine(title)} sizes="(min-width: 960px) 36vw, 100vw" eager />;
   }
   return {
     title: oneLine(title),
     description: d.description || (lede ? oneLine(lede.text) : LABEL.get(slug)),
     main: <>
-      <PageHead slug={slug} title={oneLine(title)} kicker={kicker.join(' · ') || null} lede={lede ? <p>{inline(lede)}</p> : null}
-        actions={actions} media={m} wide={wide} />
-      {list(secs.map(s => band(slug, s, ctx)))}
+      <PageHead slug={slug} title={oneLine(title)} kicker={kicker.join(' · ') || null}
+        lede={summary.length ? list(summary.map(b => (b.t === 'p' ? <p>{inline(b)}</p> : ulHtml(b, ctx)))) : null}
+        points={points} actions={actions} media={m} plate={plate} plateWidth={plateWidth} crop={crop} film={filmOf(slug)} />
+      {fold && <Fold blocks={fold} ctx={ctx} />}
+      {text && band(slug, text, ctx)}
+      {list(joinHeadings(secs).map(s => band(slug, s, ctx)))}
       {siblings(slug)}
     </>,
   };
+}
+
+/** What a page head says: a short summary of the first paragraph and the key points (data/summaries.js),
+ *  with the whole text in the fold under the head. Short texts show in full, with no fold.
+ *  lede: the first paragraph; more: the head's paragraphs after it.
+ *  alone: the text is all the page has. Then it isn't folded away: it follows the head in full (text). */
+function summarize(slug, lede, more, alone = false) {
+  const sum = SUMMARIES[slug] || {};
+  const points = (sum.points || []).map(p => {
+    if (!pageText(slug).includes(flat(p))) throw new Error(`data/summaries.js: "${p}" is not in the text of /${slug}/`);
+    return Array.from(p)[0].toUpperCase() + Array.from(p).slice(1).join('');
+  });
+  const all = [...(lede ? [lede] : []), ...more];
+  const text = lede ? oneLine(lede.text) : '';
+  const shown = 'lede' in sum ? sentences(text).slice(0, sum.lede).join(' ') : len(text) > 300 ? opening(text) : text;
+  if (chars(all) - len(shown) <= 120) return { lede: all, points, fold: null, text: null };
+  const keep = shown && lede.lead && shown.startsWith(lede.lead) ? { lead: lede.lead } : {};
+  const head = shown ? [{ t: 'p', text: shown, ...keep }] : [];
+  if (alone) return { lede: head, points, fold: null, text: shown === text ? more : all };
+  return { lede: head, points, fold: all, text: null };
 }
 
 function products() {
@@ -96,7 +136,7 @@ function products() {
     title: 'Products',
     description: loadPage('products').description,
     main: <>
-      <PageHead slug="products" title="Our products" />
+      <PageHead slug="products" title="Our products" film={filmOf('products')} />
       <div className="bench bench--page">
         <div className="wrap">
           <ProductLines page />
@@ -111,7 +151,7 @@ function services() {
     title: 'Services',
     description: loadPage('services').description,
     main: <>
-      <PageHead slug="services" title="Our services" />
+      <PageHead slug="services" title="Our services" film={filmOf('services')} />
       <div className="band band--untitled">
         <div className="wrap">
           <ServiceCards page />
@@ -129,7 +169,7 @@ function solutions() {
     title: 'Solutions',
     description: d.description,
     main: <>
-      <PageHead slug="solutions" title="Our solutions" />
+      <PageHead slug="solutions" title="Our solutions" film={filmOf('solutions')} />
       {list(d.sections.map(s => band('solutions', normalize(s.blocks, 'solutions'), ctx)))}
     </>,
   };
@@ -140,16 +180,16 @@ function sectorsIndex() {
     title: 'Sectors',
     description: loadPage('sectors').description,
     main: <>
-      <PageHead slug="sectors" title="Our sectors" lede={<p>{SECTORS_INTRO}</p>} />
+      <PageHead slug="sectors" title="Our sectors" lede={<p>{SECTORS_INTRO}</p>} film={filmOf('sectors')} />
       <div className="band band--untitled">
         <div className="wrap band__grid">
           <div className="band__wide">
-            <ul className="tiles tiles--photos">
+            <ul className={`tiles tiles--photos tiles--c${columns('photos', CHILDREN.get('sectors').length)}`}>
               {CHILDREN.get('sectors').map(slug => {
                 const s = sectorByKey(SECTOR_PAGES[slug]);
                 return (
                   <li className="tile tile--link" key={slug}>
-                    <figure className="tile__media tile__media--photo"><HomeImg name={'sector-' + s.key} sizes="(min-width: 1100px) 30vw, (min-width: 640px) 45vw, 90vw" /></figure>
+                    <figure className="tile__media tile__media--photo"><HomeImg name={'sector-' + s.key} sizes="(min-width: 1100px) 40vw, (min-width: 640px) 58vw, 116vw" /></figure>
                     <h2 className="tile__title"><a href={href(slug)}>{s.name}</a></h2>
                     <div className="tile__body"><p>{s.areas}</p></div>
                   </li>
@@ -163,15 +203,16 @@ function sectorsIndex() {
   };
 }
 
+// at least three to a row: two case photos are too small to fill half the page each
 function caseCards(keys, hl = 2) {
   const H = 'h' + hl;
   return (
-    <ul className="tiles tiles--photos">
+    <ul className={`tiles tiles--photos tiles--c${Math.max(3, columns('photos', keys.length))}`}>
       {keys.map(key => {
         const c = caseByKey(key);
         return (
           <li className="tile tile--link tile--case" key={key}>
-            <figure className="tile__media tile__media--photo"><CasePhoto photo={c.photo} sizes="(min-width: 1100px) 30vw, (min-width: 640px) 45vw, 90vw" /></figure>
+            <figure className="tile__media tile__media--photo"><CasePhoto photo={c.photo} sizes="(min-width: 1100px) 40vw, (min-width: 640px) 58vw, 116vw" /></figure>
             <p className="tile__meta">{c.place} <span>{c.year}</span></p>
             <H className="tile__title"><a href={href(c.slug)}>{c.client}</a></H>
             <div className="tile__body"><p>{c.register.scope}</p><p className="tile__result">{c.register.result}</p></div>
@@ -187,7 +228,7 @@ function casesIndex() {
     title: 'Case studies',
     description: 'Power quality, HVAC and automation projects by Energy Savers in Dubai.',
     main: <>
-      <PageHead slug="case-studies" title="Case studies" />
+      <PageHead slug="case-studies" title="Case studies" film={filmOf('case-studies')} />
       <div className="band band--untitled">
         <div className="wrap band__grid">
           <div className="band__wide">{caseCards(CASES.map(c => c.key))}</div>
@@ -205,7 +246,8 @@ function casePage(c) {
     description: c.scope.join('  '),
     main: <>
       <PageHead slug={c.slug} title={oneLine(c.client)} kicker={`${c.place} · ${c.year}`} lede={<p><Scope lines={c.scope} /></p>}
-        actions={contactButton(c.slug, c.client)} media={<CasePhoto photo={c.photo} sizes="(min-width: 960px) 42vw, 100vw" lazy={false} />} />
+        actions={contactButton(c.slug, c.client)} media={<CasePhoto photo={c.photo} sizes="(min-width: 960px) 36vw, 100vw" lazy={false} />}
+        film={filmOf(c.slug)} />
       <div className="band">
         <div className="wrap band__grid">
           <div className="band__wide findings">
@@ -248,13 +290,15 @@ function sectorPage(slug) {
     }
   }
   const cases = sectorByKey(key).cases.map(([k]) => k);
+  const { lede: summary, fold } = summarize(slug, intro[0] || null, intro.slice(1));
   return {
     title: name,
     description: d.description || oneLine(intro[0].text),
     main: <>
-      <PageHead slug={slug} title={oneLine(name)} lede={intro.length ? list(intro.map(b => <p>{inline(b)}</p>)) : null}
-        actions={contactButton(slug, name)} wide
-        media={<HomeImg name={'sector-' + key} sizes="100vw" eager className={`sector-photo sector-photo--${key}`} />} />
+      <PageHead slug={slug} title={oneLine(name)} lede={summary.length ? list(summary.map(b => <p>{inline(b)}</p>)) : null}
+        actions={contactButton(slug, name)}
+        backdrop={<HomeImg name={'sector-' + key} sizes="(max-width: 959px) 160vw, 100vw" eager className={`page-head__photo sector-photo--${key}`} />} />
+      {fold && <Fold blocks={fold} ctx={ctx} />}
       <div className="band band--phases">
         <div className="wrap">
           <div className="phases" data-tabs="">
@@ -262,7 +306,9 @@ function sectorPage(slug) {
               <div className="phase" id={'phase-' + ph.name.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-+|-+$/g, '')} key={ph.name}>
                 <h2 className="phase__title">{tidy(ph.name)}</h2>
                 <div className="topics">
-                  {list(ph.topics.map(t => <section className="topic"><h3 className="topic__title">{t.name}</h3>{list(prose(t.blocks, ctx))}</section>))}
+                  {list(ph.topics.map(t => (
+                    <section className="topic"><h3 className="topic__title">{t.name}</h3><div className="topic__body">{list(prose(t.blocks, ctx))}</div></section>
+                  )))}
                 </div>
               </div>
             ))}
@@ -298,25 +344,27 @@ function about() {
     description: d.description,
     extra: <CertViewer />,
     main: <>
-      <PageHead slug="about" title="About us" lede={<p>{ABOUT_LEDE}</p>} wide
-        media={<HomeImg name="about-business-bay" alt="Business Bay, Dubai, at dusk" sizes="100vw" eager />} />
+      <PageHead slug="about" title="About us" lede={<p>{ABOUT_LEDE}</p>}
+        backdrop={<HomeImg name="about-business-bay" alt="Business Bay, Dubai, at dusk" sizes="(max-width: 959px) 160vw, 100vw" eager className="page-head__photo" />} />
       <section className="band" aria-labelledby="about-areas">
         <div className="wrap band__grid">
           <h2 className="band__title band__title--long" id="about-areas">{tidy(areasHeading.text)}</h2>
-          <div className="band__body prose">{ulHtml(areas, ctx)}<p>{inline(certified)}</p></div>
+          <div className="band__body prose">{ulHtml(areas, ctx)}</div>
         </div>
       </section>
-      <section className="band on-ink" aria-labelledby="about-focus">
+      <section className="band on-ink-2" aria-labelledby="about-focus">
         <div className="wrap band__grid">
           <h2 className="band__title" id="about-focus">Sustainability in energy</h2>
           <div className="band__body prose"><p>{inline(focus)}</p></div>
           <div className="band__wide"><Highlights /></div>
         </div>
       </section>
-      <section className="band" aria-labelledby="about-certs">
+      {/* the sentence about the certificates sits under the heading, the certificates beside both */}
+      <section className="band band--certs" aria-labelledby="about-certs">
         <div className="wrap band__grid">
           <h2 className="band__title" id="about-certs">Our certifications</h2>
-          <div className="band__body"><Certs /></div>
+          <div className="band__body prose"><p>{inline(certified)}</p></div>
+          <div className="band__certs"><Certs /></div>
         </div>
       </section>
       <div className="band">
@@ -334,7 +382,7 @@ function contactPage() {
     description: 'Contact Energy Savers in Dubai and Riyadh: phone, email, WhatsApp and office addresses.',
     contact: false,
     main: <>
-      <PageHead slug="contact-us" title="Contact us" />
+      <PageHead slug="contact-us" title="Contact us" film={filmOf('contact-us')} />
       <Contact page />
     </>,
   };
@@ -351,7 +399,7 @@ function blog() {
     title: 'Blog',
     description: INSIGHTS_INTRO,
     main: <>
-      <PageHead slug="blog" title="Our latest news" lede={<p>{INSIGHTS_INTRO}</p>} />
+      <PageHead slug="blog" title="Our latest news" lede={<p>{INSIGHTS_INTRO}</p>} film={filmOf('blog')} />
       <div className="band band--untitled">
         <div className="wrap">
           {[...years.keys()].sort().reverse().map(y => (
@@ -379,7 +427,8 @@ function post(i) {
     title: p.title,
     description: Array.from(p.excerpt.split(' [&hellip;]').join('').split(' […]').join('')).slice(0, 300).join(''),
     main: <>
-      <PageHead slug={p.slug} title={oneLine(p.title)} kicker={<time dateTime={p.date}>{fmtDate(p.date)}</time>} post parents={parents} />
+      <PageHead slug={p.slug} title={oneLine(p.title)} kicker={<time dateTime={p.date}>{fmtDate(p.date)}</time>} post parents={parents}
+        film={filmOf(p.slug, parents)} />
       <article className="band band--article" aria-labelledby="page-title">
         <div className="wrap">
           <div className="article prose">{list(prose(blocks, ctx, 3, true))}</div>

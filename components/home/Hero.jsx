@@ -1,5 +1,5 @@
 import Icon from '@/components/shared/Icon';
-import HeroVideo from '@/components/behaviour/HeroVideo';
+import FilmPlayer from '@/components/behaviour/FilmPlayer';
 
 // Phones held upright get a portrait crop of the film; everything else gets the 16:9 one.
 // The 16:9 sources come first and carry the media query, so a browser that ignores media on
@@ -53,13 +53,13 @@ export default function Hero() {
           <li>Dubai · Riyadh</li>
           <li>ISO 9001:2015</li>
         </ul>
-        {/* shown by HeroVideo once the film can play */}
+        {/* shown by FilmPlayer once the film can play */}
         <button className="icon-btn hero__pause" type="button" aria-label="Pause background video" hidden>
           <Icon name="pause" className="i--pause" />
           <Icon name="play" className="i--play" />
         </button>
       </div>
-      <HeroVideo />
+      <FilmPlayer section=".hero" video=".hero__video" button=".hero__pause" />
     </section>
   );
 }

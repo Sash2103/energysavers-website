@@ -5,7 +5,7 @@ import { loadPosts } from '@/lib/content';
 // The news intro is also the Blog page's lede
 export const INSIGHTS_INTRO = 'Wait for our latest news related to our products, descriptions and the quality we keep in every deal we make.';
 
-// The three latest posts
+// The three latest posts, as three cards under one heading row (no heading column left empty)
 export default function Insights() {
   return (
     <section className="insights" id="insights" aria-labelledby="insights-title">
@@ -14,7 +14,7 @@ export default function Insights() {
           <h2 className="section-title" id="insights-title">Our latest news</h2>
           <p>{INSIGHTS_INTRO}</p>
         </div>
-        <ul className="posts">
+        <ul className="posts posts--cards">
           {loadPosts().slice(0, 3).map(p => <PostLink post={p} key={p.slug} />)}
         </ul>
         <a className="text-link insights__all" href="/blog/">Blog <Icon name="arrow" /></a>

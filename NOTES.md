@@ -37,6 +37,14 @@ Each item is also marked `TODO(owner)` in the source: `components/home/Stats.jsx
      - Hero film: "Industrial Factory Workers Operating Machinery" by Usman AbdulrasheedGambo (pexels.com/video/32243444). It shows a pump-room crew, not an Energy Savers site, so it has no caption or alt text naming anyone.
      - Data Centres / Telecom sector: "Server Racks on Data Center" by Brett Sayles (pexels.com/photo/4508751), replacing the old 3D render.
    - Key highlights uses their own photo of the adsorption chiller plant at Mina A'Salam (the image of their blog post about it, 800 px).
+   - Added in the seventh round, also under the Pexels licence: the films behind the inner page heads (`tools/build-head-films.sh`). None shows an Energy Savers site, so none is captioned:
+     - Power quality: a worker at the electrical panels of a plant, by aksinfo7 universe (pexels.com/video/30295544)
+     - HVAC: cooling tower fans and steam from above, by K (pexels.com/video/9339477)
+     - Automation: a control room with a video wall, by Kiwi and Camera (pexels.com/video/38779095)
+     - EV chargers: a charging plug in an electric car, by Kindel Media (pexels.com/video/9790000)
+     - Solutions: a glass office tower at dusk, by K M (pexels.com/video/9874596)
+     - Services: measuring on an electronics bench, by José Alfredo Munguía Lira (pexels.com/video/3466611)
+     - Sectors: the Dubai skyline at dusk, by Denys Gromov (pexels.com/video/35972202)
 10. **Contact details.** Which phone is primary (+971 4 568 6557 is used in the header), the WhatsApp number (+971 52 536 0124), and whether there are social accounts besides LinkedIn.
 11. **Claims to confirm.** "Funding assistance" and "energy model development" were in the old hero; they were dropped from About for length. "First Solar Thermal Chiller installation in the UAE" is shown, and "ROI less than 12 months in most cases" appears on the heat pump sheet.
 
@@ -150,6 +158,38 @@ The owner found the italic word overdone: it ended every heading on every page, 
 - Items 85 and 96 (a dimmed background video behind the hero text). It is film of plant-room work, graded and scrimmed in the site's ink, and pausable.
 - Item 91 (typewriter text). It is used once, on the About statement, not on the hero headline.
 
+## Seventh round (owner feedback, 18 October 2026)
+
+The owner found the inner pages empty, unbalanced and too wordy, and the paper background too bright, and asked to organise the whole site. Choices made with the owner: the whole site dark, films in the page heads, product text as a summary with key points and a fold, and the "100%" figures kept as on the old site.
+
+**Dark, everywhere**
+- Every page and homepage section is now on ink, in the hero's scheme: paper text, soft grey for longer text, lime for links and accents. Raised surfaces (cards, the product bench, the contact section, sheets) are a step lighter (ink-2).
+- Product shots and drawings made on white stand on small light plates, at their own size or smaller, so they don't look cut out and the page doesn't light up. Wide diagrams are capped at 1040 px. The old site's graphics drawn for dark sections, and photos, have no plate; dark icons get a small one.
+- Home: the About and news sections no longer leave a heading column empty. News is a heading row over three cards.
+
+**Page heads**
+- Every inner page opens like the hero: over a short blurred film of its product line or section, or, for the sector pages and About, over their own photo. The page's picture sits on the right; Static Var Generator, UPS and Automation, which had none, show their card's picture from the line page or the homepage bench.
+- Films: seven new loops, made like the hero film (credits in item 9). 66–216 KB each in AV1 (H.264 for the rest). They play only while the head is on screen, have a pause button, and never load with reduced motion, Save-Data or 2G. Case studies, the blog and Contact reuse the hero film.
+- Two kinds of loop, so none jumps: still shots crossfade end into start, as the hero does; moving shots (and two still ones given a slow pan) play forward, then back.
+- Readability: measured over every half second of every film and over each backdrop photo. The dimmest head text keeps at least 5.6:1 over the films and 5.9:1 over the photos. In heads, the muted grey is lifted to the soft grey, as in the hero.
+
+**Less text, nothing deleted**
+- Product pages: the head shows one or two of the page's own sentences and three or four key points picked word for word from its text (`data/summaries.js`; the build stops if a point isn't in the page's text). The full original text is in the closed "Full description" fold right under the head.
+- Other pages with a long first paragraph show its opening sentences, with the full text in the fold. Where the text is all a page has (Energy Audit), it is shown in full in two columns instead.
+- Solutions page: each long card shows its opening sentences, with the rest behind "Read more". (The pages they link to don't have all of that text, so it stays on this page.)
+
+**Organised**
+- Cards: repeated items (products, features, benefits) are now cards. Pictures in a row share one shape and size. Rows fill evenly: 6 cards are 3 + 3, not 4 + 2. Where only some cards have a picture, the pictures sit at the foot so the titles line up. A card with no picture, among cards with pictures, uses the picture its page opens with (PQ-Box 50 on PQ Equipment Rental).
+- Bands are shaped by what they hold, so no column is left empty: a title beside short text, a title above long text in two columns, or a short untitled paragraph set large.
+- "Plug suite" (Static Var Generator) and "With powerful adaptive regulation" (Voltage Optimization) open with their picture on the old page; they are now one section each, not two half-empty cards. The two rules over Plug suite are one.
+- Sector pages: each topic (Power quality, HVAC efficiency…) is a ruled row, its name beside its points in two columns, instead of ragged lists in a grid.
+- Lead-ins such as "Solutions as below:" now title the list that follows them (HVAC Optimization, Automation Solutions, Power Quality Solutions, Smart Metering & Lighting).
+- Interstellar: the "7kW" and "22kW" tab labels are a row of chips, the Dust/Rain/Heat/Cold icons sit beside their words, and the charger stands beside the text. Mira: "Smart charging functions for optimized charging", a heading with nothing under it, now introduces the app section.
+- The other pages of a group are a row of chips under a ruled label, the current one in lime, instead of a heading alone in a column.
+- About: the certification sentence sits under "Our certifications", beside the two certificates. The blog lists each year's posts in two columns under the year.
+- PQ Equipment Rental's four analysers now link to their product pages.
+- Typo fixed: two headings on the SER 40kW page repeated their own text ("High current output of 133AHigh current output of 133A").
+
 ## Placeholders visible on the page
 
 - Dubai Medical, BID Factory and DP World workplans show dashed chips: "THD to be confirmed" and "THD and savings to be confirmed".
@@ -223,12 +263,14 @@ There is no other placeholder text, lorem ipsum or invented figure.
 
 ## Checks run
 
-Last run in the sixth round, 17 October 2026.
+Last run in the seventh round, 18 October 2026, unless noted.
 
-- `node tools/contrast-check.mjs`: all 31 colour pairs meet WCAG 2.2 AA. The hero text over the film was measured separately (see the sixth round).
-- `npx html-validate "out/**/index.html"`: all 118 pages are clean. Switched off: uppercase DOCTYPE and the 70-character title limit (several blog post titles are longer), plus four rules about how React writes HTML (`<img/>`, `async=""`, `charSet`, empty attributes); ids are checked with the HTML5 rules, because Next names one of its scripts `_R_`. Next's own 404 page is skipped (`.htmlvalidateignore`).
-- Link check: all 11,465 local links, image, AVIF and video references on the 118 pages resolve.
-- Phone width: no page scrolls sideways at 360 px (all 118 pages).
+- `node tools/contrast-check.mjs`: all 23 colour pairs of the dark site meet WCAG 2.2 AA. Text over the hero film and the page-head films and photos was measured separately, frame by frame (see the sixth and seventh rounds).
+- Every page at 360 and 1440 px in headless Chrome: no sideways scrolling, no console errors, and no picture drawn larger than its file (the blurred film stills aside).
+- The page-head films play (AV1) and show their pause button; with reduced motion nothing loads and the button stays hidden.
+- `npx html-validate "out/**/index.html"`: all 119 pages are clean. Switched off: uppercase DOCTYPE and the 70-character title limit (several blog post titles are longer), plus four rules about how React writes HTML (`<img/>`, `async=""`, `charSet`, empty attributes); ids are checked with the HTML5 rules, because Next names one of its scripts `_R_`. Next's own 404 page is skipped (`.htmlvalidateignore`).
+- All 11,884 local links, image, AVIF and video references on the 119 pages resolve.
+- Lighthouse, mobile, on a local server without compression or caching: Static Var Generator 79 performance, 100 accessibility, 100 best practices (the homepage, measured the same way, 69). SEO is 63 only because the preview is `noindex` on purpose. Compression and caching on a real host would raise both performance scores.
 - Sixth round, in Chrome: the hero film plays (AV1), fades in over its still, pauses and resumes from its button, pauses when scrolled away and resumes on return; with `?motion=off` no film is downloaded, the button is hidden and the About statement shows whole. The sector photo and its title block follow the sector in the middle of the screen. The About statement types out in about 5 s. Phone (390, 360) and tablet (768) layouts of the hero, Key highlights, sectors and About. Browsers that read AVIF get the AVIF copies, and the sector page heads keep their 21:9 crop.
 - No console errors on the homepage, a product page, a sector page, a case page, About, Products, Services, Contact, the blog list or a post.
 - Lighthouse, mobile and desktop: see the results in the hand-off message.
@@ -247,9 +289,9 @@ Last run in the sixth round, 17 October 2026.
 Pass means the site does not do it.
 
 - **Colour.** Pass on all items.
-  - No gradients, glow, mesh, glass, neon or eco teal, and no indigo.
+  - No gradients, glow, mesh, glass, neon or eco teal, and no indigo. The only gradients are the scrims over the films and head photos.
   - Two colours from the logo do the work.
-  - No grey-on-white body text: the lowest body contrast is 7.1:1.
+  - No low-contrast grey text: on the dark site the dimmest small text, muted grey on a card, is 7.5:1.
   - No dot or line grid backgrounds. Rules divide content only.
 - **Type.** Pass, with one owner-requested exception.
   - Archivo + Source Serif 4, neither on the font list.
@@ -268,8 +310,10 @@ Pass means the site does not do it.
   - No scroll-reveal, counters, parallax, rotating words or cursor effects.
   - Asked for by the owner in the sixth round: the hero's background film (item 96), which pauses off screen, has a pause button and never loads with reduced motion; and the typed About statement (item 91), once, not in the hero.
   - The logo animation never delays content: the loader only appears if the fonts aren't ready after 400 ms, capped at 3 s.
+- **Seventh round, asked for by the owner.** The whole site is dark, and the inner page heads have blurred films too (items 85 and 96 again). Like the hero's, they are graded into the site's ink, pause off screen, have a pause button and never load with reduced motion. Their scrims are the only gradients on the site.
 - **Judgement calls.**
   - The hero film shows plant-room work, the kind of site the company works in, graded into the site's ink rather than dimmed with black.
+  - Repeated items on the inner pages (products, features, benefits) are now cards, so that rows line up, as the owner asked. The cards hold the old pages' own items, and their count and content vary; there is no generic three-card feature row.
   - The AHF section and the sectors' photo panel use sticky positioning, but scrolling stays native (no scroll-jacking).
 
 ## Teardown "before you call it done"
